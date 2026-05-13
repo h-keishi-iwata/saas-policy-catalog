@@ -1,0 +1,88 @@
+{
+  "settings": [
+    {
+      "key": "generative-ai-data-training-opt-out",
+      "title": "Opt out of generative AI data training",
+      "description": "LinkedIn uses profile data, posts, and content to train AI models. Enabled by default since Nov 2025. Opting out stops future use but doesn't remove data already used.",
+      "category": "ai_training",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.linkedin.com/psettings/data-privacy",
+      "settings_path": ["Settings & Privacy", "Data privacy", "Data for Generative AI Improvement"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "two-factor-authentication",
+      "title": "Enable two-step verification",
+      "description": "Supports authenticator app (recommended) or SMS.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.linkedin.com/psettings/sign-in-and-security",
+      "settings_path": ["Settings & Privacy", "Sign in & security", "Two-step verification"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "ads-beyond-linkedin",
+      "title": "Disable ads beyond LinkedIn",
+      "description": "Prevents LinkedIn from serving ads on third-party sites using your data. ON by default.",
+      "category": "third_party_sharing",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.linkedin.com/psettings/advertising",
+      "settings_path": ["Settings & Privacy", "Advertising data", "Ads beyond LinkedIn"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "ad-profile-data",
+      "title": "Disable profile data for ad personalization",
+      "description": "Prevents using job title, skills, education for ad targeting. All ad toggles default ON.",
+      "category": "third_party_sharing",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.linkedin.com/psettings/advertising",
+      "settings_path": ["Settings & Privacy", "Advertising data", "Profile data for ad personalization"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "social-research-opt-out",
+      "title": "Opt out of social/economic/workplace research",
+      "description": "Prevents sharing data with third-party researchers. ON by default.",
+      "category": "third_party_sharing",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.linkedin.com/psettings/data-privacy",
+      "settings_path": ["Settings & Privacy", "Data privacy", "Social, economic, and workplace research"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "third-party-apps-review",
+      "title": "Review permitted third-party services",
+      "description": "Periodically review and revoke apps with access to your LinkedIn data.",
+      "category": "oauth_apps",
+      "default": "varies",
+      "recommended": "reviewed within 90 days",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.linkedin.com/psettings/data-privacy",
+      "settings_path": ["Settings & Privacy", "Data privacy", "Other applications", "Permitted services"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    }
+  ]
+}
