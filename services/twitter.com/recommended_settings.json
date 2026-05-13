@@ -1,0 +1,74 @@
+{
+  "settings": [
+    {
+      "key": "grok-ai-training-opt-out",
+      "title": "Opt out of Grok AI model training",
+      "description": "X uses posts and Grok interactions to train xAI models. ON by default for non-EU users. Opting out doesn't remove data already used.",
+      "category": "ai_training",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://x.com/settings/privacy_and_safety",
+      "settings_path": ["Settings", "Privacy and safety", "Grok & Third-party Collaborators", "Allow training"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "grok-personalization",
+      "title": "Disable Grok experience personalization",
+      "description": "Grok personalizes responses based on your X activity. ON by default.",
+      "category": "ai_training",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://x.com/settings/privacy_and_safety",
+      "settings_path": ["Settings", "Privacy and safety", "Grok & Third-party Collaborators", "Personalize experience"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "two-factor-authentication",
+      "title": "Enable two-factor authentication",
+      "description": "Authenticator app (free) or security key (free). SMS requires X Premium since Feb 2023.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://x.com/settings/account/login_verification",
+      "settings_path": ["Settings", "Security and account access", "Security", "Two-factor authentication"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "personalized-ads",
+      "title": "Disable personalized ads",
+      "description": "Prevents X from using behavioral data for ad targeting. ON by default.",
+      "category": "third_party_sharing",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://x.com/settings/privacy_and_safety",
+      "settings_path": ["Settings", "Privacy and safety", "Ads preferences", "Personalized ads"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "data-sharing-business-partners",
+      "title": "Disable data sharing with business partners",
+      "description": "X shares non-public info (IP, device IDs, demographics) with ad partners. ON by default.",
+      "category": "third_party_sharing",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://x.com/settings/privacy_and_safety",
+      "settings_path": ["Settings", "Privacy and safety", "Data sharing and personalization", "Allow sharing with business partners"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    }
+  ]
+}

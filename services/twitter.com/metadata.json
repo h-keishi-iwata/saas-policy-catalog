@@ -1,14 +1,15 @@
 {
   "service_name": "X (Twitter)",
   "vendor": "X (Twitter)",
-  "category": "other",
+  "category": "communication",
   "domains": [
-    "twitter.com"
+    "twitter.com",
+    "x.com"
   ],
   "homepage": "https://twitter.com",
   "first_seen": "2026-05-13",
   "last_updated": "2026-05-13",
-  "level": 1,
+  "level": 3,
   "tags": [],
   "aliases": [],
   "source": {
