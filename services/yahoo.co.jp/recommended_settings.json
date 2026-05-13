@@ -1,0 +1,74 @@
+{
+  "settings": [
+    {
+      "key": "ai-data-opt-out",
+      "title": "AI・機械学習への情報利用をオフにする",
+      "description": "LY Corporation（Yahoo! JAPAN/LINE統合後）がサービス改善のためにユーザーデータをAI/ML学習に利用。プライバシーセンターからオプトアウト可能。",
+      "category": "ai_training",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://privacy.lycorp.co.jp/",
+      "settings_path": ["プライバシーセンター", "パーソナルデータの管理", "情報の利用設定"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "two-step-verification",
+      "title": "確認コードでのログイン（2段階認証）を設定する",
+      "description": "SMS/メールによる確認コード。Yahoo! JAPAN IDのセキュリティ強化。",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://accounts.yahoo.co.jp/security",
+      "settings_path": ["Yahoo! JAPAN ID", "登録情報", "セキュリティ", "確認コードでのログイン"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "passkey-setup",
+      "title": "パスキーを設定する",
+      "description": "FIDO2によるパスワードレス認証。Yahoo! JAPANはパスキー対応の先駆者。",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://accounts.yahoo.co.jp/security",
+      "settings_path": ["Yahoo! JAPAN ID", "登録情報", "セキュリティ", "パスキー"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "ad-personalization",
+      "title": "行動ターゲティング広告をオプトアウトする",
+      "description": "検索・閲覧履歴に基づく広告のパーソナライズ。LY Corporation共通のプライバシーセンターから管理。",
+      "category": "telemetry",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://privacy.lycorp.co.jp/",
+      "settings_path": ["プライバシーセンター", "パーソナルデータの管理", "広告設定"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "connected-services-review",
+      "title": "外部サービス連携を確認する",
+      "description": "Yahoo! JAPAN IDで連携した外部サービスの認可一覧を確認・解除。",
+      "category": "oauth_apps",
+      "default": "varies",
+      "recommended": "90日以内に確認",
+      "applicable_plans": ["all"],
+      "settings_url": "https://accounts.yahoo.co.jp/security",
+      "settings_path": ["Yahoo! JAPAN ID", "登録情報", "外部サービス連携"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    }
+  ]
+}

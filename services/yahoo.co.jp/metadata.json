@@ -1,0 +1,18 @@
+{
+  "service_name": "Yahoo! JAPAN",
+  "vendor": "LY Corporation",
+  "category": "productivity",
+  "domains": [
+    "yahoo.co.jp"
+  ],
+  "homepage": "https://www.yahoo.co.jp",
+  "first_seen": "2026-05-14",
+  "last_updated": "2026-05-14",
+  "level": 3,
+  "tags": [],
+  "aliases": ["ヤフー"],
+  "source": {
+    "provider": "manual",
+    "imported_at": "2026-05-14"
+  }
+}
