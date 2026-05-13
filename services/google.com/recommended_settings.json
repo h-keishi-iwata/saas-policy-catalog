@@ -1,0 +1,84 @@
+{
+  "settings": [
+    {
+      "key": "two-step-verification",
+      "title": "Enable 2-Step Verification",
+      "description": "Adds a second factor (code, authenticator app, or security key) to protect your Google account.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://myaccount.google.com/security/signinoptions/two-step-verification",
+      "settings_path": ["myaccount.google.com", "Security", "How you sign in to Google", "2-Step Verification"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "ad-personalization-opt-out",
+      "title": "Turn off ad personalization",
+      "description": "Prevents Google from using your data to show personalized ads across Google services.",
+      "category": "telemetry",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://myaccount.google.com/data-and-privacy",
+      "settings_path": ["myaccount.google.com", "Data & privacy", "Ad settings", "Ad personalization"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "web-app-activity",
+      "title": "Review Web & App Activity",
+      "description": "Controls whether Google saves your searches, browsing history, and app activity.",
+      "category": "telemetry",
+      "default": "on",
+      "recommended": "paused or auto-delete",
+      "applicable_plans": ["all"],
+      "settings_url": "https://myaccount.google.com/activitycontrols",
+      "settings_path": ["myaccount.google.com", "Data & privacy", "History settings", "Web & App Activity"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "third-party-app-review",
+      "title": "Review third-party app access",
+      "description": "Check which third-party apps and services have access to your Google account data.",
+      "category": "oauth_apps",
+      "default": "varies",
+      "recommended": "reviewed",
+      "applicable_plans": ["all"],
+      "settings_url": "https://myaccount.google.com/permissions",
+      "settings_path": ["myaccount.google.com", "Security", "Your connections to third-party apps & services"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "security-checkup",
+      "title": "Run Security Checkup",
+      "description": "Google's built-in tool to review devices, recent activity, and security settings.",
+      "category": "session_management",
+      "default": "not run",
+      "recommended": "run periodically",
+      "applicable_plans": ["all"],
+      "settings_url": "https://myaccount.google.com/security-checkup",
+      "settings_path": ["myaccount.google.com", "Security", "Security Checkup"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    }
+  ]
+}
