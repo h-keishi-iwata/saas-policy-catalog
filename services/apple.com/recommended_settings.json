@@ -1,0 +1,60 @@
+{
+  "settings": [
+    {
+      "key": "two-factor-auth",
+      "title": "Enable Two-Factor Authentication",
+      "description": "Required for Apple Pay, Sign in with Apple. On by default for accounts created since iOS 13.4. Cannot be disabled once enabled.",
+      "category": "two_factor_auth",
+      "default": "on (new accounts)",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://appleid.apple.com/account/manage/section/security",
+      "settings_path": ["Settings", "Your Name", "Sign-In & Security", "Two-Factor Authentication"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "icloud-advanced-data-protection",
+      "title": "Enable iCloud Advanced Data Protection",
+      "description": "Extends E2E encryption to 23 iCloud categories (Backups, Photos, Notes, etc.). Requires recovery contact/key.",
+      "category": "other",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://support.apple.com/en-us/108756",
+      "settings_path": ["Settings", "Your Name", "iCloud", "Advanced Data Protection"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "app-tracking-transparency",
+      "title": "Disable Allow Apps to Request to Track",
+      "description": "When OFF, all app tracking requests are silently denied. ON by default for adults.",
+      "category": "telemetry",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://support.apple.com/en-us/102420",
+      "settings_path": ["Settings", "Privacy & Security", "Tracking", "Allow Apps to Request to Track"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "siri-data-opt-out",
+      "title": "Keep 'Improve Siri & Dictation' disabled",
+      "description": "Opt-in sends anonymized audio to Apple. OFF by default. Keep it off.",
+      "category": "telemetry",
+      "default": "off",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://support.apple.com/en-us/102660",
+      "settings_path": ["Settings", "Privacy & Security", "Analytics & Improvements", "Improve Siri & Dictation"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    }
+  ]
+}

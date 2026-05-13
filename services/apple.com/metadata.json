@@ -1,14 +1,14 @@
 {
   "service_name": "Apple Services",
   "vendor": "Apple Services",
-  "category": "other",
+  "category": "productivity",
   "domains": [
     "apple.com"
   ],
   "homepage": "https://apple.com",
   "first_seen": "2026-05-13",
   "last_updated": "2026-05-13",
-  "level": 1,
+  "level": 3,
   "tags": [],
   "aliases": [],
   "source": {
