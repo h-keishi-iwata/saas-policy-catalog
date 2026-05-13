@@ -1,0 +1,166 @@
+{
+  "settings": [
+    {
+      "key": "tailored-ads",
+      "title": "Disable tailored ads (personalized advertising)",
+      "description": "Controls whether Spotify processes your personal data to deliver personalized ads. When enabled, Spotify shares identifiers, listening data, and demographic information with advertising partners. Disabling stops sharing data with third-party ad partners. Free-tier users will still receive ads, but they will not be personalized. Premium users are unaffected by ads but should still disable to prevent data sharing.",
+      "category": "ai_personalization",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.spotify.com/account/privacy/",
+      "settings_path": ["spotify.com", "Account", "Privacy settings", "Tailored ads", "Toggle off"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "facebook-data-processing",
+      "title": "Disable processing of Facebook data",
+      "description": "Controls whether Spotify processes data received from Facebook (Meta) beyond what is needed for sign-on. When enabled, Spotify may use Facebook profile data, interests, and activity for personalization and ad targeting. Disabling limits Facebook data usage to authentication only. Applies to accounts created via or linked to Facebook.",
+      "category": "ai_personalization",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.spotify.com/account/privacy/",
+      "settings_path": ["spotify.com", "Account", "Privacy settings", "Facebook data", "Toggle off"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "registration-data-sharing",
+      "title": "Disable sharing registration data with content providers",
+      "description": "Controls whether Spotify shares your registration data (name, email, date of birth) with content providers for marketing purposes. When enabled, Spotify's content partners may use this data for their own marketing. Disabling prevents this data sharing.",
+      "category": "ai_personalization",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.spotify.com/account/profile/",
+      "settings_path": ["spotify.com", "Account", "Edit profile", "Share my registration data with Spotify's content providers for marketing purposes", "Uncheck"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "third-party-apps-review",
+      "title": "Review and revoke unnecessary third-party app access",
+      "description": "Spotify allows third-party applications to access your account data (listening history, playlists, profile info) via OAuth. Periodically review connected apps and remove access for any you no longer use or do not recognize. Revoking access stops future data collection but does not delete data already collected by the app.",
+      "category": "third_party_apps",
+      "default": null,
+      "recommended": "reviewed_within_90_days",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.spotify.com/account/apps/",
+      "settings_path": ["spotify.com", "Account", "Security and privacy", "Manage apps", "Remove Access"],
+      "verification_method": {
+        "type": "manual",
+        "note": "Review list of connected apps and remove any that are unnecessary or unrecognized"
+      },
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "listening-activity-sharing",
+      "title": "Disable listening activity sharing",
+      "description": "Controls whether your current and recent listening activity is visible to followers and friends. When enabled, followers can see what you are currently playing and your recently played tracks in the Friend Activity sidebar (desktop) and via the Listening Activity feature in Messages. Disabling hides your listening activity permanently until re-enabled.",
+      "category": "privacy_social",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://support.spotify.com/us/article/listening-activity/",
+      "settings_path": ["Spotify App", "Settings and privacy", "Privacy and social", "Listening activity", "Toggle off"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "private-session",
+      "title": "Use private session for temporary listening privacy",
+      "description": "Private Session temporarily hides your listening activity from followers for 6 hours or until you restart Spotify (whichever comes first). Unlike the persistent Listening Activity toggle, Private Session is a temporary measure. Useful when you want occasional privacy without permanently disabling activity sharing. Must be re-enabled after each expiration.",
+      "category": "privacy_social",
+      "default": "off",
+      "recommended": "as_needed",
+      "applicable_plans": ["all"],
+      "settings_url": "https://support.spotify.com/us/article/private-listening/",
+      "settings_path": ["Spotify App", "Settings and privacy", "Privacy and social", "Private session", "Toggle on"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "recently-played-artists-visibility",
+      "title": "Hide recently played artists from profile",
+      "description": "Controls whether your recently played artists are displayed on your public Spotify profile. When enabled, anyone visiting your profile can see which artists you have been listening to. Disabling removes all recently played artists from your public profile.",
+      "category": "privacy_social",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://support.spotify.com/us/article/recently-played-artists/",
+      "settings_path": ["Spotify App", "Settings and privacy", "Privacy and social", "Show my recently played artists", "Toggle off"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "publish-new-playlists",
+      "title": "Disable auto-publishing new playlists to profile",
+      "description": "Controls whether newly created playlists are automatically displayed on your public profile. When enabled, every new playlist you create is immediately visible on your profile page. Disabling this means new playlists are not added to your profile by default, though they may still be publicly searchable unless individually set to private/secret.",
+      "category": "privacy_social",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://support.spotify.com/us/article/playlist-privacy-and-access/",
+      "settings_path": ["Spotify App", "Settings and privacy", "Privacy and social", "Publish my new playlists on my profile", "Toggle off"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "ad-partner-preferences",
+      "title": "Disable ad partner data preferences",
+      "description": "Controls advertising partner preference settings that allow Spotify to use data from ad partners to target you with interest-based advertising. Disabling all options in Ad Preferences reduces the data shared with and received from advertising networks. This is separate from the Tailored Ads toggle and provides more granular control over specific ad partner data usage.",
+      "category": "ai_personalization",
+      "default": "on",
+      "recommended": "all_disabled",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.spotify.com/account/privacy/",
+      "settings_path": ["spotify.com", "Account", "Ad preferences", "Disable all options"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "download-your-data",
+      "title": "Periodically request and review your data",
+      "description": "Spotify allows you to download a copy of all personal data it holds about you, including listening history, search queries, playlists, payment info, and inferred interests. Reviewing this data helps you understand what Spotify collects and whether any data is inaccurate or unnecessary. Data is provided in JSON format and typically delivered within 30 days.",
+      "category": "ai_personalization",
+      "default": null,
+      "recommended": "reviewed_annually",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.spotify.com/account/privacy/",
+      "settings_path": ["spotify.com", "Account", "Privacy settings", "Download your data", "Request data"],
+      "verification_method": {
+        "type": "manual",
+        "note": "Request and review data export at least annually"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    }
+  ]
+}
