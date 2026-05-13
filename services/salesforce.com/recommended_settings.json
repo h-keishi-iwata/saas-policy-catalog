@@ -1,0 +1,88 @@
+{
+  "settings": [
+    {
+      "key": "einstein-ai-data-opt-out",
+      "title": "Opt out of Einstein AI global model data sharing",
+      "description": "Salesforce uses org data for global AI model training by default. Opting out doesn't degrade Einstein features.",
+      "category": "ai_training",
+      "default": "opted in",
+      "recommended": "opted out",
+      "applicable_plans": ["essentials", "professional", "enterprise", "unlimited"],
+      "settings_url": "https://help.salesforce.com/s/articleView?id=sf.admin_einstein_features_data_usage.htm",
+      "settings_path": ["Setup", "Einstein", "Opt Out of Customer Data Access"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "mfa-direct-ui-logins",
+      "title": "Require MFA for all direct UI logins",
+      "description": "Contractual requirement since Feb 2022. Auto-enforced since 2024. Supports authenticator apps, security keys.",
+      "category": "two_factor_auth",
+      "default": "on",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://security.salesforce.com/mfa",
+      "settings_path": ["Setup", "Identity", "Identity Verification", "Require MFA"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "session-timeout",
+      "title": "Set session timeout to 2 hours or less",
+      "description": "Default 2 hours. Shorter timeouts reduce risk from unattended sessions.",
+      "category": "session_management",
+      "default": "2 hours",
+      "recommended": "2 hours or less",
+      "applicable_plans": ["all"],
+      "settings_url": "https://help.salesforce.com/s/articleView?id=sf.admin_sessions.htm",
+      "settings_path": ["Setup", "Security", "Session Settings", "Timeout value"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "lock-sessions-to-ip",
+      "title": "Lock sessions to originating IP address",
+      "description": "Prevents session hijacking by tying session token to originating IP. OFF by default.",
+      "category": "session_management",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://help.salesforce.com/s/articleView?id=sf.admin_sessions.htm",
+      "settings_path": ["Setup", "Security", "Session Settings", "Lock sessions to IP"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "connected-apps-admin-approved",
+      "title": "Set connected apps to admin-approved only",
+      "description": "Default allows all users to self-authorize. Restrict to admin-approved to prevent unauthorized OAuth grants.",
+      "category": "oauth_apps",
+      "default": "all users may self-authorize",
+      "recommended": "admin approved only",
+      "applicable_plans": ["all"],
+      "settings_url": "https://help.salesforce.com/s/articleView?id=sf.connected_app_manage_oauth.htm",
+      "settings_path": ["Setup", "Connected Apps", "Manage Connected Apps", "OAuth Policies", "Permitted Users"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "connected-apps-audit",
+      "title": "Audit connected apps and revoke unused OAuth grants",
+      "description": "Review OAuth Usage periodically. Revoke dormant apps to reduce attack surface.",
+      "category": "oauth_apps",
+      "default": "varies",
+      "recommended": "reviewed within 90 days",
+      "applicable_plans": ["all"],
+      "settings_url": "https://help.salesforce.com/s/articleView?id=sf.connected_app_manage_oauth.htm",
+      "settings_path": ["Setup", "Connected Apps", "OAuth Usage"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    }
+  ]
+}
