@@ -1,0 +1,97 @@
+name: Report a setting location
+description: Share where a privacy/security setting is located in a SaaS app
+title: "[Setting] "
+labels: ["setting-report", "community"]
+body:
+  - type: input
+    id: service
+    attributes:
+      label: Service name
+      description: e.g. Figma, Slack, Notion
+      placeholder: Figma
+    validations:
+      required: true
+  - type: input
+    id: domain
+    attributes:
+      label: Domain
+      description: e.g. figma.com, slack.com
+      placeholder: figma.com
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Setting category
+      options:
+        - AI training opt-out
+        - Two-factor authentication
+        - Third-party sharing opt-out
+        - Telemetry / analytics opt-out
+        - OAuth apps review
+        - Default sharing permissions
+        - Data region
+        - Deletion terms
+        - Session management
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: setting_title
+    attributes:
+      label: Setting name
+      description: What the setting is called in the UI
+      placeholder: "Content sharing for AI training"
+    validations:
+      required: true
+  - type: textarea
+    id: navigation_path
+    attributes:
+      label: How to get there
+      description: Step-by-step path in the app UI
+      placeholder: |
+        1. Click your profile icon (top right)
+        2. Open "Settings"
+        3. Go to "Privacy" tab
+        4. Find "Content sharing" section
+    validations:
+      required: true
+  - type: input
+    id: settings_url
+    attributes:
+      label: Settings URL (if accessible by URL)
+      description: Leave blank if the setting is only reachable via in-app navigation
+      placeholder: https://www.figma.com/settings
+  - type: dropdown
+    id: default_value
+    attributes:
+      label: Default value (what the vendor sets)
+      options:
+        - On (opt-in by default)
+        - Off (opt-out by default)
+        - Depends on plan
+        - Unknown
+    validations:
+      required: true
+  - type: input
+    id: recommended_value
+    attributes:
+      label: Recommended value
+      placeholder: "Off"
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: How important is this?
+      options:
+        - Required (privacy/security risk if not set)
+        - Recommended (good practice)
+        - Optional (nice to have)
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Any extra context (plan limitations, screenshot, etc.)
