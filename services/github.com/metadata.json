@@ -1,14 +1,14 @@
 {
   "service_name": "GitHub",
   "vendor": "GitHub",
-  "category": "other",
+  "category": "code-hosting",
   "domains": [
     "github.com"
   ],
   "homepage": "https://github.com",
   "first_seen": "2026-05-13",
   "last_updated": "2026-05-13",
-  "level": 2,
+  "level": 3,
   "tags": [],
   "aliases": [],
   "source": {
