@@ -1,0 +1,60 @@
+{
+  "settings": [
+    {
+      "key": "mfa-enrollment-policy",
+      "title": "Require MFA for all users",
+      "description": "Configure an MFA enrollment policy requiring all users to enroll in at least one factor. Supports Okta Verify, FIDO2, Google Authenticator, SMS, email.",
+      "category": "two_factor_auth",
+      "default": "optional",
+      "recommended": "required",
+      "applicable_plans": ["all"],
+      "settings_url": "https://admin.okta.com",
+      "settings_path": ["Admin Console", "Security", "Multifactor", "Factor Enrollment", "Edit Policy"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "session-lifetime",
+      "title": "Set maximum session lifetime",
+      "description": "Limit Okta session duration to reduce risk from stolen session tokens. Default can be up to 24 hours.",
+      "category": "session_management",
+      "default": "variable",
+      "recommended": "8 hours or less",
+      "applicable_plans": ["all"],
+      "settings_url": "https://admin.okta.com",
+      "settings_path": ["Admin Console", "Security", "Authentication", "Sign-on Policy", "Session Lifetime"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "api-token-review",
+      "title": "Review and rotate API tokens",
+      "description": "API tokens grant programmatic access to Okta. Review active tokens, revoke unused ones, rotate regularly.",
+      "category": "session_management",
+      "default": "varies",
+      "recommended": "reviewed within 90 days",
+      "applicable_plans": ["all"],
+      "settings_url": "https://admin.okta.com",
+      "settings_path": ["Admin Console", "Security", "API", "Tokens"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "threatinsight-enabled",
+      "title": "Enable ThreatInsight",
+      "description": "Okta ThreatInsight detects and blocks credential-based attacks. Should be set to 'Log and enforce' mode.",
+      "category": "other",
+      "default": "log only",
+      "recommended": "log and enforce",
+      "applicable_plans": ["all"],
+      "settings_url": "https://admin.okta.com",
+      "settings_path": ["Admin Console", "Security", "General", "ThreatInsight"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    }
+  ]
+}
