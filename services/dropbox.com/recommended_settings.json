@@ -1,0 +1,74 @@
+{
+  "settings": [
+    {
+      "key": "third-party-ai-toggle",
+      "title": "Disable third-party AI access to your content",
+      "description": "Controls whether Dropbox sends files to third-party AI (OpenAI) for AI features. ON by default.",
+      "category": "ai_training",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.dropbox.com/account/settings",
+      "settings_path": ["dropbox.com", "Settings", "Third-party AI", "Toggle off"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "two-factor-authentication",
+      "title": "Enable two-factor authentication",
+      "description": "Supports authenticator apps and SMS. Disabled by default.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.dropbox.com/account/security",
+      "settings_path": ["dropbox.com", "Settings", "Security", "Two-step verification", "Enable"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "connected-apps-review",
+      "title": "Review and remove unused connected apps",
+      "description": "Third-party apps can access your files. Periodically review and disconnect unused apps.",
+      "category": "oauth_apps",
+      "default": "varies",
+      "recommended": "reviewed within 90 days",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.dropbox.com/account/connected_apps",
+      "settings_path": ["dropbox.com", "Settings", "Apps", "Connected apps"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "default-shared-link-audience",
+      "title": "Restrict default shared link audience",
+      "description": "Default is 'Anyone with the link'. Change to 'Only people invited'.",
+      "category": "sharing_default",
+      "default": "anyone with link",
+      "recommended": "only people invited",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.dropbox.com/account/sharing",
+      "settings_path": ["dropbox.com", "Settings", "Sharing", "Who can access"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "device-session-review",
+      "title": "Review linked devices and web sessions",
+      "description": "Unlink devices you no longer use. Sign out unrecognized web sessions.",
+      "category": "session_management",
+      "default": "varies",
+      "recommended": "reviewed periodically",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.dropbox.com/account/security",
+      "settings_path": ["dropbox.com", "Settings", "Security", "Devices / Web sessions"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    }
+  ]
+}

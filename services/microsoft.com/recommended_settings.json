@@ -1,0 +1,102 @@
+{
+  "settings": [
+    {
+      "key": "copilot-optional-connected-experiences",
+      "title": "Disable optional connected experiences (Copilot)",
+      "description": "Admin policy controlling Copilot and AI-powered features in M365 apps.",
+      "category": "ai_training",
+      "default": "enabled",
+      "recommended": "disabled",
+      "applicable_plans": ["all"],
+      "settings_url": "https://config.office.com",
+      "settings_path": ["M365 Apps Admin Center", "Policy Management", "Privacy Settings", "Allow optional connected experiences"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "copilot-web-search",
+      "title": "Disable Copilot web search",
+      "description": "Controls whether Copilot can use web search to ground responses.",
+      "category": "ai_training",
+      "default": "enabled",
+      "recommended": "disabled",
+      "applicable_plans": ["all"],
+      "settings_url": "https://admin.microsoft.com/Adminportal/Home#/copilot/settings",
+      "settings_path": ["M365 Admin Center", "Copilot", "Settings", "Data Access", "Web search"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "copilot-memory",
+      "title": "Disable Copilot Memory",
+      "description": "Copilot retains facts/preferences across conversations. On by default.",
+      "category": "ai_training",
+      "default": "enabled",
+      "recommended": "disabled",
+      "applicable_plans": ["all"],
+      "settings_url": "https://m365.cloud.microsoft/chat/personalization",
+      "settings_path": ["M365 Copilot Chat", "Settings", "Personalization", "Saved memories"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "security-defaults-mfa",
+      "title": "Enable Security Defaults (MFA)",
+      "description": "Requires all users to register for and use MFA. Blocks 99.2% of identity attacks.",
+      "category": "two_factor_auth",
+      "default": "enabled on new tenants",
+      "recommended": "enabled",
+      "applicable_plans": ["all"],
+      "settings_url": "https://entra.microsoft.com",
+      "settings_path": ["Entra Admin Center", "Identity", "Properties", "Manage security defaults"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "user-consent-third-party-apps",
+      "title": "Restrict user OAuth consent for third-party apps",
+      "description": "Controls whether users can independently grant consent to apps. Recommend verified publishers only.",
+      "category": "oauth_apps",
+      "default": "allow all",
+      "recommended": "verified publishers only",
+      "applicable_plans": ["all"],
+      "settings_url": "https://entra.microsoft.com",
+      "settings_path": ["Entra Admin Center", "Applications", "Enterprise apps", "Consent and permissions"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "diagnostic-data-level",
+      "title": "Set diagnostic data to Required only",
+      "description": "Reduce telemetry. Default sends optional+required data to Microsoft.",
+      "category": "telemetry",
+      "default": "optional and required",
+      "recommended": "required only",
+      "applicable_plans": ["all"],
+      "settings_url": "https://config.office.com",
+      "settings_path": ["M365 Apps Admin Center", "Policy Management", "Privacy Settings", "Diagnostic data level"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "personalized-advertising",
+      "title": "Disable personalized advertising",
+      "description": "Prevents Microsoft from using your data for ad personalization.",
+      "category": "telemetry",
+      "default": "enabled",
+      "recommended": "disabled",
+      "applicable_plans": ["all"],
+      "settings_url": "https://account.microsoft.com/privacy/ad-settings",
+      "settings_path": ["Microsoft Account", "Privacy", "Ad settings", "See ads that interest you"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    }
+  ]
+}
