@@ -77,7 +77,7 @@ The initial population of this catalog is bootstrapped from [Terms of Service; D
 
 Bootstrapped entries start at **Level 1** (domain, name, category) or **Level 2** (with ToS/Privacy URLs) and are promoted to Level 3 as contributors add per-plan and recommended-setting information.
 
-## Level 3 services (178 settings)
+## Level 3 services (193 settings)
 
 | Service | Domain | Settings | Key areas |
 |---|---|---|---|
