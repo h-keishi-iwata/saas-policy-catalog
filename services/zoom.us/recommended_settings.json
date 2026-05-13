@@ -1,0 +1,102 @@
+{
+  "settings": [
+    {
+      "key": "ai-companion-data-usage",
+      "title": "Confirm AI Companion does not train on customer data",
+      "description": "Zoom states it does not use customer content for AI training. Admins should verify and monitor for policy changes.",
+      "category": "ai_training",
+      "default": "not_used_for_training",
+      "recommended": "not_used_for_training",
+      "applicable_plans": ["pro", "business", "enterprise"],
+      "settings_url": "https://zoom.us/account/setting",
+      "settings_path": ["Admin", "Account Settings", "AI Companion"],
+      "verification_method": { "type": "manual" },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "ai-companion-meeting-summary",
+      "title": "Disable AI Companion Meeting Summary by default",
+      "description": "Auto-generates meeting summaries. Disabled by default. Keep off and lock at account level.",
+      "category": "ai_training",
+      "default": "off",
+      "recommended": "off",
+      "applicable_plans": ["pro", "business", "enterprise"],
+      "settings_url": "https://zoom.us/account/setting",
+      "settings_path": ["Admin", "Account Settings", "AI Companion", "Meeting Summary with AI Companion"],
+      "verification_method": { "type": "manual" },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "two-factor-authentication",
+      "title": "Enable two-factor authentication for all users",
+      "description": "Supports TOTP apps and SMS. Not enabled by default. Enforce for all users under Advanced > Security.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["pro", "business", "enterprise"],
+      "settings_url": "https://zoom.us/account/setting/security",
+      "settings_path": ["Admin", "Advanced", "Security", "Sign in with Two-Factor Authentication"],
+      "verification_method": { "type": "manual" },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "recording-consent-disclaimer",
+      "title": "Enable recording consent disclaimer",
+      "description": "Prompts participants with consent dialog before recording. Required for legal compliance in many jurisdictions.",
+      "category": "other",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["pro", "business", "enterprise"],
+      "settings_url": "https://zoom.us/account/setting/recording",
+      "settings_path": ["Admin", "Account Settings", "Recording", "Recording Disclaimer"],
+      "verification_method": { "type": "manual" },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "waiting-room-enabled",
+      "title": "Enable Waiting Room for meetings",
+      "description": "Places participants in waiting area before host admits them. Enabled by default for PMI. Lock at account level.",
+      "category": "session_management",
+      "default": "on",
+      "recommended": "on",
+      "applicable_plans": ["pro", "business", "enterprise"],
+      "settings_url": "https://zoom.us/account/setting",
+      "settings_path": ["Admin", "Account Settings", "Meeting", "Security", "Waiting Room"],
+      "verification_method": { "type": "manual" },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "embed-passcode-in-link",
+      "title": "Disable embedding passcode in meeting invite link",
+      "description": "Default embeds passcode in URL for one-click join. Disabling forces manual passcode entry, preventing link-sharing bypass.",
+      "category": "session_management",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["pro", "business", "enterprise"],
+      "settings_url": "https://zoom.us/account/setting",
+      "settings_path": ["Admin", "Account Settings", "Meeting", "Security", "Embed passcode in invite link"],
+      "verification_method": { "type": "manual" },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "marketplace-app-pre-approval",
+      "title": "Require admin pre-approval for Marketplace apps",
+      "description": "By default users can install apps without approval. Enable pre-approval at marketplace.zoom.us.",
+      "category": "oauth_apps",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["pro", "business", "enterprise"],
+      "settings_url": "https://marketplace.zoom.us/",
+      "settings_path": ["Zoom App Marketplace", "Manage", "Permissions", "Require pre-approval"],
+      "verification_method": { "type": "manual" },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    }
+  ]
+}

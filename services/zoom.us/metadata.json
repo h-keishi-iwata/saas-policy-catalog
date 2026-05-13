@@ -1,14 +1,14 @@
 {
   "service_name": "Zoom Video Communications",
   "vendor": "Zoom Video Communications",
-  "category": "other",
+  "category": "communication",
   "domains": [
     "zoom.us"
   ],
   "homepage": "https://zoom.us",
   "first_seen": "2026-05-13",
   "last_updated": "2026-05-13",
-  "level": 1,
+  "level": 3,
   "tags": [],
   "aliases": [],
   "source": {
