@@ -1,0 +1,88 @@
+{
+  "settings": [
+    {
+      "key": "data-used-to-improve-discord",
+      "title": "Opt out of data used to improve Discord",
+      "description": "Discord uses usage statistics to improve the platform. Disabling limits what Discord does with collected data (doesn't stop collection).",
+      "category": "telemetry",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://discord.com/channels/@me",
+      "settings_path": ["User Settings", "Privacy & Safety", "How We Use Your Data", "Use data to improve Discord"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "data-used-to-personalize",
+      "title": "Opt out of data used to personalize Discord",
+      "description": "Controls personalization of Active Now, Server Discovery, etc. ON by default.",
+      "category": "telemetry",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://discord.com/channels/@me",
+      "settings_path": ["User Settings", "Privacy & Safety", "How We Use Your Data", "Customize experience"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "sponsored-content-opt-out",
+      "title": "Opt out of personalized sponsored content",
+      "description": "Prevents personalized Quest promotions based on your activity. ON by default.",
+      "category": "third_party_sharing",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://discord.com/channels/@me",
+      "settings_path": ["User Settings", "Privacy & Safety", "How We Use Your Data", "Sponsored content"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "two-factor-auth",
+      "title": "Enable two-factor authentication",
+      "description": "Supports Security Keys (passkeys), TOTP apps, SMS. OFF by default.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://discord.com/channels/@me",
+      "settings_path": ["User Settings", "My Account", "Two-Factor Authentication"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "authorized-apps-review",
+      "title": "Review and revoke authorized apps",
+      "description": "Third-party apps with account access. Review periodically.",
+      "category": "oauth_apps",
+      "default": "varies",
+      "recommended": "reviewed within 90 days",
+      "applicable_plans": ["all"],
+      "settings_url": "https://discord.com/channels/@me",
+      "settings_path": ["User Settings", "Authorized Apps"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "activity-status",
+      "title": "Disable activity status broadcasting",
+      "description": "Prevents broadcasting current game/Spotify activity to friends and servers.",
+      "category": "other",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://discord.com/channels/@me",
+      "settings_path": ["User Settings", "Activity Privacy", "Display current activity"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    }
+  ]
+}

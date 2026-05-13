@@ -1,14 +1,14 @@
 {
   "service_name": "Discord",
   "vendor": "Discord",
-  "category": "other",
+  "category": "communication",
   "domains": [
     "discord.com"
   ],
   "homepage": "https://discord.com",
   "first_seen": "2026-05-13",
   "last_updated": "2026-05-13",
-  "level": 1,
+  "level": 3,
   "tags": [],
   "aliases": [],
   "source": {
