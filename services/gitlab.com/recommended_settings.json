@@ -1,0 +1,60 @@
+{
+  "settings": [
+    {
+      "key": "ai-features-opt-out",
+      "title": "Disable GitLab Duo AI features",
+      "description": "GitLab Duo (Code Suggestions, Chat) uses your code as context. Can be disabled at user or group level.",
+      "category": "ai_training",
+      "default": "enabled (Premium/Ultimate)",
+      "recommended": "disabled unless needed",
+      "applicable_plans": ["premium", "ultimate"],
+      "settings_url": "https://gitlab.com/-/profile/preferences",
+      "settings_path": ["User Settings", "Preferences", "GitLab Duo features"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "two-factor-auth",
+      "title": "Enable two-factor authentication",
+      "description": "Supports TOTP authenticator apps and WebAuthn/FIDO2 security keys.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://gitlab.com/-/profile/two_factor_auth",
+      "settings_path": ["User Settings", "Account", "Two-Factor Authentication"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "personal-access-tokens",
+      "title": "Review and limit personal access tokens",
+      "description": "PATs grant API access. Set expiration dates, use minimum scopes, revoke unused tokens.",
+      "category": "session_management",
+      "default": "varies",
+      "recommended": "reviewed, expiration set",
+      "applicable_plans": ["all"],
+      "settings_url": "https://gitlab.com/-/profile/personal_access_tokens",
+      "settings_path": ["User Settings", "Access Tokens"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "authorized-apps-review",
+      "title": "Review authorized OAuth applications",
+      "description": "Third-party apps with GitLab OAuth access. Revoke unused apps.",
+      "category": "oauth_apps",
+      "default": "varies",
+      "recommended": "reviewed within 90 days",
+      "applicable_plans": ["all"],
+      "settings_url": "https://gitlab.com/-/profile/applications",
+      "settings_path": ["User Settings", "Applications"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    }
+  ]
+}

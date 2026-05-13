@@ -1,0 +1,60 @@
+{
+  "settings": [
+    {
+      "key": "two-step-verification",
+      "title": "Enable 2-step verification",
+      "description": "Supports authenticator app or SMS. Critical for financial accounts.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.paypal.com/myaccount/settings/security/twostep",
+      "settings_path": ["Settings", "Security", "2-step verification"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "login-security",
+      "title": "Review login activity and trusted devices",
+      "description": "Check active sessions and remove unrecognized devices.",
+      "category": "session_management",
+      "default": "varies",
+      "recommended": "reviewed periodically",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.paypal.com/myaccount/settings/security",
+      "settings_path": ["Settings", "Security", "Login activity"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "data-sharing-preferences",
+      "title": "Disable data sharing with third parties",
+      "description": "PayPal shares data with merchants and partners. Review and limit sharing in privacy settings.",
+      "category": "third_party_sharing",
+      "default": "on",
+      "recommended": "off where possible",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.paypal.com/myaccount/settings/privacy",
+      "settings_path": ["Settings", "Data & Privacy", "Manage your data"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "connected-apps-review",
+      "title": "Review authorized third-party apps",
+      "description": "Revoke PayPal access for unused merchants and apps.",
+      "category": "oauth_apps",
+      "default": "varies",
+      "recommended": "reviewed within 90 days",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.paypal.com/myaccount/settings/security/permissions",
+      "settings_path": ["Settings", "Security", "Manage permissions"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    }
+  ]
+}
