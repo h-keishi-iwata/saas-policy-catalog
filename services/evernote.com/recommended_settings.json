@@ -1,0 +1,60 @@
+{
+  "settings": [
+    {
+      "key": "ai-features-opt-out",
+      "title": "Disable AI-powered features",
+      "description": "Evernote (now owned by Bending Spoons) introduced AI features. Review and disable if not needed.",
+      "category": "ai_training",
+      "default": "enabled",
+      "recommended": "disabled",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.evernote.com/Settings.action",
+      "settings_path": ["Settings", "Privacy", "AI features"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "two-step-verification",
+      "title": "Enable two-step verification",
+      "description": "Supports Google Authenticator and SMS. Protects notes containing sensitive information.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.evernote.com/SecuritySettings.action",
+      "settings_path": ["Settings", "Security", "Two-Step Verification"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "connected-apps-review",
+      "title": "Review authorized applications",
+      "description": "Third-party apps with Evernote API access. Revoke unused integrations.",
+      "category": "oauth_apps",
+      "default": "varies",
+      "recommended": "reviewed within 90 days",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.evernote.com/ConnectedServices.action",
+      "settings_path": ["Settings", "Connected Services"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "device-access-review",
+      "title": "Review device access history",
+      "description": "Check devices with access to your account. Revoke sessions for lost/old devices.",
+      "category": "session_management",
+      "default": "varies",
+      "recommended": "reviewed periodically",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.evernote.com/Devices.action",
+      "settings_path": ["Settings", "Devices"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    }
+  ]
+}
