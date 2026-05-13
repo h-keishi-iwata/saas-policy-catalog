@@ -1,0 +1,32 @@
+{
+  "settings": [
+    {
+      "key": "ai-training-opt-out",
+      "title": "Disable AI training with your content",
+      "description": "Canva may use your content to improve AI features. Teams/Business/Enterprise/Education accounts are excluded by default. Free and Pro users should check and disable in privacy settings.",
+      "category": "ai_training",
+      "default": "on (Free/Pro), off (Teams/Business/Enterprise/Education)",
+      "recommended": "off",
+      "applicable_plans": ["free", "pro"],
+      "settings_url": "https://www.canva.com/help/manage-privacy-settings/",
+      "settings_path": ["Settings", "Privacy settings", "AI training"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "third-party-ai-sharing",
+      "title": "Disable third-party AI partner content sharing",
+      "description": "Controls whether trusted partners can use your content to improve AI features. Check Privacy Settings.",
+      "category": "ai_training",
+      "default": "on (Free/Pro)",
+      "recommended": "off",
+      "applicable_plans": ["free", "pro"],
+      "settings_url": "https://www.canva.com/help/manage-privacy-settings/",
+      "settings_path": ["Settings", "Privacy settings", "Third-party AI"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    }
+  ]
+}

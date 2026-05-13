@@ -1,14 +1,14 @@
 {
   "service_name": "Canva",
   "vendor": "Canva",
-  "category": "other",
+  "category": "design",
   "domains": [
     "canva.com"
   ],
   "homepage": "https://canva.com",
   "first_seen": "2026-05-13",
   "last_updated": "2026-05-13",
-  "level": 1,
+  "level": 3,
   "tags": [],
   "aliases": [],
   "source": {
