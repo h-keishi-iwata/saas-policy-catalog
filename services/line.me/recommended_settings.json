@@ -1,0 +1,102 @@
+{
+  "settings": [
+    {
+      "key": "ai-service-improvement-opt-out",
+      "title": "サービス向上のための情報利用をオフにする",
+      "description": "公式アカウントとのトーク内容等がAI学習に使用される。1:1テキスト本文は対象外だがスタンプ等は含む。",
+      "category": "ai_training",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://line.me/R/nv/privacy",
+      "settings_path": ["ホーム", "設定", "プライバシー管理", "情報の提供", "コミュニケーション関連情報"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "letter-sealing",
+      "title": "Letter Sealing（E2E暗号化）を有効に保つ",
+      "description": "1:1テキスト、グループチャット、通話が暗号化対象。2016年よりデフォルトON。無効にしないこと。",
+      "category": "other",
+      "default": "on",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://line.me/R/nv/privacy",
+      "settings_path": ["ホーム", "設定", "プライバシー管理", "Letter Sealing"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "passkey-setup",
+      "title": "パスキーを設定する",
+      "description": "FIDO2/WebAuthnによるパスワードレス認証。フィッシング耐性が高い。",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://line.me/R/nv/account",
+      "settings_path": ["ホーム", "設定", "アカウント", "パスキー"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "other-device-login",
+      "title": "他端末からのログイン許可をオフにする",
+      "description": "PC/iPad版LINEを使わない場合はオフに。アカウント乗っ取りリスク低減。",
+      "category": "session_management",
+      "default": "on",
+      "recommended": "off (未使用時)",
+      "applicable_plans": ["all"],
+      "settings_url": "https://line.me/R/nv/account",
+      "settings_path": ["ホーム", "設定", "アカウント", "ログイン許可"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "phone-friend-add",
+      "title": "電話番号による友だち追加をオフにする",
+      "description": "アドレス帳からの自動友だち追加を防ぐ。「友だち自動追加」と「友だちへの追加を許可」両方確認。",
+      "category": "other",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://line.me/R/nv/friends",
+      "settings_path": ["ホーム", "設定", "友だち", "友だち自動追加 / 友だちへの追加を許可"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "ad-personalization",
+      "title": "パーソナライズ広告をオフにする",
+      "description": "行動ターゲティング広告。閲覧・検索・位置情報ベース。ON by default。",
+      "category": "telemetry",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://line.me/R/nv/privacy",
+      "settings_path": ["ホーム", "設定", "プライバシー管理", "情報の提供", "ウェブ追跡型広告の受信"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "connected-apps-review",
+      "title": "LINE Login連携アプリを確認する",
+      "description": "不要なアプリの認可を解除。プロフィール・メールが共有される。",
+      "category": "oauth_apps",
+      "default": "varies",
+      "recommended": "90日以内に確認",
+      "applicable_plans": ["all"],
+      "settings_url": "https://line.me/R/nv/connectedApps",
+      "settings_path": ["ホーム", "設定", "アカウント", "連動アプリ"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    }
+  ]
+}

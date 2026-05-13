@@ -1,0 +1,18 @@
+{
+  "service_name": "LINE",
+  "vendor": "LY Corporation",
+  "category": "communication",
+  "domains": [
+    "line.me"
+  ],
+  "homepage": "https://line.me",
+  "first_seen": "2026-05-14",
+  "last_updated": "2026-05-14",
+  "level": 3,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "manual",
+    "imported_at": "2026-05-14"
+  }
+}
