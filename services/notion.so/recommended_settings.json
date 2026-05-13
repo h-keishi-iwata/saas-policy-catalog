@@ -1,33 +1,358 @@
 {
   "settings": [
     {
-      "key": "two-factor-auth",
-      "title": "Enable two-step verification",
-      "description": "Adds a second factor when signing in to Notion.",
-      "category": "two_factor_auth",
-      "default": "off",
-      "recommended": "on",
+      "key": "ai-data-training-opt-out",
+      "title": "AI Data Training (Opt-Out Not Required)",
+      "description": "By default, Notion and its AI Subprocessors do not use Customer Data to train any models. Contractual agreements prohibit subprocessors from using customer data for model training. No opt-out toggle exists because training is not enabled by default. The optional AI LEAP Program allows customers to opt-in to share data for model improvement.",
+      "category": "ai_training",
+      "default": "disabled",
+      "recommended": "disabled",
       "applicable_plans": ["all"],
-      "settings_url": "https://www.notion.so/my-account",
-      "settings_path": ["Settings & members", "My account", "Two-step verification"],
+      "settings_url": "https://www.notion.com/help/notion-ai-security-practices",
+      "settings_path": ["N/A - disabled by default, no toggle required"],
       "verification_method": {
-        "type": "manual"
+        "type": "documentation_reference",
+        "expected_text": "By default, Notion and its AI Subprocessors do not use Customer Data to train any models"
       },
       "severity": "required",
       "last_verified": "2026-05-13"
     },
     {
-      "key": "connected-apps-review",
-      "title": "Review connected apps",
-      "description": "Check which integrations and OAuth apps have access to your Notion workspace.",
-      "category": "oauth_apps",
-      "default": "varies",
-      "recommended": "reviewed",
+      "key": "ai-web-search",
+      "title": "Enable web search for workspace",
+      "description": "Controls whether Notion AI can search the web when answering questions. When enabled, AI queries may use external web data to supplement responses.",
+      "category": "ai_training",
+      "default": "enabled",
+      "recommended": "disabled",
       "applicable_plans": ["all"],
-      "settings_url": "https://www.notion.so/my-connections",
-      "settings_path": ["Settings & members", "My connections"],
+      "settings_url": null,
+      "settings_path": ["Settings", "Notion AI"],
       "verification_method": {
-        "type": "manual"
+        "type": "navigation_check",
+        "expected_text": "Enable web search for workspace"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "ai-require-confirmation-web-requests",
+      "title": "Require confirmation for web requests",
+      "description": "Requires user approval before Notion AI accesses external websites. Adds an approval step before AI performs web-based lookups.",
+      "category": "ai_training",
+      "default": "disabled",
+      "recommended": "enabled",
+      "applicable_plans": ["all"],
+      "settings_url": null,
+      "settings_path": ["Settings", "Notion AI"],
+      "verification_method": {
+        "type": "navigation_check",
+        "expected_text": "Require confirmation for web requests"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "two-step-verification",
+      "title": "2-step verification",
+      "description": "Enables two-step verification for your Notion account. Supports authenticator apps and SMS text codes. Up to 4 verification methods (2 authenticators + 2 phone numbers). Generates 6 single-use backup codes on first setup. Note: workspace owners cannot enforce this for all users at this time.",
+      "category": "two_factor_auth",
+      "default": "disabled",
+      "recommended": "enabled",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.notion.com/help/two-step-verification",
+      "settings_path": ["Settings", "{your name}", "Account security", "2-step verification"],
+      "verification_method": {
+        "type": "text_match",
+        "expected_text": "2-step verification"
+      },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "passkeys",
+      "title": "Passkeys",
+      "description": "Allows adding phishing-resistant passkeys for account authentication. Supports synced passkeys (OS credential managers, password managers) and device-bound passkeys (hardware security keys like YubiKey). Maximum 5 passkeys per account. Cannot be used if organization requires identity provider login.",
+      "category": "two_factor_auth",
+      "default": "disabled",
+      "recommended": "enabled",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.notion.com/help/passkeys",
+      "settings_path": ["Settings", "{your name}", "Account security", "Add passkey"],
+      "verification_method": {
+        "type": "text_match",
+        "expected_text": "Add passkey"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "manage-connections",
+      "title": "Manage connections",
+      "description": "Review and manage all third-party integrations connected to your workspace. Members and workspace owners can add connections; Enterprise workspace owners can restrict to pre-approved connections only. Connections must be added per-page after workspace installation.",
+      "category": "connected_apps",
+      "default": "all members can add connections",
+      "recommended": "restrict to approved connections (Enterprise)",
+      "applicable_plans": ["all"],
+      "settings_url": null,
+      "settings_path": ["Settings", "Connections"],
+      "verification_method": {
+        "type": "navigation_check",
+        "expected_text": "Connections"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "connection-page-access-restriction",
+      "title": "Manage page access for connections",
+      "description": "Controls who can connect/disconnect integrations from pages. Options: 'Default' (all workspace owners and members) or 'Workspace owners' only. Enterprise plan workspace owners can select specific pages a connection can access.",
+      "category": "connected_apps",
+      "default": "Default (all workspace owners and members)",
+      "recommended": "Workspace owners only",
+      "applicable_plans": ["enterprise"],
+      "settings_url": null,
+      "settings_path": ["Settings", "Connections", "Members tab", "(...) menu next to connection"],
+      "verification_method": {
+        "type": "navigation_check",
+        "expected_text": "Who can manage page access"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "ai-connectors",
+      "title": "Notion AI Connectors",
+      "description": "Manage third-party app connections for Notion AI (Slack, Google Drive, Jira, GitHub, etc.). Workspace owner status required. Content becomes unsearchable within 1 hour of disconnection, data deleted within 1 day. Notion does not use connector data to train models.",
+      "category": "connected_apps",
+      "default": "no connectors enabled",
+      "recommended": "connect only necessary apps, review regularly",
+      "applicable_plans": ["business", "enterprise"],
+      "settings_url": "https://www.notion.com/help/notion-ai-connectors",
+      "settings_path": ["Settings", "Notion AI"],
+      "verification_method": {
+        "type": "navigation_check",
+        "expected_text": "Notion AI"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "disable-public-sharing",
+      "title": "Disable publishing sites, forms and public links",
+      "description": "Prevents members from sharing pages via 'Share to web' option and publishing Notion Sites or forms. Disables all public sharing links workspace-wide.",
+      "category": "sharing",
+      "default": "disabled (public sharing is allowed)",
+      "recommended": "enabled (block public sharing)",
+      "applicable_plans": ["enterprise"],
+      "settings_url": null,
+      "settings_path": ["Settings", "Workspace", "Security"],
+      "verification_method": {
+        "type": "text_match",
+        "expected_text": "Disable publishing sites and forms"
+      },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "disable-guests",
+      "title": "Disable guests",
+      "description": "Prevents anyone from inviting people outside the workspace to any page. Workspace owners can still enable guest invite requests for reviewed external access even when guests are disabled.",
+      "category": "sharing",
+      "default": "disabled (guests are allowed)",
+      "recommended": "enabled (block guest access)",
+      "applicable_plans": ["enterprise"],
+      "settings_url": null,
+      "settings_path": ["Settings", "Workspace", "Security"],
+      "verification_method": {
+        "type": "text_match",
+        "expected_text": "Disable guests"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "disable-moving-duplicating-pages",
+      "title": "Disable duplicating pages to other workspaces",
+      "description": "Prevents data from leaving the workspace via the Move to or Duplicate actions. Blocks members from moving or duplicating pages to external workspaces.",
+      "category": "data_protection",
+      "default": "disabled (moving/duplicating is allowed)",
+      "recommended": "enabled (block moving/duplicating)",
+      "applicable_plans": ["enterprise"],
+      "settings_url": null,
+      "settings_path": ["Settings", "Workspace", "Security"],
+      "verification_method": {
+        "type": "text_match",
+        "expected_text": "Disable duplicating pages to other workspaces"
+      },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "disable-export",
+      "title": "Disable export",
+      "description": "Removes the Export button from the user interface, preventing members from exporting page and database content as PDF, HTML, Markdown or CSV.",
+      "category": "data_protection",
+      "default": "disabled (export is allowed)",
+      "recommended": "enabled (block export)",
+      "applicable_plans": ["enterprise"],
+      "settings_url": null,
+      "settings_path": ["Settings", "Workspace", "Security"],
+      "verification_method": {
+        "type": "text_match",
+        "expected_text": "Disable export"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "allowed-email-domains",
+      "title": "Allowed email domains",
+      "description": "Restricts automatic workspace membership to users with specified email domains. Users with matching email domains can join the workspace as members automatically.",
+      "category": "access_control",
+      "default": "none configured",
+      "recommended": "set to company domain(s)",
+      "applicable_plans": ["all"],
+      "settings_url": null,
+      "settings_path": ["Settings", "Workspace", "General", "Trusted domain access"],
+      "verification_method": {
+        "type": "navigation_check",
+        "expected_text": "Allowed email domains"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "profile-discoverability",
+      "title": "Profile discoverability",
+      "description": "Controls whether users can see your name and profile picture when inviting you to workspaces via your email address. When off, your profile is hidden from people who have your email address.",
+      "category": "privacy",
+      "default": "enabled",
+      "recommended": "disabled",
+      "applicable_plans": ["all"],
+      "settings_url": null,
+      "settings_path": ["Settings", "Preferences", "Privacy", "Profile discoverability"],
+      "verification_method": {
+        "type": "text_match",
+        "expected_text": "Profile discoverability"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "show-view-history",
+      "title": "Show my view history",
+      "description": "Controls whether your account activity appears in page analytics and view history. When set to 'Don't record', your views will not be tracked in page analytics.",
+      "category": "privacy",
+      "default": "enabled (views are recorded)",
+      "recommended": "disabled (don't record)",
+      "applicable_plans": ["all"],
+      "settings_url": null,
+      "settings_path": ["Settings", "Preferences", "Privacy", "Show my view history"],
+      "verification_method": {
+        "type": "text_match",
+        "expected_text": "Show my view history"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "support-access",
+      "title": "Support access",
+      "description": "Grants Notion support staff access to your account data for troubleshooting. Access is valid for 28 days or until revoked. Can be revoked at any time before the 28-day window expires.",
+      "category": "privacy",
+      "default": "disabled",
+      "recommended": "disabled",
+      "applicable_plans": ["all"],
+      "settings_url": null,
+      "settings_path": ["Settings", "{your name}", "Support access"],
+      "verification_method": {
+        "type": "text_match",
+        "expected_text": "Support access"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "saml-sso",
+      "title": "Enable SAML SSO",
+      "description": "Enables SAML Single Sign-On for the workspace, allowing users to authenticate via an identity provider (Okta, Microsoft Azure, Google Workspace, etc.).",
+      "category": "authentication",
+      "default": "disabled",
+      "recommended": "enabled",
+      "applicable_plans": ["business", "enterprise"],
+      "settings_url": null,
+      "settings_path": ["Settings", "Identity", "SAML SSO"],
+      "verification_method": {
+        "type": "navigation_check",
+        "expected_text": "Enable SAML SSO"
+      },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "scim-provisioning",
+      "title": "SCIM provisioning",
+      "description": "Enables System for Cross-domain Identity Management (SCIM) for automated user and group provisioning and deprovisioning.",
+      "category": "authentication",
+      "default": "disabled",
+      "recommended": "enabled",
+      "applicable_plans": ["enterprise"],
+      "settings_url": null,
+      "settings_path": ["Settings", "Identity", "SCIM provisioning"],
+      "verification_method": {
+        "type": "navigation_check",
+        "expected_text": "SCIM provisioning"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "domain-verification",
+      "title": "Verified domains",
+      "description": "Claim ownership over a domain to unlock advanced management settings including the ability to manage all users with that email domain.",
+      "category": "access_control",
+      "default": "not configured",
+      "recommended": "verify company domain",
+      "applicable_plans": ["business", "enterprise"],
+      "settings_url": null,
+      "settings_path": ["Settings", "Identity", "Verified domains"],
+      "verification_method": {
+        "type": "navigation_check",
+        "expected_text": "Verified domains"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "audit-log",
+      "title": "Audit log",
+      "description": "Provides detailed information about security and safety-related activity in the workspace. Supports filtering and export. Useful for identifying potential security issues, investigating suspicious behavior, and troubleshooting access.",
+      "category": "monitoring",
+      "default": "available (Enterprise only)",
+      "recommended": "review regularly",
+      "applicable_plans": ["enterprise"],
+      "settings_url": null,
+      "settings_path": ["Settings", "Audit log"],
+      "verification_method": {
+        "type": "navigation_check",
+        "expected_text": "Audit log"
+      },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "allow-page-access-requests",
+      "title": "Allow page access requests from non-members",
+      "description": "Controls whether non-members can request access to workspace pages. When enabled, non-members who have a page link can request access.",
+      "category": "access_control",
+      "default": "enabled",
+      "recommended": "disabled",
+      "applicable_plans": ["free", "plus", "business"],
+      "settings_url": null,
+      "settings_path": ["Settings", "Workspace", "Security"],
+      "verification_method": {
+        "type": "navigation_check",
+        "expected_text": "Allow page access requests from non-members"
       },
       "severity": "recommended",
       "last_verified": "2026-05-13"
