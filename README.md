@@ -77,7 +77,7 @@ The initial population of this catalog is bootstrapped from [Terms of Service; D
 
 Bootstrapped entries start at **Level 1** (domain, name, category) or **Level 2** (with ToS/Privacy URLs) and are promoted to Level 3 as contributors add per-plan and recommended-setting information.
 
-## Level 3 services (101 settings)
+## Level 3 services (106 settings)
 
 | Service | Domain | Settings | Key areas |
 |---|---|---|---|
@@ -97,6 +97,7 @@ Bootstrapped entries start at **Level 1** (domain, name, category) or **Level 2*
 | Apple | apple.com | 4 | 2FA, Advanced Data Protection |
 | Salesforce | salesforce.com | 6 | Einstein AI, MFA, session, OAuth |
 | GitHub | github.com | 3 | Copilot AI, 2FA, public code |
+| Meta (Facebook) | facebook.com | 5 | AI training, 2FA, off-FB activity, ads |
 | Canva | canva.com | 2 | AI training, third-party AI |
 | Stack Overflow | stackoverflow.com | 2 | 2FA, email privacy |
 
