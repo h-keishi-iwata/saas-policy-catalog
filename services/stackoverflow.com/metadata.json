@@ -1,14 +1,14 @@
 {
   "service_name": "Stack Overflow",
   "vendor": "Stack Overflow",
-  "category": "other",
+  "category": "code-hosting",
   "domains": [
     "stackoverflow.com"
   ],
   "homepage": "https://stackoverflow.com",
   "first_seen": "2026-05-13",
   "last_updated": "2026-05-13",
-  "level": 2,
+  "level": 3,
   "tags": [],
   "aliases": [],
   "source": {

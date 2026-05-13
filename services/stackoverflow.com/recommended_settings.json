@@ -1,0 +1,36 @@
+{
+  "settings": [
+    {
+      "key": "two-factor-auth",
+      "title": "Enable two-factor authentication",
+      "description": "Adds a second verification step when signing in to Stack Overflow.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://stackoverflow.com/users/edit",
+      "settings_path": ["Profile icon", "Edit profile and settings", "Login credentials"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "email-privacy",
+      "title": "Keep email address private",
+      "description": "Prevents your email from being displayed publicly on your profile.",
+      "category": "privacy",
+      "default": "private",
+      "recommended": "private",
+      "applicable_plans": ["all"],
+      "settings_url": "https://stackoverflow.com/users/edit",
+      "settings_path": ["Profile icon", "Edit profile and settings", "Email settings"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    }
+  ]
+}
