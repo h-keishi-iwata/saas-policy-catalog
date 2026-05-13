@@ -1,0 +1,74 @@
+{
+  "settings": [
+    {
+      "key": "ai-training-opt-out",
+      "title": "Opt out of AI training on user content",
+      "description": "TikTok uses public content (voice, face, style) for AI training. EU/UK: submit Right to Object form. US: no direct toggle, set account to private.",
+      "category": "ai_training",
+      "default": "opted in",
+      "recommended": "opted out",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.tiktok.com/legal/report/privacy",
+      "settings_path": ["TikTok Privacy Center", "Right to Object"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "two-step-verification",
+      "title": "Enable two-step verification",
+      "description": "Supports SMS, email, authenticator app. Requires at least 2 methods. OFF by default.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.tiktok.com/setting/security",
+      "settings_path": ["Settings", "Security and log in", "2-step verification"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "personalized-ads",
+      "title": "Disable personalized ads",
+      "description": "Prevents behavioral ad targeting. ON by default. Still see ads but less targeted.",
+      "category": "telemetry",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.tiktok.com/setting/privacy",
+      "settings_path": ["Settings", "Privacy", "Ads personalization", "Personalized ads"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "off-tiktok-activity",
+      "title": "Disable off-TikTok activity for ad targeting",
+      "description": "Prevents using third-party browsing data for TikTok ad targeting. ON by default.",
+      "category": "third_party_sharing",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.tiktok.com/setting/privacy",
+      "settings_path": ["Settings", "Privacy", "Ads personalization", "Off-TikTok Activity"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "third-party-data-sharing",
+      "title": "Restrict third-party data sharing",
+      "description": "TikTok shares biometric IDs, purchase history with advertisers. Review Data sharing section.",
+      "category": "third_party_sharing",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.tiktok.com/setting/privacy",
+      "settings_path": ["Settings", "Privacy", "Data sharing"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    }
+  ]
+}

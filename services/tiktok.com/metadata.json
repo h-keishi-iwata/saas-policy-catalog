@@ -1,14 +1,14 @@
 {
   "service_name": "TikTok",
   "vendor": "TikTok",
-  "category": "other",
+  "category": "communication",
   "domains": [
     "tiktok.com"
   ],
   "homepage": "https://tiktok.com",
   "first_seen": "2026-05-13",
   "last_updated": "2026-05-13",
-  "level": 1,
+  "level": 3,
   "tags": [],
   "aliases": [],
   "source": {
