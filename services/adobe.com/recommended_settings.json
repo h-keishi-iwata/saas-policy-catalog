@@ -1,0 +1,74 @@
+{
+  "settings": [
+    {
+      "key": "content-analysis-opt-out",
+      "title": "Disable content analysis for product improvement",
+      "description": "Adobe analyzes cloud content using ML to improve products. ON by default for individual accounts. Business/team accounts auto-opted-out.",
+      "category": "ai_training",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://account.adobe.com/privacy",
+      "settings_path": ["Adobe Account", "Privacy", "Content analysis for product improvement"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "firefly-genai-training-opt-out",
+      "title": "Set Content Credentials 'do not train' preference",
+      "description": "Attach Content Credentials to files with a 'do not train' signal. Adobe states it doesn't train Firefly on CC subscriber content, but this adds an explicit signal.",
+      "category": "ai_training",
+      "default": "not set",
+      "recommended": "opted out",
+      "applicable_plans": ["all"],
+      "settings_url": "https://account.adobe.com/privacy",
+      "settings_path": ["Adobe Content Authenticity app", "Content Credentials", "Generative AI training preference"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "two-step-verification",
+      "title": "Enable two-step verification",
+      "description": "Supports Adobe Account Access app, authenticator apps, email, SMS. Not enabled by default.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://account.adobe.com/security",
+      "settings_path": ["Adobe Account", "Sign-in and security", "Two-step verification"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "desktop-app-usage-sharing",
+      "title": "Disable desktop app usage information sharing",
+      "description": "Adobe collects usage information from desktop apps. Can be disabled for individual accounts.",
+      "category": "telemetry",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://account.adobe.com/privacy",
+      "settings_path": ["Adobe Account", "Privacy", "Desktop app usage"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "connected-apps-review",
+      "title": "Review and revoke third-party app access",
+      "description": "Third-party apps with Adobe OAuth access can read account info and assets. Review periodically.",
+      "category": "oauth_apps",
+      "default": "varies",
+      "recommended": "reviewed within 90 days",
+      "applicable_plans": ["all"],
+      "settings_url": "https://account.adobe.com/privacy",
+      "settings_path": ["Adobe Account", "Privacy", "Connected apps", "Revoke access"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    }
+  ]
+}
