@@ -1,14 +1,14 @@
 {
   "service_name": "Twitch",
   "vendor": "Twitch",
-  "category": "other",
+  "category": "communication",
   "domains": [
     "twitch.tv"
   ],
   "homepage": "https://twitch.tv",
   "first_seen": "2026-05-13",
   "last_updated": "2026-05-13",
-  "level": 1,
+  "level": 3,
   "tags": [],
   "aliases": [],
   "source": {

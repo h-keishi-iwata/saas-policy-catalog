@@ -1,0 +1,116 @@
+{
+  "settings": [
+    {
+      "key": "two-factor-auth",
+      "title": "Enable two-factor authentication",
+      "description": "Add a second factor (authenticator app or SMS) to your Twitch account login. 2FA is disabled by default for viewers; streamers are required to enable it before broadcasting or receiving payouts. Twitch supports TOTP authenticator apps on desktop and SMS-only on mobile. FIDO2/U2F security keys are not supported. Your email must be verified before the 2FA option appears.",
+      "category": "two_factor_auth",
+      "default": false,
+      "recommended": true,
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.twitch.tv/settings/security",
+      "settings_path": ["Settings", "Security and Privacy", "Security", "Two-Factor Authentication"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "ad-personalization-opt-out",
+      "title": "Disable personalized advertising",
+      "description": "Opt out of interest-based advertising by disabling the 'Show me personalised ads' toggle. By default, Twitch and its ad vendors use analytics and tracking cookies to tailor advertisements to your perceived interests. Disabling this toggle turns off ad personalization across all listed ad vendors simultaneously. EU users can additionally manage preferences via the 'Ad' icon on advertisements.",
+      "category": "telemetry",
+      "default": "enabled",
+      "recommended": "disabled",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.twitch.tv/settings/security",
+      "settings_path": ["Settings", "Security and Privacy", "Privacy", "Manage Consent Preferences"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "third-party-connections-review",
+      "title": "Review and revoke unused third-party app connections",
+      "description": "Periodically audit all third-party applications (e.g., Streamlabs, OBS, Stream Deck, Discord, YouTube, Steam) that have OAuth access to your Twitch account. Revoke tokens for any apps you no longer use. The 'Other Connections' section lists every app you have authorized. Twitch recommends auditing connections at least twice a year to reduce the attack surface for account takeover.",
+      "category": "oauth_apps",
+      "default": null,
+      "recommended": "reviewed_within_90_days",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.twitch.tv/settings/connections",
+      "settings_path": ["Settings", "Connections", "Other Connections"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "block-whispers-from-strangers",
+      "title": "Block whispers from strangers",
+      "description": "Enable the 'Block Whispers from Strangers' toggle to restrict private messages (whispers) to only friends, followed accounts, subscribers, moderators, and editors. When enabled, strangers receive a silent fail and cannot reach you. The whisper inbox is a known vector for phishing links, scam follow-up DMs, and unsolicited harassment. Note: if you initiate a whisper to a stranger, they can temporarily reply for 48 hours. Twitch requires a verified phone number to send whispers.",
+      "category": "other",
+      "default": false,
+      "recommended": true,
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.twitch.tv/settings/security",
+      "settings_path": ["Settings", "Security and Privacy", "Privacy", "Block Whispers from Strangers"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "disable-activity-sharing",
+      "title": "Disable sharing viewing activity",
+      "description": "Turn off the 'Share My Activity' toggle to prevent your viewing and broadcasting activity from being visible to your friends list. This setting is enabled by default, exposing which streams you are watching to anyone on your friends list. Disabling it improves privacy by hiding your real-time viewing behavior from other users.",
+      "category": "third_party_sharing",
+      "default": "enabled",
+      "recommended": "disabled",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.twitch.tv/settings/security",
+      "settings_path": ["Settings", "Security and Privacy", "Privacy", "Share My Activity"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "disconnect-other-sessions",
+      "title": "Disconnect all other sessions periodically",
+      "description": "Use the 'Disconnect all other sessions' button to terminate any active login sessions on other devices or browsers. This is especially important after a password change, suspected account compromise, or when using shared/public computers. Twitch does not automatically expire old sessions, so manual review is recommended.",
+      "category": "session_management",
+      "default": null,
+      "recommended": "reviewed_periodically",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.twitch.tv/settings/security",
+      "settings_path": ["Settings", "Security and Privacy", "Security", "Disconnect all other sessions"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "cross-context-behavioral-ads-opt-out",
+      "title": "Opt out of cross-context behavioral advertising",
+      "description": "Opt out of the sharing of personal information for cross-context behavioral advertising as defined by the California Privacy Rights Act (CPRA) and similar state laws. This can be done via the Global Privacy Control (GPC) browser signal or through the Twitch Privacy Choices page. This is separate from the in-product ad personalization toggle and covers data shared with third parties beyond Twitch's ad vendors.",
+      "category": "telemetry",
+      "default": "opted_in",
+      "recommended": "opted_out",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.twitch.tv/p/legal/privacy-choices/",
+      "settings_path": ["Privacy Choices page", "Opt out of sale/sharing"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    }
+  ]
+}
