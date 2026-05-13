@@ -1,0 +1,19 @@
+{
+  "service_name": "captchabot.xyz",
+  "vendor": "captchabot.xyz",
+  "category": "other",
+  "domains": [
+    "captchabot.xyz"
+  ],
+  "homepage": "https://captchabot.xyz",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4410,
+    "imported_at": "2026-05-13"
+  }
+}

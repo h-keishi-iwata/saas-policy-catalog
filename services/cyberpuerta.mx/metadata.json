@@ -1,0 +1,19 @@
+{
+  "service_name": "CyberPuerta",
+  "vendor": "CyberPuerta",
+  "category": "other",
+  "domains": [
+    "cyberpuerta.mx"
+  ],
+  "homepage": "https://cyberpuerta.mx",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11701,
+    "imported_at": "2026-05-13"
+  }
+}

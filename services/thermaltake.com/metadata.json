@@ -1,0 +1,19 @@
+{
+  "service_name": "Thermaltake",
+  "vendor": "Thermaltake",
+  "category": "other",
+  "domains": [
+    "thermaltake.com"
+  ],
+  "homepage": "https://thermaltake.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4241,
+    "imported_at": "2026-05-13"
+  }
+}

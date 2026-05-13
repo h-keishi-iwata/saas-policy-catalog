@@ -1,0 +1,19 @@
+{
+  "service_name": "The Trevor Project",
+  "vendor": "The Trevor Project",
+  "category": "other",
+  "domains": [
+    "thetrevorproject.org"
+  ],
+  "homepage": "https://thetrevorproject.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7682,
+    "imported_at": "2026-05-13"
+  }
+}

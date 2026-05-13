@@ -1,0 +1,19 @@
+{
+  "service_name": "AHLA Foundation",
+  "vendor": "AHLA Foundation",
+  "category": "other",
+  "domains": [
+    "ahlafoundation.org"
+  ],
+  "homepage": "https://ahlafoundation.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5553,
+    "imported_at": "2026-05-13"
+  }
+}

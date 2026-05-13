@@ -1,0 +1,19 @@
+{
+  "service_name": "Giveaway of the Day",
+  "vendor": "Giveaway of the Day",
+  "category": "other",
+  "domains": [
+    "giveawayoftheday.com"
+  ],
+  "homepage": "https://giveawayoftheday.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6578,
+    "imported_at": "2026-05-13"
+  }
+}

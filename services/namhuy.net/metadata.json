@@ -1,0 +1,19 @@
+{
+  "service_name": "Nam Huy",
+  "vendor": "Nam Huy",
+  "category": "other",
+  "domains": [
+    "namhuy.net"
+  ],
+  "homepage": "https://namhuy.net",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7502,
+    "imported_at": "2026-05-13"
+  }
+}

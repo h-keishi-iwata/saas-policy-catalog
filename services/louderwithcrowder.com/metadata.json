@@ -1,0 +1,19 @@
+{
+  "service_name": "louder with crowder",
+  "vendor": "louder with crowder",
+  "category": "other",
+  "domains": [
+    "louderwithcrowder.com"
+  ],
+  "homepage": "https://louderwithcrowder.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9513,
+    "imported_at": "2026-05-13"
+  }
+}

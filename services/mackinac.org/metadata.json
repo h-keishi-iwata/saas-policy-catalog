@@ -1,0 +1,19 @@
+{
+  "service_name": "Mackinac Center for Public Policy",
+  "vendor": "Mackinac Center for Public Policy",
+  "category": "other",
+  "domains": [
+    "mackinac.org"
+  ],
+  "homepage": "https://mackinac.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9030,
+    "imported_at": "2026-05-13"
+  }
+}

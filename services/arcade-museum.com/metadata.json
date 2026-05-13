@@ -1,0 +1,19 @@
+{
+  "service_name": "Arcade Museum",
+  "vendor": "Arcade Museum",
+  "category": "other",
+  "domains": [
+    "arcade-museum.com"
+  ],
+  "homepage": "https://arcade-museum.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 2,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7543,
+    "imported_at": "2026-05-13"
+  }
+}

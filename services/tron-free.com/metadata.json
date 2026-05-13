@@ -1,0 +1,19 @@
+{
+  "service_name": "Tron-Free",
+  "vendor": "Tron-Free",
+  "category": "other",
+  "domains": [
+    "tron-free.com"
+  ],
+  "homepage": "https://tron-free.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7733,
+    "imported_at": "2026-05-13"
+  }
+}

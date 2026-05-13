@@ -1,0 +1,19 @@
+{
+  "service_name": "CPA Canada",
+  "vendor": "CPA Canada",
+  "category": "other",
+  "domains": [
+    "cpacanada.ca"
+  ],
+  "homepage": "https://cpacanada.ca",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4428,
+    "imported_at": "2026-05-13"
+  }
+}

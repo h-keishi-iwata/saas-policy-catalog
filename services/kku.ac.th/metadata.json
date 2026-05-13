@@ -1,0 +1,19 @@
+{
+  "service_name": "Khon Kaen University",
+  "vendor": "Khon Kaen University",
+  "category": "other",
+  "domains": [
+    "kku.ac.th"
+  ],
+  "homepage": "https://kku.ac.th",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5081,
+    "imported_at": "2026-05-13"
+  }
+}

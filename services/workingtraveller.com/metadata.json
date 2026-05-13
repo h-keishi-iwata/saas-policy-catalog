@@ -1,0 +1,19 @@
+{
+  "service_name": "Working Traveller",
+  "vendor": "Working Traveller",
+  "category": "other",
+  "domains": [
+    "workingtraveller.com"
+  ],
+  "homepage": "https://workingtraveller.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2029,
+    "imported_at": "2026-05-13"
+  }
+}

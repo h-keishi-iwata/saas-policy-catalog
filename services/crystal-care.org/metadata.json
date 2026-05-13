@@ -1,0 +1,19 @@
+{
+  "service_name": "Crystal Care",
+  "vendor": "Crystal Care",
+  "category": "other",
+  "domains": [
+    "crystal-care.org"
+  ],
+  "homepage": "https://crystal-care.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1999,
+    "imported_at": "2026-05-13"
+  }
+}

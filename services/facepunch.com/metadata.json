@@ -1,0 +1,19 @@
+{
+  "service_name": "Facepunch Studios",
+  "vendor": "Facepunch Studios",
+  "category": "other",
+  "domains": [
+    "facepunch.com"
+  ],
+  "homepage": "https://facepunch.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5546,
+    "imported_at": "2026-05-13"
+  }
+}

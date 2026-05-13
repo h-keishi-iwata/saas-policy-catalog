@@ -1,0 +1,19 @@
+{
+  "service_name": "r00t4bl3",
+  "vendor": "r00t4bl3",
+  "category": "other",
+  "domains": [
+    "r00t4bl3.com"
+  ],
+  "homepage": "https://r00t4bl3.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6505,
+    "imported_at": "2026-05-13"
+  }
+}

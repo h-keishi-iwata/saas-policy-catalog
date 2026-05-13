@@ -1,0 +1,19 @@
+{
+  "service_name": "TorGuard's Mastodon server",
+  "vendor": "TorGuard's Mastodon server",
+  "category": "other",
+  "domains": [
+    "torguard.social"
+  ],
+  "homepage": "https://torguard.social",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9799,
+    "imported_at": "2026-05-13"
+  }
+}

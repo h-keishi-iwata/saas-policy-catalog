@@ -1,0 +1,19 @@
+{
+  "service_name": "The Epoch Times",
+  "vendor": "The Epoch Times",
+  "category": "other",
+  "domains": [
+    "theepochtimes.com"
+  ],
+  "homepage": "https://theepochtimes.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4379,
+    "imported_at": "2026-05-13"
+  }
+}

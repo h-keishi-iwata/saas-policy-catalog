@@ -1,0 +1,19 @@
+{
+  "service_name": "Yewtu.be",
+  "vendor": "Yewtu.be",
+  "category": "other",
+  "domains": [
+    "yewtu.be"
+  ],
+  "homepage": "https://yewtu.be",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2878,
+    "imported_at": "2026-05-13"
+  }
+}

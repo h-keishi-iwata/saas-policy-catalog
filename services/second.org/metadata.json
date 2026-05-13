@@ -1,0 +1,19 @@
+{
+  "service_name": "Second Baptist Church",
+  "vendor": "Second Baptist Church",
+  "category": "other",
+  "domains": [
+    "second.org"
+  ],
+  "homepage": "https://second.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4902,
+    "imported_at": "2026-05-13"
+  }
+}

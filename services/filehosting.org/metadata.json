@@ -1,0 +1,19 @@
+{
+  "service_name": "Filehosting",
+  "vendor": "Filehosting",
+  "category": "other",
+  "domains": [
+    "filehosting.org"
+  ],
+  "homepage": "https://filehosting.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3816,
+    "imported_at": "2026-05-13"
+  }
+}

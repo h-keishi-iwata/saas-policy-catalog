@@ -1,0 +1,19 @@
+{
+  "service_name": "Citizen Systems Europe GmbH",
+  "vendor": "Citizen Systems Europe GmbH",
+  "category": "other",
+  "domains": [
+    "citizen-systems.com"
+  ],
+  "homepage": "https://citizen-systems.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7621,
+    "imported_at": "2026-05-13"
+  }
+}

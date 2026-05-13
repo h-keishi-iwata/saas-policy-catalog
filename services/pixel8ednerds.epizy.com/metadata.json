@@ -1,0 +1,19 @@
+{
+  "service_name": "pixel8ednerds",
+  "vendor": "pixel8ednerds",
+  "category": "other",
+  "domains": [
+    "pixel8ednerds.epizy.com"
+  ],
+  "homepage": "https://pixel8ednerds.epizy.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1637,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "mail.com",
+  "vendor": "mail.com",
+  "category": "other",
+  "domains": [
+    "mail.com"
+  ],
+  "homepage": "https://mail.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3539,
+    "imported_at": "2026-05-13"
+  }
+}

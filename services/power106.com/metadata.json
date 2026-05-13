@@ -1,0 +1,19 @@
+{
+  "service_name": "power 106",
+  "vendor": "power 106",
+  "category": "other",
+  "domains": [
+    "power106.com"
+  ],
+  "homepage": "https://power106.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4032,
+    "imported_at": "2026-05-13"
+  }
+}

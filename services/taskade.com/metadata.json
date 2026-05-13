@@ -1,0 +1,19 @@
+{
+  "service_name": "Taskade",
+  "vendor": "Taskade",
+  "category": "other",
+  "domains": [
+    "taskade.com"
+  ],
+  "homepage": "https://taskade.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2252,
+    "imported_at": "2026-05-13"
+  }
+}

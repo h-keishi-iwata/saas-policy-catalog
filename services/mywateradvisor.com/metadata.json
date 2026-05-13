@@ -1,0 +1,19 @@
+{
+  "service_name": "My Water Advisor",
+  "vendor": "My Water Advisor",
+  "category": "other",
+  "domains": [
+    "mywateradvisor.com"
+  ],
+  "homepage": "https://mywateradvisor.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6243,
+    "imported_at": "2026-05-13"
+  }
+}

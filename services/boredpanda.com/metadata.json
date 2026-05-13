@@ -1,0 +1,19 @@
+{
+  "service_name": "Bored Panda",
+  "vendor": "Bored Panda",
+  "category": "other",
+  "domains": [
+    "boredpanda.com"
+  ],
+  "homepage": "https://boredpanda.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 2,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2676,
+    "imported_at": "2026-05-13"
+  }
+}

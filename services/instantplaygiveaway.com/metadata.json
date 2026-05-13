@@ -1,0 +1,19 @@
+{
+  "service_name": "Instant Play Giveaway",
+  "vendor": "Instant Play Giveaway",
+  "category": "other",
+  "domains": [
+    "instantplaygiveaway.com"
+  ],
+  "homepage": "https://instantplaygiveaway.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9651,
+    "imported_at": "2026-05-13"
+  }
+}

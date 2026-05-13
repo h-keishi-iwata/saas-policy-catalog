@@ -1,0 +1,19 @@
+{
+  "service_name": "Typing",
+  "vendor": "Typing",
+  "category": "other",
+  "domains": [
+    "typing.com"
+  ],
+  "homepage": "https://typing.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4699,
+    "imported_at": "2026-05-13"
+  }
+}

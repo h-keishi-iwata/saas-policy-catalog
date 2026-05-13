@@ -1,0 +1,19 @@
+{
+  "service_name": "Your Downtown Dentist",
+  "vendor": "Your Downtown Dentist",
+  "category": "other",
+  "domains": [
+    "yourdowntowndentistry.com"
+  ],
+  "homepage": "https://yourdowntowndentistry.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11433,
+    "imported_at": "2026-05-13"
+  }
+}

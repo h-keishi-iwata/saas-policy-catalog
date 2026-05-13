@@ -1,0 +1,19 @@
+{
+  "service_name": "RussianFood.com",
+  "vendor": "RussianFood.com",
+  "category": "other",
+  "domains": [
+    "russianfood.com"
+  ],
+  "homepage": "https://russianfood.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1705,
+    "imported_at": "2026-05-13"
+  }
+}

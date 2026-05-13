@@ -1,0 +1,19 @@
+{
+  "service_name": "bplaced",
+  "vendor": "bplaced",
+  "category": "other",
+  "domains": [
+    "bplaced.net"
+  ],
+  "homepage": "https://bplaced.net",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3892,
+    "imported_at": "2026-05-13"
+  }
+}

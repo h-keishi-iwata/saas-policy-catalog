@@ -1,0 +1,19 @@
+{
+  "service_name": "YWCA",
+  "vendor": "YWCA",
+  "category": "other",
+  "domains": [
+    "ywca.org"
+  ],
+  "homepage": "https://ywca.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6086,
+    "imported_at": "2026-05-13"
+  }
+}

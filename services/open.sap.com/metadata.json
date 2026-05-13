@@ -1,0 +1,19 @@
+{
+  "service_name": "openSAP",
+  "vendor": "openSAP",
+  "category": "other",
+  "domains": [
+    "open.sap.com"
+  ],
+  "homepage": "https://open.sap.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3238,
+    "imported_at": "2026-05-13"
+  }
+}

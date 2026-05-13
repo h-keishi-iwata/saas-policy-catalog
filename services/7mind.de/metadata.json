@@ -1,0 +1,19 @@
+{
+  "service_name": "7Mind",
+  "vendor": "7Mind",
+  "category": "other",
+  "domains": [
+    "7mind.de"
+  ],
+  "homepage": "https://7mind.de",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5344,
+    "imported_at": "2026-05-13"
+  }
+}

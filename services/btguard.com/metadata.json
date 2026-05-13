@@ -1,0 +1,19 @@
+{
+  "service_name": "BTGuard",
+  "vendor": "BTGuard",
+  "category": "other",
+  "domains": [
+    "btguard.com"
+  ],
+  "homepage": "https://btguard.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2709,
+    "imported_at": "2026-05-13"
+  }
+}

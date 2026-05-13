@@ -1,0 +1,19 @@
+{
+  "service_name": "NationalInjuryBureau",
+  "vendor": "NationalInjuryBureau",
+  "category": "other",
+  "domains": [
+    "nationalinjurybureau.com"
+  ],
+  "homepage": "https://nationalinjurybureau.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6017,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "The Home Security Superstore",
+  "vendor": "The Home Security Superstore",
+  "category": "other",
+  "domains": [
+    "thehomesecuritysuperstore.com"
+  ],
+  "homepage": "https://thehomesecuritysuperstore.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8252,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Food Lion",
+  "vendor": "Food Lion",
+  "category": "other",
+  "domains": [
+    "foodlion.com"
+  ],
+  "homepage": "https://foodlion.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3817,
+    "imported_at": "2026-05-13"
+  }
+}

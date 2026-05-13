@@ -1,0 +1,19 @@
+{
+  "service_name": "ToS;DR",
+  "vendor": "ToS;DR",
+  "category": "other",
+  "domains": [
+    "tosdr.org"
+  ],
+  "homepage": "https://tosdr.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 2,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 596,
+    "imported_at": "2026-05-13"
+  }
+}

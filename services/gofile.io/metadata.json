@@ -1,0 +1,19 @@
+{
+  "service_name": "Gofile",
+  "vendor": "Gofile",
+  "category": "other",
+  "domains": [
+    "gofile.io"
+  ],
+  "homepage": "https://gofile.io",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9055,
+    "imported_at": "2026-05-13"
+  }
+}

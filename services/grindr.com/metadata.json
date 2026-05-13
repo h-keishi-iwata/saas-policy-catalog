@@ -1,0 +1,19 @@
+{
+  "service_name": "Grindr",
+  "vendor": "Grindr",
+  "category": "other",
+  "domains": [
+    "grindr.com"
+  ],
+  "homepage": "https://grindr.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9498,
+    "imported_at": "2026-05-13"
+  }
+}

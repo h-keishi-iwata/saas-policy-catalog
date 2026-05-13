@@ -1,0 +1,19 @@
+{
+  "service_name": "timetrade.com",
+  "vendor": "timetrade.com",
+  "category": "other",
+  "domains": [
+    "timetrade.com"
+  ],
+  "homepage": "https://timetrade.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6626,
+    "imported_at": "2026-05-13"
+  }
+}

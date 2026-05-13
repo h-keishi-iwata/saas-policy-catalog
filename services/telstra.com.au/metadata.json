@@ -1,0 +1,19 @@
+{
+  "service_name": "Telstra",
+  "vendor": "Telstra",
+  "category": "other",
+  "domains": [
+    "telstra.com.au"
+  ],
+  "homepage": "https://telstra.com.au",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7512,
+    "imported_at": "2026-05-13"
+  }
+}

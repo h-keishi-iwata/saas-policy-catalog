@@ -1,0 +1,19 @@
+{
+  "service_name": "GameHitZone",
+  "vendor": "GameHitZone",
+  "category": "other",
+  "domains": [
+    "gamehitzone.com"
+  ],
+  "homepage": "https://gamehitzone.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3432,
+    "imported_at": "2026-05-13"
+  }
+}

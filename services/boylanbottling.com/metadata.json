@@ -1,0 +1,19 @@
+{
+  "service_name": "Boylan Bottling",
+  "vendor": "Boylan Bottling",
+  "category": "other",
+  "domains": [
+    "boylanbottling.com"
+  ],
+  "homepage": "https://boylanbottling.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3743,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "ctrlaltdev",
+  "vendor": "ctrlaltdev",
+  "category": "other",
+  "domains": [
+    "ctrlalt.dev"
+  ],
+  "homepage": "https://ctrlalt.dev",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1802,
+    "imported_at": "2026-05-13"
+  }
+}

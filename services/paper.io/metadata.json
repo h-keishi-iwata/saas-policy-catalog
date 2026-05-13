@@ -1,0 +1,19 @@
+{
+  "service_name": "Paper.io",
+  "vendor": "Paper.io",
+  "category": "other",
+  "domains": [
+    "paper.io"
+  ],
+  "homepage": "https://paper.io",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7210,
+    "imported_at": "2026-05-13"
+  }
+}

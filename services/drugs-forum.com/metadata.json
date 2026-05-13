@@ -1,0 +1,19 @@
+{
+  "service_name": "DRUGS FORUM",
+  "vendor": "DRUGS FORUM",
+  "category": "other",
+  "domains": [
+    "drugs-forum.com"
+  ],
+  "homepage": "https://drugs-forum.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6207,
+    "imported_at": "2026-05-13"
+  }
+}

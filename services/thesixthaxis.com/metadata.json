@@ -1,0 +1,19 @@
+{
+  "service_name": "TheSixthAxis.com",
+  "vendor": "TheSixthAxis.com",
+  "category": "other",
+  "domains": [
+    "thesixthaxis.com"
+  ],
+  "homepage": "https://thesixthaxis.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4740,
+    "imported_at": "2026-05-13"
+  }
+}

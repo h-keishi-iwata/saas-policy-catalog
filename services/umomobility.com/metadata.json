@@ -1,0 +1,19 @@
+{
+  "service_name": "UMO",
+  "vendor": "UMO",
+  "category": "other",
+  "domains": [
+    "umomobility.com"
+  ],
+  "homepage": "https://umomobility.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10936,
+    "imported_at": "2026-05-13"
+  }
+}

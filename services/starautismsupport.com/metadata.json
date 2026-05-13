@@ -1,0 +1,19 @@
+{
+  "service_name": "STAR Autism Support",
+  "vendor": "STAR Autism Support",
+  "category": "other",
+  "domains": [
+    "starautismsupport.com"
+  ],
+  "homepage": "https://starautismsupport.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11580,
+    "imported_at": "2026-05-13"
+  }
+}

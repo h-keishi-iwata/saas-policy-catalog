@@ -1,0 +1,19 @@
+{
+  "service_name": "RTÉ",
+  "vendor": "RTÉ",
+  "category": "other",
+  "domains": [
+    "rte.ie"
+  ],
+  "homepage": "https://rte.ie",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1456,
+    "imported_at": "2026-05-13"
+  }
+}

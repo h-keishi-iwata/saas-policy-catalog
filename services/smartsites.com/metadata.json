@@ -1,0 +1,19 @@
+{
+  "service_name": "SmartSites",
+  "vendor": "SmartSites",
+  "category": "other",
+  "domains": [
+    "smartsites.com"
+  ],
+  "homepage": "https://smartsites.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6812,
+    "imported_at": "2026-05-13"
+  }
+}

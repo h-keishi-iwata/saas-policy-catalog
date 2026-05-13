@@ -1,0 +1,19 @@
+{
+  "service_name": "Fetlife",
+  "vendor": "Fetlife",
+  "category": "other",
+  "domains": [
+    "fetlife.com"
+  ],
+  "homepage": "https://fetlife.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4340,
+    "imported_at": "2026-05-13"
+  }
+}

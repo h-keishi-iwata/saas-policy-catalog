@@ -1,0 +1,19 @@
+{
+  "service_name": "coindrop",
+  "vendor": "coindrop",
+  "category": "other",
+  "domains": [
+    "coindrop.to"
+  ],
+  "homepage": "https://coindrop.to",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6700,
+    "imported_at": "2026-05-13"
+  }
+}

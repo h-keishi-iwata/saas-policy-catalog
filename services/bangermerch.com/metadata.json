@@ -1,0 +1,19 @@
+{
+  "service_name": "Banger Merch",
+  "vendor": "Banger Merch",
+  "category": "other",
+  "domains": [
+    "bangermerch.com"
+  ],
+  "homepage": "https://bangermerch.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4683,
+    "imported_at": "2026-05-13"
+  }
+}

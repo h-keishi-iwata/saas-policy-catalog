@@ -1,0 +1,19 @@
+{
+  "service_name": "Home Title Lock",
+  "vendor": "Home Title Lock",
+  "category": "other",
+  "domains": [
+    "hometitlelock.com"
+  ],
+  "homepage": "https://hometitlelock.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7912,
+    "imported_at": "2026-05-13"
+  }
+}

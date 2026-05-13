@@ -1,0 +1,19 @@
+{
+  "service_name": "Incog.host",
+  "vendor": "Incog.host",
+  "category": "other",
+  "domains": [
+    "incog.host"
+  ],
+  "homepage": "https://incog.host",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2677,
+    "imported_at": "2026-05-13"
+  }
+}

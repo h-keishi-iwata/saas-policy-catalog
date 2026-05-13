@@ -1,0 +1,19 @@
+{
+  "service_name": "Mason Bee",
+  "vendor": "Mason Bee",
+  "category": "other",
+  "domains": [
+    "masonbee.nz"
+  ],
+  "homepage": "https://masonbee.nz",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1442,
+    "imported_at": "2026-05-13"
+  }
+}

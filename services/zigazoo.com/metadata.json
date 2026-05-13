@@ -1,0 +1,19 @@
+{
+  "service_name": "Zigazoo",
+  "vendor": "Zigazoo",
+  "category": "other",
+  "domains": [
+    "zigazoo.com"
+  ],
+  "homepage": "https://zigazoo.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3933,
+    "imported_at": "2026-05-13"
+  }
+}

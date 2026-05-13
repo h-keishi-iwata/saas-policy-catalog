@@ -1,0 +1,19 @@
+{
+  "service_name": "Electrum Bitcoin Wallet",
+  "vendor": "Electrum Bitcoin Wallet",
+  "category": "other",
+  "domains": [
+    "electrum.org"
+  ],
+  "homepage": "https://electrum.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2761,
+    "imported_at": "2026-05-13"
+  }
+}

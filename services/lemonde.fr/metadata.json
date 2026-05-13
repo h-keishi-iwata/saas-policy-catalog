@@ -1,0 +1,19 @@
+{
+  "service_name": "Le Monde",
+  "vendor": "Le Monde",
+  "category": "other",
+  "domains": [
+    "lemonde.fr"
+  ],
+  "homepage": "https://lemonde.fr",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2542,
+    "imported_at": "2026-05-13"
+  }
+}

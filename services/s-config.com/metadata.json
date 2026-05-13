@@ -1,0 +1,19 @@
+{
+  "service_name": "S-Config",
+  "vendor": "S-Config",
+  "category": "other",
+  "domains": [
+    "s-config.com"
+  ],
+  "homepage": "https://s-config.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2662,
+    "imported_at": "2026-05-13"
+  }
+}

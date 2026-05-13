@@ -1,0 +1,19 @@
+{
+  "service_name": "Online UUID Generator Tool",
+  "vendor": "Online UUID Generator Tool",
+  "category": "other",
+  "domains": [
+    "uuidgenerator.net"
+  ],
+  "homepage": "https://uuidgenerator.net",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7196,
+    "imported_at": "2026-05-13"
+  }
+}

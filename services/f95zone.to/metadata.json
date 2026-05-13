@@ -1,0 +1,19 @@
+{
+  "service_name": "f95zone",
+  "vendor": "f95zone",
+  "category": "other",
+  "domains": [
+    "f95zone.to"
+  ],
+  "homepage": "https://f95zone.to",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5296,
+    "imported_at": "2026-05-13"
+  }
+}

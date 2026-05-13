@@ -1,0 +1,19 @@
+{
+  "service_name": "Gladiola Code Company",
+  "vendor": "Gladiola Code Company",
+  "category": "other",
+  "domains": [
+    "gladiola.codes"
+  ],
+  "homepage": "https://gladiola.codes",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2765,
+    "imported_at": "2026-05-13"
+  }
+}

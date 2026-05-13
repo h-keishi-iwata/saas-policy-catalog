@@ -1,0 +1,19 @@
+{
+  "service_name": "VDX.tv",
+  "vendor": "VDX.tv",
+  "category": "other",
+  "domains": [
+    "vdx.tv"
+  ],
+  "homepage": "https://vdx.tv",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10466,
+    "imported_at": "2026-05-13"
+  }
+}

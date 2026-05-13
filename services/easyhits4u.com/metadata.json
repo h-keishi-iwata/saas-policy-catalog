@@ -1,0 +1,19 @@
+{
+  "service_name": "easyhits4u",
+  "vendor": "easyhits4u",
+  "category": "other",
+  "domains": [
+    "easyhits4u.com"
+  ],
+  "homepage": "https://easyhits4u.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2445,
+    "imported_at": "2026-05-13"
+  }
+}

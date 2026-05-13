@@ -1,0 +1,19 @@
+{
+  "service_name": "kiesproduct.nl",
+  "vendor": "kiesproduct.nl",
+  "category": "other",
+  "domains": [
+    "kiesproduct.nl"
+  ],
+  "homepage": "https://kiesproduct.nl",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3566,
+    "imported_at": "2026-05-13"
+  }
+}

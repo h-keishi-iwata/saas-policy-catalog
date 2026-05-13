@@ -1,0 +1,19 @@
+{
+  "service_name": "Rate House",
+  "vendor": "Rate House",
+  "category": "other",
+  "domains": [
+    "rate.house"
+  ],
+  "homepage": "https://rate.house",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 2,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8589,
+    "imported_at": "2026-05-13"
+  }
+}

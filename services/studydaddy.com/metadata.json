@@ -1,0 +1,19 @@
+{
+  "service_name": "StudyDaddy",
+  "vendor": "StudyDaddy",
+  "category": "other",
+  "domains": [
+    "studydaddy.com"
+  ],
+  "homepage": "https://studydaddy.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3472,
+    "imported_at": "2026-05-13"
+  }
+}

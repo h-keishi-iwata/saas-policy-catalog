@@ -1,0 +1,19 @@
+{
+  "service_name": "FUBAR -Just Give'r",
+  "vendor": "FUBAR -Just Give'r",
+  "category": "other",
+  "domains": [
+    "fubar-themovie.com"
+  ],
+  "homepage": "https://fubar-themovie.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7162,
+    "imported_at": "2026-05-13"
+  }
+}

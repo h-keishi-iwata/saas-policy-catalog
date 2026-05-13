@@ -1,0 +1,19 @@
+{
+  "service_name": "QuadraNet",
+  "vendor": "QuadraNet",
+  "category": "other",
+  "domains": [
+    "quadranet.com"
+  ],
+  "homepage": "https://quadranet.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8256,
+    "imported_at": "2026-05-13"
+  }
+}

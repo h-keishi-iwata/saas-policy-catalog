@@ -1,0 +1,19 @@
+{
+  "service_name": "Frantech",
+  "vendor": "Frantech",
+  "category": "other",
+  "domains": [
+    "frantech.ca"
+  ],
+  "homepage": "https://frantech.ca",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6565,
+    "imported_at": "2026-05-13"
+  }
+}

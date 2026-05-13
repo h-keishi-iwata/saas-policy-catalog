@@ -1,0 +1,19 @@
+{
+  "service_name": "Pole-Emotion",
+  "vendor": "Pole-Emotion",
+  "category": "other",
+  "domains": [
+    "pole-emotion.ch"
+  ],
+  "homepage": "https://pole-emotion.ch",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1455,
+    "imported_at": "2026-05-13"
+  }
+}

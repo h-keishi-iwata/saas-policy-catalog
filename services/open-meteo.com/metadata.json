@@ -1,0 +1,19 @@
+{
+  "service_name": "Open-Meteo",
+  "vendor": "Open-Meteo",
+  "category": "other",
+  "domains": [
+    "open-meteo.com"
+  ],
+  "homepage": "https://open-meteo.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8400,
+    "imported_at": "2026-05-13"
+  }
+}

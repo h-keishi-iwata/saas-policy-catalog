@@ -1,0 +1,19 @@
+{
+  "service_name": "Piratpartiet",
+  "vendor": "Piratpartiet",
+  "category": "other",
+  "domains": [
+    "piratpartiet.no"
+  ],
+  "homepage": "https://www.piratpartiet.no/",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2192,
+    "imported_at": "2026-05-13"
+  }
+}

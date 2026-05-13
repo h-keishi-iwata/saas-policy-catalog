@@ -1,0 +1,19 @@
+{
+  "service_name": "BurialInsurance",
+  "vendor": "BurialInsurance",
+  "category": "other",
+  "domains": [
+    "burialinsurance.com"
+  ],
+  "homepage": "https://burialinsurance.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10789,
+    "imported_at": "2026-05-13"
+  }
+}

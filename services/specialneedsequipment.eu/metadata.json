@@ -1,0 +1,19 @@
+{
+  "service_name": "specialneedsequipment.eu",
+  "vendor": "specialneedsequipment.eu",
+  "category": "other",
+  "domains": [
+    "specialneedsequipment.eu"
+  ],
+  "homepage": "https://specialneedsequipment.eu",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5837,
+    "imported_at": "2026-05-13"
+  }
+}

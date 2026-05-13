@@ -1,0 +1,19 @@
+{
+  "service_name": "openSUSE",
+  "vendor": "openSUSE",
+  "category": "other",
+  "domains": [
+    "opensuse.org"
+  ],
+  "homepage": "https://opensuse.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 2,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4245,
+    "imported_at": "2026-05-13"
+  }
+}

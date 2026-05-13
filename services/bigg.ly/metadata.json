@@ -1,0 +1,19 @@
+{
+  "service_name": "Biggly",
+  "vendor": "Biggly",
+  "category": "other",
+  "domains": [
+    "bigg.ly"
+  ],
+  "homepage": "https://bigg.ly",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6734,
+    "imported_at": "2026-05-13"
+  }
+}

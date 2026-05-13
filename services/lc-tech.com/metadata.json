@@ -1,0 +1,19 @@
+{
+  "service_name": "LC Technology",
+  "vendor": "LC Technology",
+  "category": "other",
+  "domains": [
+    "lc-tech.com"
+  ],
+  "homepage": "https://lc-tech.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6656,
+    "imported_at": "2026-05-13"
+  }
+}

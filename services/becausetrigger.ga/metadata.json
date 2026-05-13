@@ -1,0 +1,19 @@
+{
+  "service_name": "Because Trigger",
+  "vendor": "Because Trigger",
+  "category": "other",
+  "domains": [
+    "becausetrigger.ga"
+  ],
+  "homepage": "https://becausetrigger.ga",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 2,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2934,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Emjysoft",
+  "vendor": "Emjysoft",
+  "category": "other",
+  "domains": [
+    "emjysoft.com"
+  ],
+  "homepage": "https://emjysoft.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8014,
+    "imported_at": "2026-05-13"
+  }
+}

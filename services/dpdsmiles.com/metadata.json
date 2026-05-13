@@ -1,0 +1,19 @@
+{
+  "service_name": "Pediatric Dentistry, Orthodontics & Oral Surgery",
+  "vendor": "Pediatric Dentistry, Orthodontics & Oral Surgery",
+  "category": "other",
+  "domains": [
+    "dpdsmiles.com"
+  ],
+  "homepage": "https://dpdsmiles.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9683,
+    "imported_at": "2026-05-13"
+  }
+}

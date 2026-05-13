@@ -1,0 +1,19 @@
+{
+  "service_name": "ATERA NETWORKS LTD",
+  "vendor": "ATERA NETWORKS LTD",
+  "category": "other",
+  "domains": [
+    "atera.com"
+  ],
+  "homepage": "https://atera.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5319,
+    "imported_at": "2026-05-13"
+  }
+}

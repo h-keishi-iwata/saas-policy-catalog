@@ -1,0 +1,19 @@
+{
+  "service_name": "Mad Hosting",
+  "vendor": "Mad Hosting",
+  "category": "other",
+  "domains": [
+    "madhosting.tech"
+  ],
+  "homepage": "https://madhosting.tech",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6286,
+    "imported_at": "2026-05-13"
+  }
+}

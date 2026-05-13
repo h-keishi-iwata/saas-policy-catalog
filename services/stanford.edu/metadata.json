@@ -1,0 +1,19 @@
+{
+  "service_name": "Stanford University",
+  "vendor": "Stanford University",
+  "category": "other",
+  "domains": [
+    "stanford.edu"
+  ],
+  "homepage": "https://stanford.edu",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3176,
+    "imported_at": "2026-05-13"
+  }
+}

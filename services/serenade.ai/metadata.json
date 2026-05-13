@@ -1,0 +1,19 @@
+{
+  "service_name": "Serenade",
+  "vendor": "Serenade",
+  "category": "other",
+  "domains": [
+    "serenade.ai"
+  ],
+  "homepage": "https://serenade.ai",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3402,
+    "imported_at": "2026-05-13"
+  }
+}

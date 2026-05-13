@@ -1,0 +1,19 @@
+{
+  "service_name": "study.com",
+  "vendor": "study.com",
+  "category": "other",
+  "domains": [
+    "study.com"
+  ],
+  "homepage": "https://study.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7395,
+    "imported_at": "2026-05-13"
+  }
+}

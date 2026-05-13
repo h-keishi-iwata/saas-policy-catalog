@@ -1,0 +1,19 @@
+{
+  "service_name": "CounterMail",
+  "vendor": "CounterMail",
+  "category": "other",
+  "domains": [
+    "countermail.com"
+  ],
+  "homepage": "https://countermail.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2977,
+    "imported_at": "2026-05-13"
+  }
+}

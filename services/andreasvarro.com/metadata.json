@@ -1,0 +1,19 @@
+{
+  "service_name": "Andreas Varro Art",
+  "vendor": "Andreas Varro Art",
+  "category": "other",
+  "domains": [
+    "andreasvarro.com"
+  ],
+  "homepage": "https://andreasvarro.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8792,
+    "imported_at": "2026-05-13"
+  }
+}

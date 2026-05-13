@@ -1,0 +1,19 @@
+{
+  "service_name": "Okay Type",
+  "vendor": "Okay Type",
+  "category": "other",
+  "domains": [
+    "okaytype.com"
+  ],
+  "homepage": "https://okaytype.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7079,
+    "imported_at": "2026-05-13"
+  }
+}

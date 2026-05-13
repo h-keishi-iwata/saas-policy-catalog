@@ -1,0 +1,19 @@
+{
+  "service_name": "American Thinker",
+  "vendor": "American Thinker",
+  "category": "other",
+  "domains": [
+    "americanthinker.com"
+  ],
+  "homepage": "https://americanthinker.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5397,
+    "imported_at": "2026-05-13"
+  }
+}

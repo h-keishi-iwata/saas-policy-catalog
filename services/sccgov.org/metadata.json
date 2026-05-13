@@ -1,0 +1,19 @@
+{
+  "service_name": "County of Santa Clara",
+  "vendor": "County of Santa Clara",
+  "category": "other",
+  "domains": [
+    "sccgov.org"
+  ],
+  "homepage": "https://sccgov.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5040,
+    "imported_at": "2026-05-13"
+  }
+}

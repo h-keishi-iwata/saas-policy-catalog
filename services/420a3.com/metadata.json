@@ -1,0 +1,19 @@
+{
+  "service_name": "420A3.com",
+  "vendor": "420A3.com",
+  "category": "other",
+  "domains": [
+    "420a3.com"
+  ],
+  "homepage": "https://420a3.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1733,
+    "imported_at": "2026-05-13"
+  }
+}

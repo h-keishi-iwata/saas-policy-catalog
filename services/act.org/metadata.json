@@ -1,0 +1,19 @@
+{
+  "service_name": "ACT",
+  "vendor": "ACT",
+  "category": "other",
+  "domains": [
+    "act.org"
+  ],
+  "homepage": "https://act.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4935,
+    "imported_at": "2026-05-13"
+  }
+}

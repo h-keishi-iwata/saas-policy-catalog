@@ -1,0 +1,19 @@
+{
+  "service_name": "The Scrolls of Lankhmar",
+  "vendor": "The Scrolls of Lankhmar",
+  "category": "other",
+  "domains": [
+    "scrollsoflankhmar.com"
+  ],
+  "homepage": "https://scrollsoflankhmar.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3989,
+    "imported_at": "2026-05-13"
+  }
+}

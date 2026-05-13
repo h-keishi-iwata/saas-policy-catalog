@@ -1,0 +1,19 @@
+{
+  "service_name": "BrightAutism",
+  "vendor": "BrightAutism",
+  "category": "other",
+  "domains": [
+    "brightautism.org"
+  ],
+  "homepage": "https://brightautism.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11493,
+    "imported_at": "2026-05-13"
+  }
+}

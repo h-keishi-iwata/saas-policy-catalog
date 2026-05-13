@@ -1,0 +1,19 @@
+{
+  "service_name": "Orthopaedic Trauma Association",
+  "vendor": "Orthopaedic Trauma Association",
+  "category": "other",
+  "domains": [
+    "ota.org"
+  ],
+  "homepage": "https://ota.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3545,
+    "imported_at": "2026-05-13"
+  }
+}

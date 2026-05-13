@@ -1,0 +1,19 @@
+{
+  "service_name": "Weird Gloop Limited",
+  "vendor": "Weird Gloop Limited",
+  "category": "other",
+  "domains": [
+    "minecraft.wiki"
+  ],
+  "homepage": "https://minecraft.wiki",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9905,
+    "imported_at": "2026-05-13"
+  }
+}

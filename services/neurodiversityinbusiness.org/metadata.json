@@ -1,0 +1,19 @@
+{
+  "service_name": "Neurodiversity in Business",
+  "vendor": "Neurodiversity in Business",
+  "category": "other",
+  "domains": [
+    "neurodiversityinbusiness.org"
+  ],
+  "homepage": "https://neurodiversityinbusiness.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11448,
+    "imported_at": "2026-05-13"
+  }
+}

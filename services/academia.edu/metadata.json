@@ -1,0 +1,19 @@
+{
+  "service_name": "Academia.edu",
+  "vendor": "Academia.edu",
+  "category": "other",
+  "domains": [
+    "academia.edu"
+  ],
+  "homepage": "https://academia.edu",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 508,
+    "imported_at": "2026-05-13"
+  }
+}

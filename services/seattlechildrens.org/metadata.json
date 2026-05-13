@@ -1,0 +1,19 @@
+{
+  "service_name": "Seattle Children’s Hospital",
+  "vendor": "Seattle Children’s Hospital",
+  "category": "other",
+  "domains": [
+    "seattlechildrens.org"
+  ],
+  "homepage": "https://seattlechildrens.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11588,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Freelancer",
+  "vendor": "Freelancer",
+  "category": "other",
+  "domains": [
+    "freelancer.com"
+  ],
+  "homepage": "https://freelancer.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6537,
+    "imported_at": "2026-05-13"
+  }
+}

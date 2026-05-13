@@ -1,0 +1,19 @@
+{
+  "service_name": "Cotton Bureau",
+  "vendor": "Cotton Bureau",
+  "category": "other",
+  "domains": [
+    "cottonbureau.com"
+  ],
+  "homepage": "https://cottonbureau.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4670,
+    "imported_at": "2026-05-13"
+  }
+}

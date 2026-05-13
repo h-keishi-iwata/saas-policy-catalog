@@ -1,0 +1,19 @@
+{
+  "service_name": "Hotpot.ai",
+  "vendor": "Hotpot.ai",
+  "category": "other",
+  "domains": [
+    "hotpot.ai"
+  ],
+  "homepage": "https://hotpot.ai",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5452,
+    "imported_at": "2026-05-13"
+  }
+}

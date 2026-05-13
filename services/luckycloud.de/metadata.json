@@ -1,0 +1,19 @@
+{
+  "service_name": "LuckyCloud",
+  "vendor": "LuckyCloud",
+  "category": "other",
+  "domains": [
+    "luckycloud.de"
+  ],
+  "homepage": "https://luckycloud.de",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1698,
+    "imported_at": "2026-05-13"
+  }
+}

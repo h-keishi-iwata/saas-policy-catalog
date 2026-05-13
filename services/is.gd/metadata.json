@@ -1,0 +1,19 @@
+{
+  "service_name": "is.gd",
+  "vendor": "is.gd",
+  "category": "other",
+  "domains": [
+    "is.gd"
+  ],
+  "homepage": "https://is.gd",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7322,
+    "imported_at": "2026-05-13"
+  }
+}

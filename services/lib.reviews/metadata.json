@@ -1,0 +1,19 @@
+{
+  "service_name": "lib.reviews",
+  "vendor": "lib.reviews",
+  "category": "other",
+  "domains": [
+    "lib.reviews"
+  ],
+  "homepage": "https://lib.reviews",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2309,
+    "imported_at": "2026-05-13"
+  }
+}

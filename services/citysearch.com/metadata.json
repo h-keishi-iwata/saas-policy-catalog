@@ -1,0 +1,19 @@
+{
+  "service_name": "citysearch",
+  "vendor": "citysearch",
+  "category": "other",
+  "domains": [
+    "citysearch.com"
+  ],
+  "homepage": "https://citysearch.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8868,
+    "imported_at": "2026-05-13"
+  }
+}

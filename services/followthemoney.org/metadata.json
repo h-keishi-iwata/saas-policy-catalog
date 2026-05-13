@@ -1,0 +1,19 @@
+{
+  "service_name": "FollowTheMoney.org",
+  "vendor": "FollowTheMoney.org",
+  "category": "other",
+  "domains": [
+    "followthemoney.org"
+  ],
+  "homepage": "https://followthemoney.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8759,
+    "imported_at": "2026-05-13"
+  }
+}

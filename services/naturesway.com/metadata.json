@@ -1,0 +1,19 @@
+{
+  "service_name": "Nature's Way Brands",
+  "vendor": "Nature's Way Brands",
+  "category": "other",
+  "domains": [
+    "naturesway.com"
+  ],
+  "homepage": "https://naturesway.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8769,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "TimelyBills",
+  "vendor": "TimelyBills",
+  "category": "other",
+  "domains": [
+    "timelybills.app"
+  ],
+  "homepage": "https://timelybills.app",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8065,
+    "imported_at": "2026-05-13"
+  }
+}

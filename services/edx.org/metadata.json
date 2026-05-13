@@ -1,0 +1,19 @@
+{
+  "service_name": "EdX",
+  "vendor": "EdX",
+  "category": "other",
+  "domains": [
+    "edx.org"
+  ],
+  "homepage": "https://edx.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 632,
+    "imported_at": "2026-05-13"
+  }
+}

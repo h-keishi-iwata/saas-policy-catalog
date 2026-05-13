@@ -1,0 +1,19 @@
+{
+  "service_name": "MDPI",
+  "vendor": "MDPI",
+  "category": "other",
+  "domains": [
+    "mdpi.com"
+  ],
+  "homepage": "https://mdpi.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6795,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Slipfox Network Suite",
+  "vendor": "Slipfox Network Suite",
+  "category": "other",
+  "domains": [
+    "slipfox.xyz"
+  ],
+  "homepage": "https://slipfox.xyz",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7240,
+    "imported_at": "2026-05-13"
+  }
+}

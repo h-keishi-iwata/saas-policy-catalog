@@ -1,0 +1,19 @@
+{
+  "service_name": "Metroid Wiki",
+  "vendor": "Metroid Wiki",
+  "category": "other",
+  "domains": [
+    "metroidwiki.org"
+  ],
+  "homepage": "https://metroidwiki.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9807,
+    "imported_at": "2026-05-13"
+  }
+}

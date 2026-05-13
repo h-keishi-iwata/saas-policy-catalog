@@ -1,0 +1,19 @@
+{
+  "service_name": "lookout",
+  "vendor": "lookout",
+  "category": "other",
+  "domains": [
+    "lookout.com"
+  ],
+  "homepage": "https://lookout.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7716,
+    "imported_at": "2026-05-13"
+  }
+}

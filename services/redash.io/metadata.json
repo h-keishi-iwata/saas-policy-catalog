@@ -1,0 +1,19 @@
+{
+  "service_name": "Redash",
+  "vendor": "Redash",
+  "category": "other",
+  "domains": [
+    "redash.io"
+  ],
+  "homepage": "https://redash.io",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7360,
+    "imported_at": "2026-05-13"
+  }
+}

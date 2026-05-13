@@ -1,0 +1,19 @@
+{
+  "service_name": "ARRL The National Association for Amateur Radio",
+  "vendor": "ARRL The National Association for Amateur Radio",
+  "category": "other",
+  "domains": [
+    "arrl.org"
+  ],
+  "homepage": "https://arrl.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11362,
+    "imported_at": "2026-05-13"
+  }
+}

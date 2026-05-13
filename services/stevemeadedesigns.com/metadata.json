@@ -1,0 +1,19 @@
+{
+  "service_name": "Steve Meade Designs",
+  "vendor": "Steve Meade Designs",
+  "category": "other",
+  "domains": [
+    "stevemeadedesigns.com"
+  ],
+  "homepage": "https://stevemeadedesigns.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8130,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Mensaje de Silo",
+  "vendor": "Mensaje de Silo",
+  "category": "other",
+  "domains": [
+    "mensajedesilo.es"
+  ],
+  "homepage": "https://mensajedesilo.es",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9017,
+    "imported_at": "2026-05-13"
+  }
+}

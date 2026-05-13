@@ -1,0 +1,19 @@
+{
+  "service_name": "Bitcoin Project",
+  "vendor": "Bitcoin Project",
+  "category": "other",
+  "domains": [
+    "bitcoin.org"
+  ],
+  "homepage": "https://bitcoin.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2851,
+    "imported_at": "2026-05-13"
+  }
+}

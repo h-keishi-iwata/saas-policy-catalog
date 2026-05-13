@@ -1,0 +1,19 @@
+{
+  "service_name": "Hybrid Theory",
+  "vendor": "Hybrid Theory",
+  "category": "other",
+  "domains": [
+    "hybridtheory.com"
+  ],
+  "homepage": "https://hybridtheory.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3760,
+    "imported_at": "2026-05-13"
+  }
+}

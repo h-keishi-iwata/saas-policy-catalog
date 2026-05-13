@@ -1,0 +1,19 @@
+{
+  "service_name": "Fat Brain Toys",
+  "vendor": "Fat Brain Toys",
+  "category": "other",
+  "domains": [
+    "fatbraintoys.com"
+  ],
+  "homepage": "https://fatbraintoys.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11545,
+    "imported_at": "2026-05-13"
+  }
+}

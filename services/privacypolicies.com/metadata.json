@@ -1,0 +1,19 @@
+{
+  "service_name": "privacypolicies.com",
+  "vendor": "privacypolicies.com",
+  "category": "other",
+  "domains": [
+    "privacypolicies.com"
+  ],
+  "homepage": "https://privacypolicies.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 2,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5272,
+    "imported_at": "2026-05-13"
+  }
+}

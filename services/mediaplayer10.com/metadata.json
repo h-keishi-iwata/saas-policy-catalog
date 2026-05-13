@@ -1,0 +1,19 @@
+{
+  "service_name": "mediaplayer10",
+  "vendor": "mediaplayer10",
+  "category": "other",
+  "domains": [
+    "mediaplayer10.com"
+  ],
+  "homepage": "https://mediaplayer10.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3289,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Network18 Media and Investments",
+  "vendor": "Network18 Media and Investments",
+  "category": "other",
+  "domains": [
+    "news18.com"
+  ],
+  "homepage": "https://news18.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8808,
+    "imported_at": "2026-05-13"
+  }
+}

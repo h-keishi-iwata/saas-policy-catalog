@@ -1,0 +1,19 @@
+{
+  "service_name": "CHRO",
+  "vendor": "CHRO",
+  "category": "other",
+  "domains": [
+    "chroseries.com"
+  ],
+  "homepage": "https://chroseries.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9709,
+    "imported_at": "2026-05-13"
+  }
+}

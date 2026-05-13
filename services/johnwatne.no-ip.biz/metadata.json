@@ -1,0 +1,19 @@
+{
+  "service_name": "Watne Household Site",
+  "vendor": "Watne Household Site",
+  "category": "other",
+  "domains": [
+    "johnwatne.no-ip.biz"
+  ],
+  "homepage": "https://johnwatne.no-ip.biz",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4805,
+    "imported_at": "2026-05-13"
+  }
+}

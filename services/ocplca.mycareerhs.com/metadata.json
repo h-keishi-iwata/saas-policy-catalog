@@ -1,0 +1,19 @@
+{
+  "service_name": "OC Public Libraries Career Online High School",
+  "vendor": "OC Public Libraries Career Online High School",
+  "category": "other",
+  "domains": [
+    "ocplca.mycareerhs.com"
+  ],
+  "homepage": "https://ocplca.mycareerhs.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10083,
+    "imported_at": "2026-05-13"
+  }
+}

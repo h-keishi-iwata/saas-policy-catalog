@@ -1,0 +1,19 @@
+{
+  "service_name": "The Daily Upside",
+  "vendor": "The Daily Upside",
+  "category": "other",
+  "domains": [
+    "thedailyupside.com"
+  ],
+  "homepage": "https://thedailyupside.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6560,
+    "imported_at": "2026-05-13"
+  }
+}

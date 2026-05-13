@@ -1,0 +1,19 @@
+{
+  "service_name": "From PDF To DOC",
+  "vendor": "From PDF To DOC",
+  "category": "other",
+  "domains": [
+    "frompdftodoc.com"
+  ],
+  "homepage": "https://frompdftodoc.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11078,
+    "imported_at": "2026-05-13"
+  }
+}

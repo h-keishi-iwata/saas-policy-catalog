@@ -1,0 +1,19 @@
+{
+  "service_name": "Vanilla.Gift",
+  "vendor": "Vanilla.Gift",
+  "category": "other",
+  "domains": [
+    "vanillagift.com"
+  ],
+  "homepage": "https://vanillagift.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2625,
+    "imported_at": "2026-05-13"
+  }
+}

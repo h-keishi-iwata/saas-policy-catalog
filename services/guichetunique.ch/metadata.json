@@ -1,0 +1,19 @@
+{
+  "service_name": "Guichet unique des collectivités publiques neuchâteloise",
+  "vendor": "Guichet unique des collectivités publiques neuchâteloise",
+  "category": "other",
+  "domains": [
+    "guichetunique.ch"
+  ],
+  "homepage": "https://guichetunique.ch",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11519,
+    "imported_at": "2026-05-13"
+  }
+}

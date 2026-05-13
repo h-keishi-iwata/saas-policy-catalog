@@ -1,0 +1,19 @@
+{
+  "service_name": "Defense Advanced Research Projects Agency",
+  "vendor": "Defense Advanced Research Projects Agency",
+  "category": "other",
+  "domains": [
+    "darpa.mil"
+  ],
+  "homepage": "https://darpa.mil",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4545,
+    "imported_at": "2026-05-13"
+  }
+}

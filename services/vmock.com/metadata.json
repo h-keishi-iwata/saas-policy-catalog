@@ -1,0 +1,19 @@
+{
+  "service_name": "VMock",
+  "vendor": "VMock",
+  "category": "other",
+  "domains": [
+    "vmock.com"
+  ],
+  "homepage": "https://vmock.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6878,
+    "imported_at": "2026-05-13"
+  }
+}

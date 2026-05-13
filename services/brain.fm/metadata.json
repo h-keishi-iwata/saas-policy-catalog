@@ -1,0 +1,19 @@
+{
+  "service_name": "Brain.fm",
+  "vendor": "Brain.fm",
+  "category": "other",
+  "domains": [
+    "brain.fm"
+  ],
+  "homepage": "https://brain.fm",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1379,
+    "imported_at": "2026-05-13"
+  }
+}

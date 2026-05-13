@@ -1,0 +1,19 @@
+{
+  "service_name": "University of Calgary",
+  "vendor": "University of Calgary",
+  "category": "other",
+  "domains": [
+    "ucalgary.ca"
+  ],
+  "homepage": "https://ucalgary.ca",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10159,
+    "imported_at": "2026-05-13"
+  }
+}

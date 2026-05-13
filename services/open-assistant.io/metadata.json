@@ -1,0 +1,19 @@
+{
+  "service_name": "Open Assistant",
+  "vendor": "Open Assistant",
+  "category": "other",
+  "domains": [
+    "open-assistant.io"
+  ],
+  "homepage": "https://open-assistant.io",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7362,
+    "imported_at": "2026-05-13"
+  }
+}

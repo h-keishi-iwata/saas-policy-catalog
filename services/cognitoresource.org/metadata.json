@@ -1,0 +1,19 @@
+{
+  "service_name": "Cognito",
+  "vendor": "Cognito",
+  "category": "other",
+  "domains": [
+    "cognitoresource.org"
+  ],
+  "homepage": "https://cognitoresource.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10176,
+    "imported_at": "2026-05-13"
+  }
+}

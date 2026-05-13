@@ -1,0 +1,19 @@
+{
+  "service_name": "UCLA",
+  "vendor": "UCLA",
+  "category": "other",
+  "domains": [
+    "ucla.edu"
+  ],
+  "homepage": "https://ucla.edu",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4047,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Swisscows.email",
+  "vendor": "Swisscows.email",
+  "category": "other",
+  "domains": [
+    "swisscows.email"
+  ],
+  "homepage": "https://swisscows.email",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9307,
+    "imported_at": "2026-05-13"
+  }
+}

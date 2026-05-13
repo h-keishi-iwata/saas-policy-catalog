@@ -1,0 +1,19 @@
+{
+  "service_name": "TextMe",
+  "vendor": "TextMe",
+  "category": "other",
+  "domains": [
+    "go-text.me"
+  ],
+  "homepage": "https://go-text.me",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8918,
+    "imported_at": "2026-05-13"
+  }
+}

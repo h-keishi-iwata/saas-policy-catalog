@@ -1,0 +1,19 @@
+{
+  "service_name": "General Assembly",
+  "vendor": "General Assembly",
+  "category": "other",
+  "domains": [
+    "generalassemb.ly"
+  ],
+  "homepage": "https://generalassemb.ly",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6961,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "99math",
+  "vendor": "99math",
+  "category": "other",
+  "domains": [
+    "99math.com"
+  ],
+  "homepage": "https://99math.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10347,
+    "imported_at": "2026-05-13"
+  }
+}

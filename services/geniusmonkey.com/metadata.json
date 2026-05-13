@@ -1,0 +1,19 @@
+{
+  "service_name": "Genius Monkey",
+  "vendor": "Genius Monkey",
+  "category": "other",
+  "domains": [
+    "geniusmonkey.com"
+  ],
+  "homepage": "https://geniusmonkey.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4173,
+    "imported_at": "2026-05-13"
+  }
+}

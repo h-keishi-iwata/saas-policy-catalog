@@ -1,0 +1,19 @@
+{
+  "service_name": "Check Point Software Technologies Ltd",
+  "vendor": "Check Point Software Technologies Ltd",
+  "category": "other",
+  "domains": [
+    "checkpoint.com"
+  ],
+  "homepage": "https://checkpoint.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7943,
+    "imported_at": "2026-05-13"
+  }
+}

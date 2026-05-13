@@ -1,0 +1,19 @@
+{
+  "service_name": "MetaMask",
+  "vendor": "MetaMask",
+  "category": "other",
+  "domains": [
+    "metamask.io"
+  ],
+  "homepage": "https://metamask.io",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2764,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Timer for Google Forms",
+  "vendor": "Timer for Google Forms",
+  "category": "other",
+  "domains": [
+    "form-timer.com"
+  ],
+  "homepage": "https://form-timer.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5134,
+    "imported_at": "2026-05-13"
+  }
+}

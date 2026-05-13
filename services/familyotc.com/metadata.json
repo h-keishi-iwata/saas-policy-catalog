@@ -1,0 +1,19 @@
+{
+  "service_name": "FamilyOTC",
+  "vendor": "FamilyOTC",
+  "category": "other",
+  "domains": [
+    "familyotc.com"
+  ],
+  "homepage": "https://familyotc.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7170,
+    "imported_at": "2026-05-13"
+  }
+}

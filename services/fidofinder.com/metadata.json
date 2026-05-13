@@ -1,0 +1,19 @@
+{
+  "service_name": "32nd Degree",
+  "vendor": "32nd Degree",
+  "category": "other",
+  "domains": [
+    "fidofinder.com"
+  ],
+  "homepage": "https://fidofinder.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4580,
+    "imported_at": "2026-05-13"
+  }
+}

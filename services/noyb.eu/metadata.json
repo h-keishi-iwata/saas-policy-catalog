@@ -1,0 +1,19 @@
+{
+  "service_name": "None of Your Business",
+  "vendor": "None of Your Business",
+  "category": "other",
+  "domains": [
+    "noyb.eu"
+  ],
+  "homepage": "https://noyb.eu",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4960,
+    "imported_at": "2026-05-13"
+  }
+}

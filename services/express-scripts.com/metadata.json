@@ -1,0 +1,19 @@
+{
+  "service_name": "Express Scripts",
+  "vendor": "Express Scripts",
+  "category": "other",
+  "domains": [
+    "express-scripts.com"
+  ],
+  "homepage": "https://express-scripts.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9417,
+    "imported_at": "2026-05-13"
+  }
+}

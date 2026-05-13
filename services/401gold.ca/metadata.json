@@ -1,0 +1,19 @@
+{
+  "service_name": "401Gold Inc",
+  "vendor": "401Gold Inc",
+  "category": "other",
+  "domains": [
+    "401gold.ca"
+  ],
+  "homepage": "https://401gold.ca",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6415,
+    "imported_at": "2026-05-13"
+  }
+}

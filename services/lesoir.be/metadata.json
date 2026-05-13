@@ -1,0 +1,19 @@
+{
+  "service_name": "Le Soir",
+  "vendor": "Le Soir",
+  "category": "other",
+  "domains": [
+    "lesoir.be"
+  ],
+  "homepage": "https://lesoir.be",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2136,
+    "imported_at": "2026-05-13"
+  }
+}

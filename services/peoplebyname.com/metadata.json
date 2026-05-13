@@ -1,0 +1,19 @@
+{
+  "service_name": "People by name",
+  "vendor": "People by name",
+  "category": "other",
+  "domains": [
+    "peoplebyname.com"
+  ],
+  "homepage": "https://peoplebyname.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2899,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Fluxer",
+  "vendor": "Fluxer",
+  "category": "other",
+  "domains": [
+    "fluxer.app"
+  ],
+  "homepage": "https://fluxer.app",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11685,
+    "imported_at": "2026-05-13"
+  }
+}

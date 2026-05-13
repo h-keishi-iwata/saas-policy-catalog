@@ -1,0 +1,19 @@
+{
+  "service_name": "AutismDate",
+  "vendor": "AutismDate",
+  "category": "other",
+  "domains": [
+    "autismdate.com"
+  ],
+  "homepage": "https://autismdate.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7911,
+    "imported_at": "2026-05-13"
+  }
+}

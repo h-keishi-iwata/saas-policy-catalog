@@ -1,0 +1,19 @@
+{
+  "service_name": "Dr. Jansen-Walter",
+  "vendor": "Dr. Jansen-Walter",
+  "category": "other",
+  "domains": [
+    "susanne-jansen-walter.org"
+  ],
+  "homepage": "https://susanne-jansen-walter.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4602,
+    "imported_at": "2026-05-13"
+  }
+}

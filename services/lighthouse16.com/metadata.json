@@ -1,0 +1,19 @@
+{
+  "service_name": "Lighthouse16",
+  "vendor": "Lighthouse16",
+  "category": "other",
+  "domains": [
+    "lighthouse16.com"
+  ],
+  "homepage": "https://lighthouse16.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 2,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6559,
+    "imported_at": "2026-05-13"
+  }
+}

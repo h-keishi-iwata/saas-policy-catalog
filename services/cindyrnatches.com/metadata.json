@@ -1,0 +1,19 @@
+{
+  "service_name": "CindyMatches",
+  "vendor": "CindyMatches",
+  "category": "other",
+  "domains": [
+    "cindyrnatches.com"
+  ],
+  "homepage": "https://cindyrnatches.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8342,
+    "imported_at": "2026-05-13"
+  }
+}

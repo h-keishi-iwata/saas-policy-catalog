@@ -1,0 +1,19 @@
+{
+  "service_name": "Lucidia Learning",
+  "vendor": "Lucidia Learning",
+  "category": "other",
+  "domains": [
+    "lucidialearning.com"
+  ],
+  "homepage": "https://lucidialearning.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2524,
+    "imported_at": "2026-05-13"
+  }
+}

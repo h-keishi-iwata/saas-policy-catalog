@@ -1,0 +1,19 @@
+{
+  "service_name": "Net Ease Games",
+  "vendor": "Net Ease Games",
+  "category": "other",
+  "domains": [
+    "neteasegames.com"
+  ],
+  "homepage": "https://neteasegames.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10925,
+    "imported_at": "2026-05-13"
+  }
+}

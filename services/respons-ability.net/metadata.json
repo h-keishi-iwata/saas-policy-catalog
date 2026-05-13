@@ -1,0 +1,19 @@
+{
+  "service_name": "Digital Respons-Ability",
+  "vendor": "Digital Respons-Ability",
+  "category": "other",
+  "domains": [
+    "respons-ability.net"
+  ],
+  "homepage": "https://respons-ability.net",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4669,
+    "imported_at": "2026-05-13"
+  }
+}

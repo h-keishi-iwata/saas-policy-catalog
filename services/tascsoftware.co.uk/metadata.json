@@ -1,0 +1,19 @@
+{
+  "service_name": "TASC Software",
+  "vendor": "TASC Software",
+  "category": "other",
+  "domains": [
+    "tascsoftware.co.uk"
+  ],
+  "homepage": "https://tascsoftware.co.uk",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10039,
+    "imported_at": "2026-05-13"
+  }
+}

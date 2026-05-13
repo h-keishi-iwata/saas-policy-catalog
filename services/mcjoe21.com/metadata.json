@@ -1,0 +1,19 @@
+{
+  "service_name": "McJoe21",
+  "vendor": "McJoe21",
+  "category": "other",
+  "domains": [
+    "mcjoe21.com"
+  ],
+  "homepage": "https://mcjoe21.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4858,
+    "imported_at": "2026-05-13"
+  }
+}

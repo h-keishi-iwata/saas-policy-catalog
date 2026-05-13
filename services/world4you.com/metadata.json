@@ -1,0 +1,19 @@
+{
+  "service_name": "World4You",
+  "vendor": "World4You",
+  "category": "other",
+  "domains": [
+    "world4you.com"
+  ],
+  "homepage": "https://world4you.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9633,
+    "imported_at": "2026-05-13"
+  }
+}

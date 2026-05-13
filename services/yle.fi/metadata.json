@@ -1,0 +1,19 @@
+{
+  "service_name": "Yleisradio",
+  "vendor": "Yleisradio",
+  "category": "other",
+  "domains": [
+    "yle.fi"
+  ],
+  "homepage": "https://yle.fi",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3580,
+    "imported_at": "2026-05-13"
+  }
+}

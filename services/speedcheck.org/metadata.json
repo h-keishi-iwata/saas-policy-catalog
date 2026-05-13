@@ -1,0 +1,19 @@
+{
+  "service_name": "Speedcheck",
+  "vendor": "Speedcheck",
+  "category": "other",
+  "domains": [
+    "speedcheck.org"
+  ],
+  "homepage": "https://speedcheck.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8266,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "IVAR’S",
+  "vendor": "IVAR’S",
+  "category": "other",
+  "domains": [
+    "ivars.com"
+  ],
+  "homepage": "https://ivars.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9781,
+    "imported_at": "2026-05-13"
+  }
+}

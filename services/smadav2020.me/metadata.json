@@ -1,0 +1,19 @@
+{
+  "service_name": "smadav2020.me",
+  "vendor": "smadav2020.me",
+  "category": "other",
+  "domains": [
+    "smadav2020.me"
+  ],
+  "homepage": "https://smadav2020.me",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6859,
+    "imported_at": "2026-05-13"
+  }
+}

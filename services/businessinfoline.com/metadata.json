@@ -1,0 +1,19 @@
+{
+  "service_name": "BusinessInfoline",
+  "vendor": "BusinessInfoline",
+  "category": "other",
+  "domains": [
+    "businessinfoline.com"
+  ],
+  "homepage": "https://businessinfoline.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5944,
+    "imported_at": "2026-05-13"
+  }
+}

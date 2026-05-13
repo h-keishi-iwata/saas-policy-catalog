@@ -1,0 +1,19 @@
+{
+  "service_name": "DEPRECATED #69",
+  "vendor": "DEPRECATED #69",
+  "category": "other",
+  "domains": [
+    "deprecated.69"
+  ],
+  "homepage": "https://deprecated.69",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10766,
+    "imported_at": "2026-05-13"
+  }
+}

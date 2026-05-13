@@ -1,0 +1,19 @@
+{
+  "service_name": "Specialty Eye",
+  "vendor": "Specialty Eye",
+  "category": "other",
+  "domains": [
+    "specialtyeye.com"
+  ],
+  "homepage": "https://specialtyeye.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11204,
+    "imported_at": "2026-05-13"
+  }
+}

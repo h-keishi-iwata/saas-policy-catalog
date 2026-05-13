@@ -1,0 +1,19 @@
+{
+  "service_name": "SIMA Academy",
+  "vendor": "SIMA Academy",
+  "category": "other",
+  "domains": [
+    "simaacademy.tv"
+  ],
+  "homepage": "https://simaacademy.tv",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10498,
+    "imported_at": "2026-05-13"
+  }
+}

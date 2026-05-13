@@ -1,0 +1,19 @@
+{
+  "service_name": "United Way of Greater Milwaukee & Waukesha County",
+  "vendor": "United Way of Greater Milwaukee & Waukesha County",
+  "category": "other",
+  "domains": [
+    "unitedwaygmwc.org"
+  ],
+  "homepage": "https://unitedwaygmwc.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6883,
+    "imported_at": "2026-05-13"
+  }
+}

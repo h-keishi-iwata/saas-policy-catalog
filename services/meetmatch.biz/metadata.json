@@ -1,0 +1,19 @@
+{
+  "service_name": "MeetMatch",
+  "vendor": "MeetMatch",
+  "category": "other",
+  "domains": [
+    "meetmatch.biz"
+  ],
+  "homepage": "https://meetmatch.biz",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6616,
+    "imported_at": "2026-05-13"
+  }
+}

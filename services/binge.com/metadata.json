@@ -1,0 +1,19 @@
+{
+  "service_name": "Binge.com",
+  "vendor": "Binge.com",
+  "category": "other",
+  "domains": [
+    "binge.com"
+  ],
+  "homepage": "https://binge.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11306,
+    "imported_at": "2026-05-13"
+  }
+}

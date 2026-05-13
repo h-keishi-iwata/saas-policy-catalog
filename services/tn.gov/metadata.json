@@ -1,0 +1,19 @@
+{
+  "service_name": "Tennessee State Government",
+  "vendor": "Tennessee State Government",
+  "category": "other",
+  "domains": [
+    "tn.gov"
+  ],
+  "homepage": "https://tn.gov",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10122,
+    "imported_at": "2026-05-13"
+  }
+}

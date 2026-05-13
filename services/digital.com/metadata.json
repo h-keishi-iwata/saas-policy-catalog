@@ -1,0 +1,19 @@
+{
+  "service_name": "Digital",
+  "vendor": "Digital",
+  "category": "other",
+  "domains": [
+    "digital.com"
+  ],
+  "homepage": "https://digital.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 888,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Pure (Dating App)",
+  "vendor": "Pure (Dating App)",
+  "category": "other",
+  "domains": [
+    "pure.app"
+  ],
+  "homepage": "https://pure.app",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4185,
+    "imported_at": "2026-05-13"
+  }
+}

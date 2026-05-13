@@ -1,0 +1,19 @@
+{
+  "service_name": "Grabcraft",
+  "vendor": "Grabcraft",
+  "category": "other",
+  "domains": [
+    "grabcraft.com"
+  ],
+  "homepage": "https://www.grabcraft.com/",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1615,
+    "imported_at": "2026-05-13"
+  }
+}

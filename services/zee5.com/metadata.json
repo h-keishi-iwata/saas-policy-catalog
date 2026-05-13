@@ -1,0 +1,19 @@
+{
+  "service_name": "ZEE5",
+  "vendor": "ZEE5",
+  "category": "other",
+  "domains": [
+    "zee5.com"
+  ],
+  "homepage": "https://zee5.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8197,
+    "imported_at": "2026-05-13"
+  }
+}

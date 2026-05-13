@@ -1,0 +1,19 @@
+{
+  "service_name": "5PLAY",
+  "vendor": "5PLAY",
+  "category": "other",
+  "domains": [
+    "5play.org"
+  ],
+  "homepage": "https://5play.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9915,
+    "imported_at": "2026-05-13"
+  }
+}

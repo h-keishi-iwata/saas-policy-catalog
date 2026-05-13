@@ -1,0 +1,19 @@
+{
+  "service_name": "F-List",
+  "vendor": "F-List",
+  "category": "other",
+  "domains": [
+    "f-list.net"
+  ],
+  "homepage": "https://f-list.net",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 390,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Rogers Corporation",
+  "vendor": "Rogers Corporation",
+  "category": "other",
+  "domains": [
+    "rogers.com"
+  ],
+  "homepage": "https://rogers.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10660,
+    "imported_at": "2026-05-13"
+  }
+}

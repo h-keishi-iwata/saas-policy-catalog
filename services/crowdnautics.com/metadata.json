@@ -1,0 +1,19 @@
+{
+  "service_name": "CashCamel",
+  "vendor": "CashCamel",
+  "category": "other",
+  "domains": [
+    "crowdnautics.com"
+  ],
+  "homepage": "https://crowdnautics.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4990,
+    "imported_at": "2026-05-13"
+  }
+}

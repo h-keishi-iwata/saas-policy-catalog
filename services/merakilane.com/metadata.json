@@ -1,0 +1,19 @@
+{
+  "service_name": "Meraki Lane",
+  "vendor": "Meraki Lane",
+  "category": "other",
+  "domains": [
+    "merakilane.com"
+  ],
+  "homepage": "https://merakilane.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7833,
+    "imported_at": "2026-05-13"
+  }
+}

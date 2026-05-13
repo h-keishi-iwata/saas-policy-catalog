@@ -1,0 +1,19 @@
+{
+  "service_name": "Plus Telecom",
+  "vendor": "Plus Telecom",
+  "category": "other",
+  "domains": [
+    "plustelecom.com"
+  ],
+  "homepage": "https://plustelecom.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11119,
+    "imported_at": "2026-05-13"
+  }
+}

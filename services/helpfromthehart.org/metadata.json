@@ -1,0 +1,19 @@
+{
+  "service_name": "Help From The Hart Charity",
+  "vendor": "Help From The Hart Charity",
+  "category": "other",
+  "domains": [
+    "helpfromthehart.org"
+  ],
+  "homepage": "https://helpfromthehart.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9189,
+    "imported_at": "2026-05-13"
+  }
+}

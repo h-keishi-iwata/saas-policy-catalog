@@ -1,0 +1,19 @@
+{
+  "service_name": "Attain By Aetna",
+  "vendor": "Attain By Aetna",
+  "category": "other",
+  "domains": [
+    "attainbyaetna.com"
+  ],
+  "homepage": "https://attainbyaetna.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1623,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Pima Medical Institute",
+  "vendor": "Pima Medical Institute",
+  "category": "other",
+  "domains": [
+    "pmi.edu"
+  ],
+  "homepage": "https://pmi.edu",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4503,
+    "imported_at": "2026-05-13"
+  }
+}

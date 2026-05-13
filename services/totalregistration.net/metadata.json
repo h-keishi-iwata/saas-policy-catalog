@@ -1,0 +1,19 @@
+{
+  "service_name": "Total Registration",
+  "vendor": "Total Registration",
+  "category": "other",
+  "domains": [
+    "totalregistration.net"
+  ],
+  "homepage": "https://totalregistration.net",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6580,
+    "imported_at": "2026-05-13"
+  }
+}

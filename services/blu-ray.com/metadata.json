@@ -1,0 +1,19 @@
+{
+  "service_name": "Blu-ray.com",
+  "vendor": "Blu-ray.com",
+  "category": "other",
+  "domains": [
+    "blu-ray.com"
+  ],
+  "homepage": "https://blu-ray.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2631,
+    "imported_at": "2026-05-13"
+  }
+}

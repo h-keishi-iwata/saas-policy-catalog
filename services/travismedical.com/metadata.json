@@ -1,0 +1,19 @@
+{
+  "service_name": "Travis Medical Sales Corporation",
+  "vendor": "Travis Medical Sales Corporation",
+  "category": "other",
+  "domains": [
+    "travismedical.com"
+  ],
+  "homepage": "https://travismedical.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10594,
+    "imported_at": "2026-05-13"
+  }
+}

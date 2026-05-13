@@ -1,0 +1,19 @@
+{
+  "service_name": "ADS-B Exchange",
+  "vendor": "ADS-B Exchange",
+  "category": "other",
+  "domains": [
+    "adsbexchange.com"
+  ],
+  "homepage": "https://adsbexchange.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7176,
+    "imported_at": "2026-05-13"
+  }
+}

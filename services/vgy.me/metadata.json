@@ -1,0 +1,19 @@
+{
+  "service_name": "vgy.me",
+  "vendor": "vgy.me",
+  "category": "other",
+  "domains": [
+    "vgy.me"
+  ],
+  "homepage": "https://vgy.me",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9172,
+    "imported_at": "2026-05-13"
+  }
+}

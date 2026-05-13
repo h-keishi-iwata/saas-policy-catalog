@@ -1,0 +1,19 @@
+{
+  "service_name": "Evidence Based Decision Making in Critical Care Medicine",
+  "vendor": "Evidence Based Decision Making in Critical Care Medicine",
+  "category": "other",
+  "domains": [
+    "evidencebased.net"
+  ],
+  "homepage": "https://evidencebased.net",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8356,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Half-Life Project Beta (hl2-beta.ru)",
+  "vendor": "Half-Life Project Beta (hl2-beta.ru)",
+  "category": "other",
+  "domains": [
+    "hl2-beta.ru"
+  ],
+  "homepage": "https://hl2-beta.ru",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2632,
+    "imported_at": "2026-05-13"
+  }
+}

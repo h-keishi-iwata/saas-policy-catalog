@@ -1,0 +1,19 @@
+{
+  "service_name": "1440 Media",
+  "vendor": "1440 Media",
+  "category": "other",
+  "domains": [
+    "join1440.com"
+  ],
+  "homepage": "https://join1440.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6279,
+    "imported_at": "2026-05-13"
+  }
+}

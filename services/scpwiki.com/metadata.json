@@ -1,0 +1,19 @@
+{
+  "service_name": "SCP Wiki (Wikidot)",
+  "vendor": "SCP Wiki (Wikidot)",
+  "category": "other",
+  "domains": [
+    "scpwiki.com"
+  ],
+  "homepage": "https://scpwiki.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3209,
+    "imported_at": "2026-05-13"
+  }
+}

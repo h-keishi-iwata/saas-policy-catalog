@@ -1,0 +1,19 @@
+{
+  "service_name": "Academy of Dental Learning and OSHA Training",
+  "vendor": "Academy of Dental Learning and OSHA Training",
+  "category": "other",
+  "domains": [
+    "dentallearning.org"
+  ],
+  "homepage": "https://dentallearning.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9861,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Framework",
+  "vendor": "Framework",
+  "category": "other",
+  "domains": [
+    "frame.work"
+  ],
+  "homepage": "https://frame.work",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5408,
+    "imported_at": "2026-05-13"
+  }
+}

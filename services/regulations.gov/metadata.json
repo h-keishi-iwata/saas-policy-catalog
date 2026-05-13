@@ -1,0 +1,19 @@
+{
+  "service_name": "Regulations.gov",
+  "vendor": "Regulations.gov",
+  "category": "other",
+  "domains": [
+    "regulations.gov"
+  ],
+  "homepage": "https://regulations.gov",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7871,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "NordPass Experts Group",
+  "vendor": "NordPass Experts Group",
+  "category": "other",
+  "domains": [
+    "expertsnordpasss.blogspot.com"
+  ],
+  "homepage": "https://expertsnordpasss.blogspot.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 2,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2015,
+    "imported_at": "2026-05-13"
+  }
+}

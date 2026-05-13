@@ -1,0 +1,19 @@
+{
+  "service_name": "private.coffee",
+  "vendor": "private.coffee",
+  "category": "other",
+  "domains": [
+    "private.coffee"
+  ],
+  "homepage": "https://private.coffee",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8819,
+    "imported_at": "2026-05-13"
+  }
+}

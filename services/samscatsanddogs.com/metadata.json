@@ -1,0 +1,19 @@
+{
+  "service_name": "Sam's Cats & Dogs",
+  "vendor": "Sam's Cats & Dogs",
+  "category": "other",
+  "domains": [
+    "samscatsanddogs.com"
+  ],
+  "homepage": "https://samscatsanddogs.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10430,
+    "imported_at": "2026-05-13"
+  }
+}

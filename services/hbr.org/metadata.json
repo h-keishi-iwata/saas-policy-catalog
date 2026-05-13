@@ -1,0 +1,19 @@
+{
+  "service_name": "Harvard Business Publishing",
+  "vendor": "Harvard Business Publishing",
+  "category": "other",
+  "domains": [
+    "hbr.org"
+  ],
+  "homepage": "https://hbr.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8422,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Contentpass",
+  "vendor": "Contentpass",
+  "category": "other",
+  "domains": [
+    "contentpass.de"
+  ],
+  "homepage": "https://contentpass.de",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9584,
+    "imported_at": "2026-05-13"
+  }
+}

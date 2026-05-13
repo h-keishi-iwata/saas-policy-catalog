@@ -1,0 +1,19 @@
+{
+  "service_name": "neat.tube",
+  "vendor": "neat.tube",
+  "category": "other",
+  "domains": [
+    "neat.tube"
+  ],
+  "homepage": "https://neat.tube",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9201,
+    "imported_at": "2026-05-13"
+  }
+}

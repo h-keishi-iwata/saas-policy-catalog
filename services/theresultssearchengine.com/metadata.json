@@ -1,0 +1,19 @@
+{
+  "service_name": "theresultsengine.com",
+  "vendor": "theresultsengine.com",
+  "category": "other",
+  "domains": [
+    "theresultssearchengine.com"
+  ],
+  "homepage": "https://theresultssearchengine.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9038,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "clcr.me",
+  "vendor": "clcr.me",
+  "category": "other",
+  "domains": [
+    "clcr.me"
+  ],
+  "homepage": "https://clcr.me",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6634,
+    "imported_at": "2026-05-13"
+  }
+}

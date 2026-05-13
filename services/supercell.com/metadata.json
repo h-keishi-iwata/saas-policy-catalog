@@ -1,0 +1,19 @@
+{
+  "service_name": "Supercell",
+  "vendor": "Supercell",
+  "category": "other",
+  "domains": [
+    "supercell.com"
+  ],
+  "homepage": "https://supercell.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8325,
+    "imported_at": "2026-05-13"
+  }
+}

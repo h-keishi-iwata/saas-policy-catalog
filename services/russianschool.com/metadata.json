@@ -1,0 +1,19 @@
+{
+  "service_name": "Russian School of Mat",
+  "vendor": "Russian School of Mat",
+  "category": "other",
+  "domains": [
+    "russianschool.com"
+  ],
+  "homepage": "https://russianschool.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10123,
+    "imported_at": "2026-05-13"
+  }
+}

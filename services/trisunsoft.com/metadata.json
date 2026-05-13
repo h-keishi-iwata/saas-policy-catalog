@@ -1,0 +1,19 @@
+{
+  "service_name": "TriSun Software",
+  "vendor": "TriSun Software",
+  "category": "other",
+  "domains": [
+    "trisunsoft.com"
+  ],
+  "homepage": "https://trisunsoft.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4746,
+    "imported_at": "2026-05-13"
+  }
+}

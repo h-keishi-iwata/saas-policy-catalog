@@ -1,0 +1,19 @@
+{
+  "service_name": "lab0.tk | とっくりらぼ™️",
+  "vendor": "lab0.tk | とっくりらぼ™️",
+  "category": "other",
+  "domains": [
+    "lab0.tk"
+  ],
+  "homepage": "https://lab0.tk",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3052,
+    "imported_at": "2026-05-13"
+  }
+}

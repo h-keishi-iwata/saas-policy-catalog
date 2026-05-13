@@ -1,0 +1,19 @@
+{
+  "service_name": "Speech Link Multimedia Ltd",
+  "vendor": "Speech Link Multimedia Ltd",
+  "category": "other",
+  "domains": [
+    "speechandlanguage.info"
+  ],
+  "homepage": "https://speechandlanguage.info",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10034,
+    "imported_at": "2026-05-13"
+  }
+}

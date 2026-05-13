@@ -1,0 +1,19 @@
+{
+  "service_name": "If I Need Help",
+  "vendor": "If I Need Help",
+  "category": "other",
+  "domains": [
+    "ifineedhelp.org"
+  ],
+  "homepage": "https://ifineedhelp.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9044,
+    "imported_at": "2026-05-13"
+  }
+}

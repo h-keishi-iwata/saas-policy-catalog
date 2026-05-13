@@ -1,0 +1,19 @@
+{
+  "service_name": "Syracuse University",
+  "vendor": "Syracuse University",
+  "category": "other",
+  "domains": [
+    "syracuse.edu"
+  ],
+  "homepage": "https://syracuse.edu",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 2,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3653,
+    "imported_at": "2026-05-13"
+  }
+}

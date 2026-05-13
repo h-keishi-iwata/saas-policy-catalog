@@ -1,0 +1,19 @@
+{
+  "service_name": "The Arc",
+  "vendor": "The Arc",
+  "category": "other",
+  "domains": [
+    "thearc.org"
+  ],
+  "homepage": "https://thearc.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3151,
+    "imported_at": "2026-05-13"
+  }
+}

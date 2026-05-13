@@ -1,0 +1,19 @@
+{
+  "service_name": "Castor & Pollux Natural Petworks",
+  "vendor": "Castor & Pollux Natural Petworks",
+  "category": "other",
+  "domains": [
+    "castorpolluxpet.com"
+  ],
+  "homepage": "https://castorpolluxpet.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3373,
+    "imported_at": "2026-05-13"
+  }
+}

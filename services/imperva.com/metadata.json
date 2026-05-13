@@ -1,0 +1,19 @@
+{
+  "service_name": "Imperva",
+  "vendor": "Imperva",
+  "category": "other",
+  "domains": [
+    "imperva.com"
+  ],
+  "homepage": "https://imperva.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7533,
+    "imported_at": "2026-05-13"
+  }
+}

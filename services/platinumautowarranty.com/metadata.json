@@ -1,0 +1,19 @@
+{
+  "service_name": "Platinum Auto Warranty",
+  "vendor": "Platinum Auto Warranty",
+  "category": "other",
+  "domains": [
+    "platinumautowarranty.com"
+  ],
+  "homepage": "https://platinumautowarranty.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5798,
+    "imported_at": "2026-05-13"
+  }
+}

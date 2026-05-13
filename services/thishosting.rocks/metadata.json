@@ -1,0 +1,19 @@
+{
+  "service_name": "ThisHosting.Rocks",
+  "vendor": "ThisHosting.Rocks",
+  "category": "other",
+  "domains": [
+    "thishosting.rocks"
+  ],
+  "homepage": "https://thishosting.rocks",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6918,
+    "imported_at": "2026-05-13"
+  }
+}

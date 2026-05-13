@@ -1,0 +1,19 @@
+{
+  "service_name": "Bold Type Tickets",
+  "vendor": "Bold Type Tickets",
+  "category": "other",
+  "domains": [
+    "boldtypetickets.com"
+  ],
+  "homepage": "https://boldtypetickets.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 430,
+    "imported_at": "2026-05-13"
+  }
+}

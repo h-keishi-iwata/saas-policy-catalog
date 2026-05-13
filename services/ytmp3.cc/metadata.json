@@ -1,0 +1,19 @@
+{
+  "service_name": "YTMP3.CC",
+  "vendor": "YTMP3.CC",
+  "category": "other",
+  "domains": [
+    "ytmp3.cc"
+  ],
+  "homepage": "https://ytmp3.cc",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2356,
+    "imported_at": "2026-05-13"
+  }
+}

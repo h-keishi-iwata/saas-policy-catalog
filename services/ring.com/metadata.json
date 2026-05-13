@@ -1,0 +1,19 @@
+{
+  "service_name": "Ring LLC",
+  "vendor": "Ring LLC",
+  "category": "other",
+  "domains": [
+    "ring.com"
+  ],
+  "homepage": "https://ring.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2700,
+    "imported_at": "2026-05-13"
+  }
+}

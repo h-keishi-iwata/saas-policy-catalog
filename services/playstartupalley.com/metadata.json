@@ -1,0 +1,19 @@
+{
+  "service_name": "Startup Alley",
+  "vendor": "Startup Alley",
+  "category": "other",
+  "domains": [
+    "playstartupalley.com"
+  ],
+  "homepage": "https://playstartupalley.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5985,
+    "imported_at": "2026-05-13"
+  }
+}

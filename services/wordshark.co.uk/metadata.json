@@ -1,0 +1,19 @@
+{
+  "service_name": "Wordshark",
+  "vendor": "Wordshark",
+  "category": "other",
+  "domains": [
+    "wordshark.co.uk"
+  ],
+  "homepage": "https://wordshark.co.uk",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10369,
+    "imported_at": "2026-05-13"
+  }
+}

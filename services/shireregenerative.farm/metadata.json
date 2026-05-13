@@ -1,0 +1,19 @@
+{
+  "service_name": "Shire Regenerative Farm",
+  "vendor": "Shire Regenerative Farm",
+  "category": "other",
+  "domains": [
+    "shireregenerative.farm"
+  ],
+  "homepage": "https://shireregenerative.farm",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10131,
+    "imported_at": "2026-05-13"
+  }
+}

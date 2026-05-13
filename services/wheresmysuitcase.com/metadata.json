@@ -1,0 +1,19 @@
+{
+  "service_name": "Where’s My Suitcase.",
+  "vendor": "Where’s My Suitcase.",
+  "category": "other",
+  "domains": [
+    "wheresmysuitcase.com"
+  ],
+  "homepage": "https://wheresmysuitcase.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3724,
+    "imported_at": "2026-05-13"
+  }
+}

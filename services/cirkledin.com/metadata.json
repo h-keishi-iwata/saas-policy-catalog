@@ -1,0 +1,19 @@
+{
+  "service_name": "Cirkled In",
+  "vendor": "Cirkled In",
+  "category": "other",
+  "domains": [
+    "cirkledin.com"
+  ],
+  "homepage": "https://cirkledin.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5940,
+    "imported_at": "2026-05-13"
+  }
+}

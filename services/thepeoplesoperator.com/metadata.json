@@ -1,0 +1,19 @@
+{
+  "service_name": "People’s Operator.",
+  "vendor": "People’s Operator.",
+  "category": "other",
+  "domains": [
+    "thepeoplesoperator.com"
+  ],
+  "homepage": "https://thepeoplesoperator.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8843,
+    "imported_at": "2026-05-13"
+  }
+}

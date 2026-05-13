@@ -1,0 +1,19 @@
+{
+  "service_name": "Applebees",
+  "vendor": "Applebees",
+  "category": "other",
+  "domains": [
+    "applebees.com"
+  ],
+  "homepage": "https://applebees.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8379,
+    "imported_at": "2026-05-13"
+  }
+}

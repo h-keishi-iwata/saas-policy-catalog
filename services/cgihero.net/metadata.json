@@ -1,0 +1,19 @@
+{
+  "service_name": "CGIHero",
+  "vendor": "CGIHero",
+  "category": "other",
+  "domains": [
+    "cgihero.net"
+  ],
+  "homepage": "https://cgihero.net",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 966,
+    "imported_at": "2026-05-13"
+  }
+}

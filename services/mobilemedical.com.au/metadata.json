@@ -1,0 +1,19 @@
+{
+  "service_name": "Mobile Medical Systems",
+  "vendor": "Mobile Medical Systems",
+  "category": "other",
+  "domains": [
+    "mobilemedical.com.au"
+  ],
+  "homepage": "https://mobilemedical.com.au",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10689,
+    "imported_at": "2026-05-13"
+  }
+}

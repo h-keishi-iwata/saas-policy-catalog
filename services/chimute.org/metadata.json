@@ -1,0 +1,19 @@
+{
+  "service_name": "Chimute",
+  "vendor": "Chimute",
+  "category": "other",
+  "domains": [
+    "chimute.org"
+  ],
+  "homepage": "https://chimute.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1354,
+    "imported_at": "2026-05-13"
+  }
+}

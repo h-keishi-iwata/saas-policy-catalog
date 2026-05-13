@@ -1,0 +1,19 @@
+{
+  "service_name": "Keyhub",
+  "vendor": "Keyhub",
+  "category": "other",
+  "domains": [
+    "key-hub.eu"
+  ],
+  "homepage": "https://key-hub.eu",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5885,
+    "imported_at": "2026-05-13"
+  }
+}

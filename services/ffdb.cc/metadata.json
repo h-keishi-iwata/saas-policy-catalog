@@ -1,0 +1,19 @@
+{
+  "service_name": "FFDB - The Found Footage DataBase",
+  "vendor": "FFDB - The Found Footage DataBase",
+  "category": "other",
+  "domains": [
+    "ffdb.cc"
+  ],
+  "homepage": "https://ffdb.cc",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10304,
+    "imported_at": "2026-05-13"
+  }
+}

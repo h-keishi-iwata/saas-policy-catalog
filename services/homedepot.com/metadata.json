@@ -1,0 +1,19 @@
+{
+  "service_name": "homedepot",
+  "vendor": "homedepot",
+  "category": "other",
+  "domains": [
+    "homedepot.com"
+  ],
+  "homepage": "https://homedepot.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4112,
+    "imported_at": "2026-05-13"
+  }
+}

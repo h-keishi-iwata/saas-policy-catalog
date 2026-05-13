@@ -1,0 +1,19 @@
+{
+  "service_name": "made it - 3D print - impression 3D",
+  "vendor": "made it - 3D print - impression 3D",
+  "category": "other",
+  "domains": [
+    "madeit.ch"
+  ],
+  "homepage": "https://madeit.ch",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1624,
+    "imported_at": "2026-05-13"
+  }
+}

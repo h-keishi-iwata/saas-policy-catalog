@@ -1,0 +1,19 @@
+{
+  "service_name": "Neatcal",
+  "vendor": "Neatcal",
+  "category": "other",
+  "domains": [
+    "neatcal.com"
+  ],
+  "homepage": "https://neatcal.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7629,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Jornal Record",
+  "vendor": "Jornal Record",
+  "category": "other",
+  "domains": [
+    "record.pt"
+  ],
+  "homepage": "https://record.pt",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 801,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "cozycloud",
+  "vendor": "cozycloud",
+  "category": "other",
+  "domains": [
+    "cozy.io"
+  ],
+  "homepage": "https://cozy.io",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1539,
+    "imported_at": "2026-05-13"
+  }
+}

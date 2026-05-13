@@ -1,0 +1,19 @@
+{
+  "service_name": "Nieuwland Feed & Supply Ltd",
+  "vendor": "Nieuwland Feed & Supply Ltd",
+  "category": "other",
+  "domains": [
+    "nieuwlandfeed.com"
+  ],
+  "homepage": "https://nieuwlandfeed.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6404,
+    "imported_at": "2026-05-13"
+  }
+}

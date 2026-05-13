@@ -1,0 +1,19 @@
+{
+  "service_name": "AdMetricsPro",
+  "vendor": "AdMetricsPro",
+  "category": "other",
+  "domains": [
+    "admetricspro.com"
+  ],
+  "homepage": "https://admetricspro.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11534,
+    "imported_at": "2026-05-13"
+  }
+}

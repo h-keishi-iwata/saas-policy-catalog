@@ -1,0 +1,19 @@
+{
+  "service_name": "Textnow",
+  "vendor": "Textnow",
+  "category": "other",
+  "domains": [
+    "textnow.com"
+  ],
+  "homepage": "https://textnow.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2990,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "classicreload",
+  "vendor": "classicreload",
+  "category": "other",
+  "domains": [
+    "classicreload.com"
+  ],
+  "homepage": "https://classicreload.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5826,
+    "imported_at": "2026-05-13"
+  }
+}

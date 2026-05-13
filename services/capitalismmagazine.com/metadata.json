@@ -1,0 +1,19 @@
+{
+  "service_name": "Capitalism Magazine",
+  "vendor": "Capitalism Magazine",
+  "category": "other",
+  "domains": [
+    "capitalismmagazine.com"
+  ],
+  "homepage": "https://capitalismmagazine.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10286,
+    "imported_at": "2026-05-13"
+  }
+}

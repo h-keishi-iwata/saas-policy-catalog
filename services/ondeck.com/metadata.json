@@ -1,0 +1,19 @@
+{
+  "service_name": "OnDeck",
+  "vendor": "OnDeck",
+  "category": "other",
+  "domains": [
+    "ondeck.com"
+  ],
+  "homepage": "https://ondeck.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5871,
+    "imported_at": "2026-05-13"
+  }
+}

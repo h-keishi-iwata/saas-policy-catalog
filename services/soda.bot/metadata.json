@@ -1,0 +1,19 @@
+{
+  "service_name": "soda.bot",
+  "vendor": "soda.bot",
+  "category": "other",
+  "domains": [
+    "soda.bot"
+  ],
+  "homepage": "https://soda.bot",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7231,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "BankoftheWest",
+  "vendor": "BankoftheWest",
+  "category": "other",
+  "domains": [
+    "bankofthewest.com"
+  ],
+  "homepage": "https://bankofthewest.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8166,
+    "imported_at": "2026-05-13"
+  }
+}

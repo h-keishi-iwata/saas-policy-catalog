@@ -1,0 +1,19 @@
+{
+  "service_name": "Ureed",
+  "vendor": "Ureed",
+  "category": "other",
+  "domains": [
+    "ureed.com"
+  ],
+  "homepage": "https://ureed.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7758,
+    "imported_at": "2026-05-13"
+  }
+}

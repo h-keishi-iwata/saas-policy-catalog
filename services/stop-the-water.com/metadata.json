@@ -1,0 +1,19 @@
+{
+  "service_name": "Stop The Water",
+  "vendor": "Stop The Water",
+  "category": "other",
+  "domains": [
+    "stop-the-water.com"
+  ],
+  "homepage": "https://stop-the-water.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7000,
+    "imported_at": "2026-05-13"
+  }
+}

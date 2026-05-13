@@ -1,0 +1,19 @@
+{
+  "service_name": "LearnFlakes",
+  "vendor": "LearnFlakes",
+  "category": "other",
+  "domains": [
+    "learnflakes.net"
+  ],
+  "homepage": "https://learnflakes.net",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9357,
+    "imported_at": "2026-05-13"
+  }
+}

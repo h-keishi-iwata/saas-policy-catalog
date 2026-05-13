@@ -1,0 +1,19 @@
+{
+  "service_name": "us-unemployment-resources",
+  "vendor": "us-unemployment-resources",
+  "category": "other",
+  "domains": [
+    "us-unemployment-resources.com"
+  ],
+  "homepage": "https://us-unemployment-resources.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5808,
+    "imported_at": "2026-05-13"
+  }
+}

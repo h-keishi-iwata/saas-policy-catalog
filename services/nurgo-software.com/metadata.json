@@ -1,0 +1,19 @@
+{
+  "service_name": "Nurgo Software",
+  "vendor": "Nurgo Software",
+  "category": "other",
+  "domains": [
+    "nurgo-software.com"
+  ],
+  "homepage": "https://nurgo-software.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3311,
+    "imported_at": "2026-05-13"
+  }
+}

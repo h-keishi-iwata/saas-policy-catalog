@@ -1,0 +1,19 @@
+{
+  "service_name": "Sanoma Media Finland",
+  "vendor": "Sanoma Media Finland",
+  "category": "other",
+  "domains": [
+    "sanoma.fi"
+  ],
+  "homepage": "https://sanoma.fi",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10499,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Flourish",
+  "vendor": "Flourish",
+  "category": "other",
+  "domains": [
+    "flourish.studio"
+  ],
+  "homepage": "https://flourish.studio",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8083,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Attendify",
+  "vendor": "Attendify",
+  "category": "other",
+  "domains": [
+    "attendify.co"
+  ],
+  "homepage": "https://attendify.co",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2361,
+    "imported_at": "2026-05-13"
+  }
+}

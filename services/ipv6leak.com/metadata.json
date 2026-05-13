@@ -1,0 +1,19 @@
+{
+  "service_name": "IPv6 Leak Test",
+  "vendor": "IPv6 Leak Test",
+  "category": "other",
+  "domains": [
+    "ipv6leak.com"
+  ],
+  "homepage": "https://ipv6leak.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7968,
+    "imported_at": "2026-05-13"
+  }
+}

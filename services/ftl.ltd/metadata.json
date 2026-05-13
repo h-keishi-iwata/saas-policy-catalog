@@ -1,0 +1,19 @@
+{
+  "service_name": "FTL",
+  "vendor": "FTL",
+  "category": "other",
+  "domains": [
+    "ftl.ltd"
+  ],
+  "homepage": "https://ftl.ltd",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7727,
+    "imported_at": "2026-05-13"
+  }
+}

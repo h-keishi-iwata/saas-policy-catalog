@@ -1,0 +1,19 @@
+{
+  "service_name": "Paradox Interactive",
+  "vendor": "Paradox Interactive",
+  "category": "other",
+  "domains": [
+    "paradoxplaza.com"
+  ],
+  "homepage": "https://paradoxplaza.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2693,
+    "imported_at": "2026-05-13"
+  }
+}

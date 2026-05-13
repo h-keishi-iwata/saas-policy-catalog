@@ -1,0 +1,19 @@
+{
+  "service_name": "Techie Youth",
+  "vendor": "Techie Youth",
+  "category": "other",
+  "domains": [
+    "techieyouth.org"
+  ],
+  "homepage": "https://techieyouth.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8361,
+    "imported_at": "2026-05-13"
+  }
+}

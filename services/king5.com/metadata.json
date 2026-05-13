@@ -1,0 +1,19 @@
+{
+  "service_name": "king5",
+  "vendor": "king5",
+  "category": "other",
+  "domains": [
+    "king5.com"
+  ],
+  "homepage": "https://king5.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5731,
+    "imported_at": "2026-05-13"
+  }
+}

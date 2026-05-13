@@ -1,0 +1,19 @@
+{
+  "service_name": "Twig Education",
+  "vendor": "Twig Education",
+  "category": "other",
+  "domains": [
+    "twigeducation.com"
+  ],
+  "homepage": "https://twigeducation.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10443,
+    "imported_at": "2026-05-13"
+  }
+}

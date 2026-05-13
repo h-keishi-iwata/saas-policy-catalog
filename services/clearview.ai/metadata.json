@@ -1,0 +1,19 @@
+{
+  "service_name": "Clearview AI",
+  "vendor": "Clearview AI",
+  "category": "other",
+  "domains": [
+    "clearview.ai"
+  ],
+  "homepage": "https://clearview.ai",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11672,
+    "imported_at": "2026-05-13"
+  }
+}

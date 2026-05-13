@@ -1,0 +1,19 @@
+{
+  "service_name": "Newegg.com",
+  "vendor": "Newegg.com",
+  "category": "other",
+  "domains": [
+    "newegg.com"
+  ],
+  "homepage": "https://newegg.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1173,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Privacy Commissioner of Canada",
+  "vendor": "Privacy Commissioner of Canada",
+  "category": "other",
+  "domains": [
+    "priv.gc.ca"
+  ],
+  "homepage": "https://priv.gc.ca",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10710,
+    "imported_at": "2026-05-13"
+  }
+}

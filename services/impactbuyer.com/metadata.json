@@ -1,0 +1,19 @@
+{
+  "service_name": "Impact Buyer",
+  "vendor": "Impact Buyer",
+  "category": "other",
+  "domains": [
+    "impactbuyer.com"
+  ],
+  "homepage": "https://impactbuyer.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5922,
+    "imported_at": "2026-05-13"
+  }
+}

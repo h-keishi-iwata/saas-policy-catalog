@@ -1,0 +1,19 @@
+{
+  "service_name": "OperaVPS",
+  "vendor": "OperaVPS",
+  "category": "other",
+  "domains": [
+    "operavps.com"
+  ],
+  "homepage": "https://operavps.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11050,
+    "imported_at": "2026-05-13"
+  }
+}

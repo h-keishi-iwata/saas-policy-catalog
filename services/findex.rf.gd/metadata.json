@@ -1,0 +1,19 @@
+{
+  "service_name": "FindeX",
+  "vendor": "FindeX",
+  "category": "other",
+  "domains": [
+    "findex.rf.gd"
+  ],
+  "homepage": "https://findex.rf.gd",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3642,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Zcash Community Forum",
+  "vendor": "Zcash Community Forum",
+  "category": "other",
+  "domains": [
+    "zcashcommunity.com"
+  ],
+  "homepage": "https://zcashcommunity.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8259,
+    "imported_at": "2026-05-13"
+  }
+}

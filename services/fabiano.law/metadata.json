@@ -1,0 +1,19 @@
+{
+  "service_name": "Studio Legale Fabiano",
+  "vendor": "Studio Legale Fabiano",
+  "category": "other",
+  "domains": [
+    "fabiano.law"
+  ],
+  "homepage": "https://fabiano.law",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7923,
+    "imported_at": "2026-05-13"
+  }
+}

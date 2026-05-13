@@ -1,0 +1,19 @@
+{
+  "service_name": "What to Expect",
+  "vendor": "What to Expect",
+  "category": "other",
+  "domains": [
+    "whattoexpect.com"
+  ],
+  "homepage": "https://whattoexpect.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10638,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "the-qrcode-generator.com",
+  "vendor": "the-qrcode-generator.com",
+  "category": "other",
+  "domains": [
+    "the-qrcode-generator.com"
+  ],
+  "homepage": "https://the-qrcode-generator.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9909,
+    "imported_at": "2026-05-13"
+  }
+}

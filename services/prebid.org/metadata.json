@@ -1,0 +1,19 @@
+{
+  "service_name": "Prebid.org",
+  "vendor": "Prebid.org",
+  "category": "other",
+  "domains": [
+    "prebid.org"
+  ],
+  "homepage": "https://prebid.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4452,
+    "imported_at": "2026-05-13"
+  }
+}

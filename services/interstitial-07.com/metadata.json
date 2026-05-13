@@ -1,0 +1,19 @@
+{
+  "service_name": "interstitial-07",
+  "vendor": "interstitial-07",
+  "category": "other",
+  "domains": [
+    "interstitial-07.com"
+  ],
+  "homepage": "https://interstitial-07.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6134,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "NordVPN",
+  "vendor": "NordVPN",
+  "category": "other",
+  "domains": [
+    "nordvpn.com"
+  ],
+  "homepage": "https://nordvpn.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 697,
+    "imported_at": "2026-05-13"
+  }
+}

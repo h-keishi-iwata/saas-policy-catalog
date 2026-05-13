@@ -1,0 +1,19 @@
+{
+  "service_name": "W10Privacy",
+  "vendor": "W10Privacy",
+  "category": "other",
+  "domains": [
+    "w10privacy.de"
+  ],
+  "homepage": "https://w10privacy.de",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 2,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6587,
+    "imported_at": "2026-05-13"
+  }
+}

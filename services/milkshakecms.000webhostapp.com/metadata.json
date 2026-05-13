@@ -1,0 +1,19 @@
+{
+  "service_name": "Milkshake CMS",
+  "vendor": "Milkshake CMS",
+  "category": "other",
+  "domains": [
+    "milkshakecms.000webhostapp.com"
+  ],
+  "homepage": "https://milkshakecms.000webhostapp.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 967,
+    "imported_at": "2026-05-13"
+  }
+}

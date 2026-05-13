@@ -1,0 +1,19 @@
+{
+  "service_name": "Charitable Adult Rides & Services",
+  "vendor": "Charitable Adult Rides & Services",
+  "category": "other",
+  "domains": [
+    "careasy.org"
+  ],
+  "homepage": "https://careasy.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10603,
+    "imported_at": "2026-05-13"
+  }
+}

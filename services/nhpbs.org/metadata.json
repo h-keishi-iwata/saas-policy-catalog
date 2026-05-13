@@ -1,0 +1,19 @@
+{
+  "service_name": "New Hampshire Public Broadcasting",
+  "vendor": "New Hampshire Public Broadcasting",
+  "category": "other",
+  "domains": [
+    "nhpbs.org"
+  ],
+  "homepage": "https://nhpbs.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10080,
+    "imported_at": "2026-05-13"
+  }
+}

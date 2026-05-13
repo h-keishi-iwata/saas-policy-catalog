@@ -1,0 +1,19 @@
+{
+  "service_name": "neeva",
+  "vendor": "neeva",
+  "category": "other",
+  "domains": [
+    "neeva.com"
+  ],
+  "homepage": "https://neeva.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7672,
+    "imported_at": "2026-05-13"
+  }
+}

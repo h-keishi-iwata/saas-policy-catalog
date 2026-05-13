@@ -1,0 +1,19 @@
+{
+  "service_name": "Nec Formula Help",
+  "vendor": "Nec Formula Help",
+  "category": "other",
+  "domains": [
+    "necformulahelp.com"
+  ],
+  "homepage": "https://necformulahelp.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6847,
+    "imported_at": "2026-05-13"
+  }
+}

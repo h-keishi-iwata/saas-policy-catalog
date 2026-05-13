@@ -1,0 +1,19 @@
+{
+  "service_name": "Moodle",
+  "vendor": "Moodle",
+  "category": "other",
+  "domains": [
+    "moodle.com"
+  ],
+  "homepage": "https://moodle.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5516,
+    "imported_at": "2026-05-13"
+  }
+}

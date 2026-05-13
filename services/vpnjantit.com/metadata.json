@@ -1,0 +1,19 @@
+{
+  "service_name": "VPN Jantit",
+  "vendor": "VPN Jantit",
+  "category": "other",
+  "domains": [
+    "vpnjantit.com"
+  ],
+  "homepage": "https://vpnjantit.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10959,
+    "imported_at": "2026-05-13"
+  }
+}

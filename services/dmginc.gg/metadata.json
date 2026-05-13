@@ -1,0 +1,19 @@
+{
+  "service_name": "Damage Inc",
+  "vendor": "Damage Inc",
+  "category": "other",
+  "domains": [
+    "dmginc.gg"
+  ],
+  "homepage": "https://dmginc.gg",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9116,
+    "imported_at": "2026-05-13"
+  }
+}

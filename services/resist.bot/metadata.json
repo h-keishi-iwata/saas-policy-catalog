@@ -1,0 +1,19 @@
+{
+  "service_name": "Resist Bot",
+  "vendor": "Resist Bot",
+  "category": "other",
+  "domains": [
+    "resist.bot"
+  ],
+  "homepage": "https://resist.bot",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7490,
+    "imported_at": "2026-05-13"
+  }
+}

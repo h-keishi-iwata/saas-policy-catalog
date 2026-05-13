@@ -1,0 +1,19 @@
+{
+  "service_name": "Abyss",
+  "vendor": "Abyss",
+  "category": "other",
+  "domains": [
+    "abyss.to"
+  ],
+  "homepage": "https://abyss.to",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4484,
+    "imported_at": "2026-05-13"
+  }
+}

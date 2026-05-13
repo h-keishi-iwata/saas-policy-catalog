@@ -1,0 +1,19 @@
+{
+  "service_name": "Breezin Thru Theory",
+  "vendor": "Breezin Thru Theory",
+  "category": "other",
+  "domains": [
+    "breezinthrutheory.com"
+  ],
+  "homepage": "https://breezinthrutheory.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 968,
+    "imported_at": "2026-05-13"
+  }
+}

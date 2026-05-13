@@ -1,0 +1,19 @@
+{
+  "service_name": "JFSbuild (discontinued?)",
+  "vendor": "JFSbuild (discontinued?)",
+  "category": "other",
+  "domains": [
+    "jfsbuild.com"
+  ],
+  "homepage": "https://jfsbuild.com/",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 792,
+    "imported_at": "2026-05-13"
+  }
+}

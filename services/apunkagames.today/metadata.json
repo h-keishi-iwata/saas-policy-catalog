@@ -1,0 +1,19 @@
+{
+  "service_name": "Apun Ka Games",
+  "vendor": "Apun Ka Games",
+  "category": "other",
+  "domains": [
+    "apunkagames.today"
+  ],
+  "homepage": "https://apunkagames.today",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11083,
+    "imported_at": "2026-05-13"
+  }
+}

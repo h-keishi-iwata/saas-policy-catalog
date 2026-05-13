@@ -1,0 +1,19 @@
+{
+  "service_name": "RBLXTrade",
+  "vendor": "RBLXTrade",
+  "category": "other",
+  "domains": [
+    "rblx.trade"
+  ],
+  "homepage": "https://rblx.trade",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6387,
+    "imported_at": "2026-05-13"
+  }
+}

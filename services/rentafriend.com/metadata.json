@@ -1,0 +1,19 @@
+{
+  "service_name": "RentAFriend.com",
+  "vendor": "RentAFriend.com",
+  "category": "other",
+  "domains": [
+    "rentafriend.com"
+  ],
+  "homepage": "https://rentafriend.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5138,
+    "imported_at": "2026-05-13"
+  }
+}

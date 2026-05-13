@@ -1,0 +1,19 @@
+{
+  "service_name": "Fred Hutchinson Cancer Center",
+  "vendor": "Fred Hutchinson Cancer Center",
+  "category": "other",
+  "domains": [
+    "fredhutch.org"
+  ],
+  "homepage": "https://fredhutch.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9186,
+    "imported_at": "2026-05-13"
+  }
+}

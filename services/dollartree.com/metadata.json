@@ -1,0 +1,19 @@
+{
+  "service_name": "Dollar Tree",
+  "vendor": "Dollar Tree",
+  "category": "other",
+  "domains": [
+    "dollartree.com"
+  ],
+  "homepage": "https://dollartree.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11386,
+    "imported_at": "2026-05-13"
+  }
+}

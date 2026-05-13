@@ -1,0 +1,19 @@
+{
+  "service_name": "NRLA",
+  "vendor": "NRLA",
+  "category": "other",
+  "domains": [
+    "nrla.org.uk"
+  ],
+  "homepage": "https://nrla.org.uk",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4363,
+    "imported_at": "2026-05-13"
+  }
+}

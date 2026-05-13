@@ -1,0 +1,19 @@
+{
+  "service_name": "Wachanga",
+  "vendor": "Wachanga",
+  "category": "other",
+  "domains": [
+    "wachanga.com"
+  ],
+  "homepage": "https://wachanga.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5619,
+    "imported_at": "2026-05-13"
+  }
+}

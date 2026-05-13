@@ -1,0 +1,19 @@
+{
+  "service_name": "ams-ix.net",
+  "vendor": "ams-ix.net",
+  "category": "other",
+  "domains": [
+    "ams-ix.net"
+  ],
+  "homepage": "https://ams-ix.net",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10531,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "UrbanPlanet",
+  "vendor": "UrbanPlanet",
+  "category": "other",
+  "domains": [
+    "urbanplanet.org"
+  ],
+  "homepage": "https://urbanplanet.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8131,
+    "imported_at": "2026-05-13"
+  }
+}

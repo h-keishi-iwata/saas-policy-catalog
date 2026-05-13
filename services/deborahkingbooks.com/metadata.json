@@ -1,0 +1,19 @@
+{
+  "service_name": "Deborah King Books",
+  "vendor": "Deborah King Books",
+  "category": "other",
+  "domains": [
+    "deborahkingbooks.com"
+  ],
+  "homepage": "https://deborahkingbooks.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10172,
+    "imported_at": "2026-05-13"
+  }
+}

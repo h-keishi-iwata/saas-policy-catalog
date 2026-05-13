@@ -1,0 +1,19 @@
+{
+  "service_name": "La Crosse Technology",
+  "vendor": "La Crosse Technology",
+  "category": "other",
+  "domains": [
+    "lacrossetechnology.com"
+  ],
+  "homepage": "https://lacrossetechnology.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7971,
+    "imported_at": "2026-05-13"
+  }
+}

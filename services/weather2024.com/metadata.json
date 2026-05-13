@@ -1,0 +1,19 @@
+{
+  "service_name": "weather2024.com",
+  "vendor": "weather2024.com",
+  "category": "other",
+  "domains": [
+    "weather2024.com"
+  ],
+  "homepage": "https://weather2024.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11635,
+    "imported_at": "2026-05-13"
+  }
+}

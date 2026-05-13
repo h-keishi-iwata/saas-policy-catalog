@@ -1,0 +1,19 @@
+{
+  "service_name": "Sage Telecommunications",
+  "vendor": "Sage Telecommunications",
+  "category": "other",
+  "domains": [
+    "sagecom.net"
+  ],
+  "homepage": "https://sagecom.net",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11638,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Bible Gateway",
+  "vendor": "Bible Gateway",
+  "category": "other",
+  "domains": [
+    "biblegateway.com"
+  ],
+  "homepage": "https://biblegateway.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1790,
+    "imported_at": "2026-05-13"
+  }
+}

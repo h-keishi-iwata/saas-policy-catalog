@@ -1,0 +1,19 @@
+{
+  "service_name": "5apps",
+  "vendor": "5apps",
+  "category": "other",
+  "domains": [
+    "5apps.com"
+  ],
+  "homepage": "https://5apps.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7332,
+    "imported_at": "2026-05-13"
+  }
+}

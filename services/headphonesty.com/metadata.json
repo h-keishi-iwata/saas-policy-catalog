@@ -1,0 +1,19 @@
+{
+  "service_name": "Headphonesty",
+  "vendor": "Headphonesty",
+  "category": "other",
+  "domains": [
+    "headphonesty.com"
+  ],
+  "homepage": "https://headphonesty.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5427,
+    "imported_at": "2026-05-13"
+  }
+}

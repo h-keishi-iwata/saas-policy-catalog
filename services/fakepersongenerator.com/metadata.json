@@ -1,0 +1,19 @@
+{
+  "service_name": "Fake Person Generator",
+  "vendor": "Fake Person Generator",
+  "category": "other",
+  "domains": [
+    "fakepersongenerator.com"
+  ],
+  "homepage": "https://fakepersongenerator.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6858,
+    "imported_at": "2026-05-13"
+  }
+}

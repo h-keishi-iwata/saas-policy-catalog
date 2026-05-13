@@ -1,0 +1,19 @@
+{
+  "service_name": "Clean Email",
+  "vendor": "Clean Email",
+  "category": "other",
+  "domains": [
+    "clean.email"
+  ],
+  "homepage": "https://clean.email",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8931,
+    "imported_at": "2026-05-13"
+  }
+}

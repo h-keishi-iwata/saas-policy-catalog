@@ -1,0 +1,19 @@
+{
+  "service_name": "Single Vision Ministries",
+  "vendor": "Single Vision Ministries",
+  "category": "other",
+  "domains": [
+    "seegod.org"
+  ],
+  "homepage": "https://seegod.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 724,
+    "imported_at": "2026-05-13"
+  }
+}

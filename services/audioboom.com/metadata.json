@@ -1,0 +1,19 @@
+{
+  "service_name": "Audioboom",
+  "vendor": "Audioboom",
+  "category": "other",
+  "domains": [
+    "audioboom.com"
+  ],
+  "homepage": "https://audioboom.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4681,
+    "imported_at": "2026-05-13"
+  }
+}

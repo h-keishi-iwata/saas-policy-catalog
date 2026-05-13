@@ -1,0 +1,19 @@
+{
+  "service_name": "EUC Lillebælt",
+  "vendor": "EUC Lillebælt",
+  "category": "other",
+  "domains": [
+    "eucl.dk"
+  ],
+  "homepage": "https://eucl.dk",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 699,
+    "imported_at": "2026-05-13"
+  }
+}

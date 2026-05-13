@@ -1,0 +1,19 @@
+{
+  "service_name": "Missionsstation-Fushë-Arrëz",
+  "vendor": "Missionsstation-Fushë-Arrëz",
+  "category": "other",
+  "domains": [
+    "missionsstation-fushearrez.jimdofree.com"
+  ],
+  "homepage": "https://missionsstation-fushearrez.jimdofree.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1366,
+    "imported_at": "2026-05-13"
+  }
+}

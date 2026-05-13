@@ -1,0 +1,19 @@
+{
+  "service_name": "Advertise Free.co.uk",
+  "vendor": "Advertise Free.co.uk",
+  "category": "other",
+  "domains": [
+    "advertisefree.co.uk"
+  ],
+  "homepage": "https://advertisefree.co.uk",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8698,
+    "imported_at": "2026-05-13"
+  }
+}

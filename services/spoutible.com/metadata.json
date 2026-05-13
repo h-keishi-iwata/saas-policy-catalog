@@ -1,0 +1,19 @@
+{
+  "service_name": "Spoutible",
+  "vendor": "Spoutible",
+  "category": "other",
+  "domains": [
+    "spoutible.com"
+  ],
+  "homepage": "https://spoutible.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8975,
+    "imported_at": "2026-05-13"
+  }
+}

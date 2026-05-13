@@ -1,0 +1,19 @@
+{
+  "service_name": "peerStream",
+  "vendor": "peerStream",
+  "category": "other",
+  "domains": [
+    "peer-stream.com"
+  ],
+  "homepage": "https://peer-stream.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3813,
+    "imported_at": "2026-05-13"
+  }
+}

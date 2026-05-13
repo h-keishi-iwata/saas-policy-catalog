@@ -1,0 +1,19 @@
+{
+  "service_name": "NSFW Youtube",
+  "vendor": "NSFW Youtube",
+  "category": "other",
+  "domains": [
+    "nsfwyoutube.com"
+  ],
+  "homepage": "https://nsfwyoutube.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8229,
+    "imported_at": "2026-05-13"
+  }
+}

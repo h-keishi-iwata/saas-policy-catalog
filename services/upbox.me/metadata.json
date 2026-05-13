@@ -1,0 +1,19 @@
+{
+  "service_name": "upbox.me",
+  "vendor": "upbox.me",
+  "category": "other",
+  "domains": [
+    "upbox.me"
+  ],
+  "homepage": "https://upbox.me",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7215,
+    "imported_at": "2026-05-13"
+  }
+}

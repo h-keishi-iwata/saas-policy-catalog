@@ -1,0 +1,19 @@
+{
+  "service_name": "Transpose Solutions",
+  "vendor": "Transpose Solutions",
+  "category": "other",
+  "domains": [
+    "transposesolutions.com"
+  ],
+  "homepage": "https://transposesolutions.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8013,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Rad Power Bikes",
+  "vendor": "Rad Power Bikes",
+  "category": "other",
+  "domains": [
+    "radpowerbikes.com"
+  ],
+  "homepage": "https://radpowerbikes.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8787,
+    "imported_at": "2026-05-13"
+  }
+}

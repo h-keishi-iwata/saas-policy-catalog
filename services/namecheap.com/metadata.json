@@ -1,0 +1,19 @@
+{
+  "service_name": "Namecheap",
+  "vendor": "Namecheap",
+  "category": "other",
+  "domains": [
+    "namecheap.com"
+  ],
+  "homepage": "https://www.namecheap.com/",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2372,
+    "imported_at": "2026-05-13"
+  }
+}

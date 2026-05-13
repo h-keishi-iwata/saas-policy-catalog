@@ -1,0 +1,19 @@
+{
+  "service_name": "GBAtemp",
+  "vendor": "GBAtemp",
+  "category": "other",
+  "domains": [
+    "gbatemp.net"
+  ],
+  "homepage": "https://gbatemp.net",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3581,
+    "imported_at": "2026-05-13"
+  }
+}

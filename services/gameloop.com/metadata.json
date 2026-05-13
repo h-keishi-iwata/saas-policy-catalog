@@ -1,0 +1,19 @@
+{
+  "service_name": "Gameloop",
+  "vendor": "Gameloop",
+  "category": "other",
+  "domains": [
+    "gameloop.com"
+  ],
+  "homepage": "https://gameloop.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7496,
+    "imported_at": "2026-05-13"
+  }
+}

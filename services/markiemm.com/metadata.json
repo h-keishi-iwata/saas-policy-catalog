@@ -1,0 +1,19 @@
+{
+  "service_name": "markiemm.com (deprecated?)",
+  "vendor": "markiemm.com (deprecated?)",
+  "category": "other",
+  "domains": [
+    "markiemm.com"
+  ],
+  "homepage": "https://markiemm.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4254,
+    "imported_at": "2026-05-13"
+  }
+}

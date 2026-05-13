@@ -1,0 +1,19 @@
+{
+  "service_name": "loppan.store",
+  "vendor": "loppan.store",
+  "category": "other",
+  "domains": [
+    "loppan.store"
+  ],
+  "homepage": "https://loppan.store",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7749,
+    "imported_at": "2026-05-13"
+  }
+}

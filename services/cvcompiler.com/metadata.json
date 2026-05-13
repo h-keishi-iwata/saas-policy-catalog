@@ -1,0 +1,19 @@
+{
+  "service_name": "CV Compiler",
+  "vendor": "CV Compiler",
+  "category": "other",
+  "domains": [
+    "cvcompiler.com"
+  ],
+  "homepage": "https://cvcompiler.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4600,
+    "imported_at": "2026-05-13"
+  }
+}

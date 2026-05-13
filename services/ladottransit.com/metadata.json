@@ -1,0 +1,19 @@
+{
+  "service_name": "City of Los Angeles Department of Transportation",
+  "vendor": "City of Los Angeles Department of Transportation",
+  "category": "other",
+  "domains": [
+    "ladottransit.com"
+  ],
+  "homepage": "https://ladottransit.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8472,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Browsing Safety",
+  "vendor": "Browsing Safety",
+  "category": "other",
+  "domains": [
+    "thesafersearch.com"
+  ],
+  "homepage": "https://thesafersearch.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9118,
+    "imported_at": "2026-05-13"
+  }
+}

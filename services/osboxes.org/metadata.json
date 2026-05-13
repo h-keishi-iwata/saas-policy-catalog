@@ -1,0 +1,19 @@
+{
+  "service_name": "osboxes",
+  "vendor": "osboxes",
+  "category": "other",
+  "domains": [
+    "osboxes.org"
+  ],
+  "homepage": "https://osboxes.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5879,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "ApplyBoard",
+  "vendor": "ApplyBoard",
+  "category": "other",
+  "domains": [
+    "applyboard.com"
+  ],
+  "homepage": "https://applyboard.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8347,
+    "imported_at": "2026-05-13"
+  }
+}

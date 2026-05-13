@@ -1,0 +1,19 @@
+{
+  "service_name": "Dazed Digital",
+  "vendor": "Dazed Digital",
+  "category": "other",
+  "domains": [
+    "dazeddigital.com"
+  ],
+  "homepage": "https://dazeddigital.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7594,
+    "imported_at": "2026-05-13"
+  }
+}

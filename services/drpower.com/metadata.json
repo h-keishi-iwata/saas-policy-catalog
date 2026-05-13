@@ -1,0 +1,19 @@
+{
+  "service_name": "DBA DR Power Equipment",
+  "vendor": "DBA DR Power Equipment",
+  "category": "other",
+  "domains": [
+    "drpower.com"
+  ],
+  "homepage": "https://drpower.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9610,
+    "imported_at": "2026-05-13"
+  }
+}

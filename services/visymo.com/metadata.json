@@ -1,0 +1,19 @@
+{
+  "service_name": "Visymo",
+  "vendor": "Visymo",
+  "category": "other",
+  "domains": [
+    "visymo.com"
+  ],
+  "homepage": "https://visymo.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 2,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5132,
+    "imported_at": "2026-05-13"
+  }
+}

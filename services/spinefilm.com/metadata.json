@@ -1,0 +1,19 @@
+{
+  "service_name": "Spine Film",
+  "vendor": "Spine Film",
+  "category": "other",
+  "domains": [
+    "spinefilm.com"
+  ],
+  "homepage": "https://spinefilm.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8696,
+    "imported_at": "2026-05-13"
+  }
+}

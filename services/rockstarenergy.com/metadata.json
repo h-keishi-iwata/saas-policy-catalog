@@ -1,0 +1,19 @@
+{
+  "service_name": "Rockstar Energy",
+  "vendor": "Rockstar Energy",
+  "category": "other",
+  "domains": [
+    "rockstarenergy.com"
+  ],
+  "homepage": "https://rockstarenergy.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2782,
+    "imported_at": "2026-05-13"
+  }
+}

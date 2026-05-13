@@ -1,0 +1,19 @@
+{
+  "service_name": "ScamNumbers.info",
+  "vendor": "ScamNumbers.info",
+  "category": "other",
+  "domains": [
+    "scamnumbers.info"
+  ],
+  "homepage": "https://scamnumbers.info",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10796,
+    "imported_at": "2026-05-13"
+  }
+}

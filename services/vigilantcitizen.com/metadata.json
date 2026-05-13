@@ -1,0 +1,19 @@
+{
+  "service_name": "The Vigilant Citizen",
+  "vendor": "The Vigilant Citizen",
+  "category": "other",
+  "domains": [
+    "vigilantcitizen.com"
+  ],
+  "homepage": "https://vigilantcitizen.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7394,
+    "imported_at": "2026-05-13"
+  }
+}

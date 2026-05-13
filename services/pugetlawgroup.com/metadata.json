@@ -1,0 +1,19 @@
+{
+  "service_name": "Puget Law Group",
+  "vendor": "Puget Law Group",
+  "category": "other",
+  "domains": [
+    "pugetlawgroup.com"
+  ],
+  "homepage": "https://pugetlawgroup.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7393,
+    "imported_at": "2026-05-13"
+  }
+}

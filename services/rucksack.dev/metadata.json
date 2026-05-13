@@ -1,0 +1,19 @@
+{
+  "service_name": "Rucksack App Development",
+  "vendor": "Rucksack App Development",
+  "category": "other",
+  "domains": [
+    "rucksack.dev"
+  ],
+  "homepage": "https://rucksack.dev",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8757,
+    "imported_at": "2026-05-13"
+  }
+}

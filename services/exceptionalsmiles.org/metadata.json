@@ -1,0 +1,19 @@
+{
+  "service_name": "ExceptionalSmiles",
+  "vendor": "ExceptionalSmiles",
+  "category": "other",
+  "domains": [
+    "exceptionalsmiles.org"
+  ],
+  "homepage": "https://exceptionalsmiles.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9216,
+    "imported_at": "2026-05-13"
+  }
+}

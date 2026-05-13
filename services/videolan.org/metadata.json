@@ -1,0 +1,19 @@
+{
+  "service_name": "VideoLAN",
+  "vendor": "VideoLAN",
+  "category": "other",
+  "domains": [
+    "videolan.org"
+  ],
+  "homepage": "https://videolan.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9549,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "parliament of victoria",
+  "vendor": "parliament of victoria",
+  "category": "other",
+  "domains": [
+    "parliament.vic.gov.au"
+  ],
+  "homepage": "https://parliament.vic.gov.au",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10303,
+    "imported_at": "2026-05-13"
+  }
+}

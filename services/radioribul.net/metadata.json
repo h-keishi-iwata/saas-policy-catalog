@@ -1,0 +1,19 @@
+{
+  "service_name": "RadioRibul",
+  "vendor": "RadioRibul",
+  "category": "other",
+  "domains": [
+    "radioribul.net"
+  ],
+  "homepage": "https://radioribul.net",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1349,
+    "imported_at": "2026-05-13"
+  }
+}

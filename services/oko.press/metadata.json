@@ -1,0 +1,19 @@
+{
+  "service_name": "oko.press",
+  "vendor": "oko.press",
+  "category": "other",
+  "domains": [
+    "oko.press"
+  ],
+  "homepage": "https://oko.press",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9129,
+    "imported_at": "2026-05-13"
+  }
+}

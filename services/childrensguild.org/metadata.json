@@ -1,0 +1,19 @@
+{
+  "service_name": "The Children’s Guild",
+  "vendor": "The Children’s Guild",
+  "category": "other",
+  "domains": [
+    "childrensguild.org"
+  ],
+  "homepage": "https://childrensguild.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9859,
+    "imported_at": "2026-05-13"
+  }
+}

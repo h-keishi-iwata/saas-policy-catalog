@@ -1,0 +1,19 @@
+{
+  "service_name": "Factorio",
+  "vendor": "Factorio",
+  "category": "other",
+  "domains": [
+    "factorio.com"
+  ],
+  "homepage": "https://factorio.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 717,
+    "imported_at": "2026-05-13"
+  }
+}

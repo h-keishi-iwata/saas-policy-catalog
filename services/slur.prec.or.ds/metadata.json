@@ -1,0 +1,19 @@
+{
+  "service_name": "[DEPRECATED] Slurp Records",
+  "vendor": "[DEPRECATED] Slurp Records",
+  "category": "other",
+  "domains": [
+    "slur.prec.or.ds"
+  ],
+  "homepage": "https://slur.prec.or.ds",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1423,
+    "imported_at": "2026-05-13"
+  }
+}

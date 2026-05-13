@@ -1,0 +1,19 @@
+{
+  "service_name": "Vovsoft",
+  "vendor": "Vovsoft",
+  "category": "other",
+  "domains": [
+    "vovsoft.com"
+  ],
+  "homepage": "https://vovsoft.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7988,
+    "imported_at": "2026-05-13"
+  }
+}

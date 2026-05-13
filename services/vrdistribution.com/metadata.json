@@ -1,0 +1,19 @@
+{
+  "service_name": "VR Distribution",
+  "vendor": "VR Distribution",
+  "category": "other",
+  "domains": [
+    "vrdistribution.com"
+  ],
+  "homepage": "https://vrdistribution.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5013,
+    "imported_at": "2026-05-13"
+  }
+}

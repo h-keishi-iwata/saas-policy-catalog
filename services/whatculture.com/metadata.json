@@ -1,0 +1,19 @@
+{
+  "service_name": "What Culture",
+  "vendor": "What Culture",
+  "category": "other",
+  "domains": [
+    "whatculture.com"
+  ],
+  "homepage": "https://whatculture.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4936,
+    "imported_at": "2026-05-13"
+  }
+}

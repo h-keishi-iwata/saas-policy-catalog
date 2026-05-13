@@ -1,0 +1,19 @@
+{
+  "service_name": "Is It Down Right Now",
+  "vendor": "Is It Down Right Now",
+  "category": "other",
+  "domains": [
+    "isitdownrightnow.com"
+  ],
+  "homepage": "https://isitdownrightnow.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11547,
+    "imported_at": "2026-05-13"
+  }
+}

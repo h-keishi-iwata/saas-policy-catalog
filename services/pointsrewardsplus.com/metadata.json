@@ -1,0 +1,19 @@
+{
+  "service_name": "Points Reward Plus",
+  "vendor": "Points Reward Plus",
+  "category": "other",
+  "domains": [
+    "pointsrewardsplus.com"
+  ],
+  "homepage": "https://pointsrewardsplus.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6996,
+    "imported_at": "2026-05-13"
+  }
+}

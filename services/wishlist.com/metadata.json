@@ -1,0 +1,19 @@
+{
+  "service_name": "Wishlist",
+  "vendor": "Wishlist",
+  "category": "other",
+  "domains": [
+    "wishlist.com"
+  ],
+  "homepage": "https://wishlist.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 823,
+    "imported_at": "2026-05-13"
+  }
+}

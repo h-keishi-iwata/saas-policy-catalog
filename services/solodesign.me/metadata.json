@@ -1,0 +1,19 @@
+{
+  "service_name": "Solo Design, LLC",
+  "vendor": "Solo Design, LLC",
+  "category": "other",
+  "domains": [
+    "solodesign.me"
+  ],
+  "homepage": "https://solodesign.me",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6353,
+    "imported_at": "2026-05-13"
+  }
+}

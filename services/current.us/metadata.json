@@ -1,0 +1,19 @@
+{
+  "service_name": "Current",
+  "vendor": "Current",
+  "category": "other",
+  "domains": [
+    "current.us"
+  ],
+  "homepage": "https://current.us",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2510,
+    "imported_at": "2026-05-13"
+  }
+}

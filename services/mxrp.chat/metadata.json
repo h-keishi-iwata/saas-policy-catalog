@@ -1,0 +1,19 @@
+{
+  "service_name": "Mixed RolePlay",
+  "vendor": "Mixed RolePlay",
+  "category": "other",
+  "domains": [
+    "mxrp.chat"
+  ],
+  "homepage": "https://mxrp.chat",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3054,
+    "imported_at": "2026-05-13"
+  }
+}

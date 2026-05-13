@@ -1,0 +1,19 @@
+{
+  "service_name": "Crohn's & Colitis Foundation",
+  "vendor": "Crohn's & Colitis Foundation",
+  "category": "other",
+  "domains": [
+    "crohnscolitisfoundation.org"
+  ],
+  "homepage": "https://crohnscolitisfoundation.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3426,
+    "imported_at": "2026-05-13"
+  }
+}

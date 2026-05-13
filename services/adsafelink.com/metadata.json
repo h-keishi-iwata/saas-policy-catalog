@@ -1,0 +1,19 @@
+{
+  "service_name": "Ad Safelink",
+  "vendor": "Ad Safelink",
+  "category": "other",
+  "domains": [
+    "adsafelink.com"
+  ],
+  "homepage": "https://adsafelink.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11283,
+    "imported_at": "2026-05-13"
+  }
+}

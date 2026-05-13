@@ -1,0 +1,19 @@
+{
+  "service_name": "lnp2pBot",
+  "vendor": "lnp2pBot",
+  "category": "other",
+  "domains": [
+    "lnp2pbot.com"
+  ],
+  "homepage": "https://lnp2pbot.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10801,
+    "imported_at": "2026-05-13"
+  }
+}

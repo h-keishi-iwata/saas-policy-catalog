@@ -1,0 +1,19 @@
+{
+  "service_name": "Gobierno de Mexico",
+  "vendor": "Gobierno de Mexico",
+  "category": "other",
+  "domains": [
+    "gob.mx"
+  ],
+  "homepage": "https://gob.mx",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 2,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10247,
+    "imported_at": "2026-05-13"
+  }
+}

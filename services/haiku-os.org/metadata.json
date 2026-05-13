@@ -1,0 +1,19 @@
+{
+  "service_name": "Haiku",
+  "vendor": "Haiku",
+  "category": "other",
+  "domains": [
+    "haiku-os.org"
+  ],
+  "homepage": "https://haiku-os.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 723,
+    "imported_at": "2026-05-13"
+  }
+}

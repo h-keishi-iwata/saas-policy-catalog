@@ -1,0 +1,19 @@
+{
+  "service_name": "Free Software Foundation Europe",
+  "vendor": "Free Software Foundation Europe",
+  "category": "other",
+  "domains": [
+    "fsfe.org"
+  ],
+  "homepage": "https://fsfe.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4409,
+    "imported_at": "2026-05-13"
+  }
+}

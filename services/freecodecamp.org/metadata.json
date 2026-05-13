@@ -1,0 +1,19 @@
+{
+  "service_name": "Free Code Camp",
+  "vendor": "Free Code Camp",
+  "category": "other",
+  "domains": [
+    "freecodecamp.org"
+  ],
+  "homepage": "https://freecodecamp.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 509,
+    "imported_at": "2026-05-13"
+  }
+}

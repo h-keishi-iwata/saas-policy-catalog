@@ -1,0 +1,19 @@
+{
+  "service_name": "BlogForGeeks (discontinued?)",
+  "vendor": "BlogForGeeks (discontinued?)",
+  "category": "other",
+  "domains": [
+    "blogforgeeks.co.uk"
+  ],
+  "homepage": "https://blogforgeeks.co.uk",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 726,
+    "imported_at": "2026-05-13"
+  }
+}

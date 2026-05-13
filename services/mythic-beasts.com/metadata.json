@@ -1,0 +1,19 @@
+{
+  "service_name": "Mythic Beasts",
+  "vendor": "Mythic Beasts",
+  "category": "other",
+  "domains": [
+    "mythic-beasts.com"
+  ],
+  "homepage": "https://mythic-beasts.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4547,
+    "imported_at": "2026-05-13"
+  }
+}

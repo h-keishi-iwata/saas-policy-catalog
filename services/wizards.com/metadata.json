@@ -1,0 +1,19 @@
+{
+  "service_name": "Wizards of the Coast",
+  "vendor": "Wizards of the Coast",
+  "category": "other",
+  "domains": [
+    "wizards.com"
+  ],
+  "homepage": "https://wizards.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1709,
+    "imported_at": "2026-05-13"
+  }
+}

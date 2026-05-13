@@ -1,0 +1,19 @@
+{
+  "service_name": "CHECK24",
+  "vendor": "CHECK24",
+  "category": "other",
+  "domains": [
+    "check24.de"
+  ],
+  "homepage": "https://check24.de",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9341,
+    "imported_at": "2026-05-13"
+  }
+}

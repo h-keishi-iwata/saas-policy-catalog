@@ -1,0 +1,19 @@
+{
+  "service_name": "Cryptomator",
+  "vendor": "Cryptomator",
+  "category": "other",
+  "domains": [
+    "cryptomator.org"
+  ],
+  "homepage": "https://cryptomator.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4403,
+    "imported_at": "2026-05-13"
+  }
+}

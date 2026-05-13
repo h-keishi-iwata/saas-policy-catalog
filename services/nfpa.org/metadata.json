@@ -1,0 +1,19 @@
+{
+  "service_name": "National Fire Protection Association",
+  "vendor": "National Fire Protection Association",
+  "category": "other",
+  "domains": [
+    "nfpa.org"
+  ],
+  "homepage": "https://nfpa.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6136,
+    "imported_at": "2026-05-13"
+  }
+}

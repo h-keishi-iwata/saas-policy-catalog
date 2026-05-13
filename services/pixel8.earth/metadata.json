@@ -1,0 +1,19 @@
+{
+  "service_name": "Pixel8Earth",
+  "vendor": "Pixel8Earth",
+  "category": "other",
+  "domains": [
+    "pixel8.earth"
+  ],
+  "homepage": "https://pixel8.earth",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2412,
+    "imported_at": "2026-05-13"
+  }
+}

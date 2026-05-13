@@ -1,0 +1,19 @@
+{
+  "service_name": "Private Eye",
+  "vendor": "Private Eye",
+  "category": "other",
+  "domains": [
+    "private-eye.co.uk"
+  ],
+  "homepage": "https://private-eye.co.uk",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8546,
+    "imported_at": "2026-05-13"
+  }
+}

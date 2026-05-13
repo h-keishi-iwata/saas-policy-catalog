@@ -1,0 +1,19 @@
+{
+  "service_name": "bus-hit.me",
+  "vendor": "bus-hit.me",
+  "category": "other",
+  "domains": [
+    "bus-hit.me"
+  ],
+  "homepage": "https://bus-hit.me",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7255,
+    "imported_at": "2026-05-13"
+  }
+}

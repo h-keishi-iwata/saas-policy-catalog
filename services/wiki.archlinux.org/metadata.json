@@ -1,0 +1,19 @@
+{
+  "service_name": "ArchWiki",
+  "vendor": "ArchWiki",
+  "category": "other",
+  "domains": [
+    "wiki.archlinux.org"
+  ],
+  "homepage": "https://wiki.archlinux.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2891,
+    "imported_at": "2026-05-13"
+  }
+}

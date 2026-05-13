@@ -1,0 +1,19 @@
+{
+  "service_name": "My Cooling Store",
+  "vendor": "My Cooling Store",
+  "category": "other",
+  "domains": [
+    "mycoolingstore.com"
+  ],
+  "homepage": "https://mycoolingstore.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7931,
+    "imported_at": "2026-05-13"
+  }
+}

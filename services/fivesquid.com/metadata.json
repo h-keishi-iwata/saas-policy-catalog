@@ -1,0 +1,19 @@
+{
+  "service_name": "fivesquid",
+  "vendor": "fivesquid",
+  "category": "other",
+  "domains": [
+    "fivesquid.com"
+  ],
+  "homepage": "https://fivesquid.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 459,
+    "imported_at": "2026-05-13"
+  }
+}

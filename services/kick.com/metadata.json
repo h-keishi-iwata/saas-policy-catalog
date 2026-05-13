@@ -1,0 +1,19 @@
+{
+  "service_name": "Kick",
+  "vendor": "Kick",
+  "category": "other",
+  "domains": [
+    "kick.com"
+  ],
+  "homepage": "https://kick.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8585,
+    "imported_at": "2026-05-13"
+  }
+}

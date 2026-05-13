@@ -1,0 +1,19 @@
+{
+  "service_name": "pCloud",
+  "vendor": "pCloud",
+  "category": "other",
+  "domains": [
+    "pcloud.com"
+  ],
+  "homepage": "https://pcloud.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2429,
+    "imported_at": "2026-05-13"
+  }
+}

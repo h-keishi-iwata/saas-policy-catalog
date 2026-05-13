@@ -1,0 +1,19 @@
+{
+  "service_name": "PDF Drive",
+  "vendor": "PDF Drive",
+  "category": "other",
+  "domains": [
+    "pdfdrive.com"
+  ],
+  "homepage": "https://pdfdrive.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3250,
+    "imported_at": "2026-05-13"
+  }
+}

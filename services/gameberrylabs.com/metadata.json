@@ -1,0 +1,19 @@
+{
+  "service_name": "gameberrylabs",
+  "vendor": "gameberrylabs",
+  "category": "other",
+  "domains": [
+    "gameberrylabs.com"
+  ],
+  "homepage": "https://gameberrylabs.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6862,
+    "imported_at": "2026-05-13"
+  }
+}

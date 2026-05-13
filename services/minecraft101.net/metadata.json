@@ -1,0 +1,19 @@
+{
+  "service_name": "Minecraft 101",
+  "vendor": "Minecraft 101",
+  "category": "other",
+  "domains": [
+    "minecraft101.net"
+  ],
+  "homepage": "https://minecraft101.net",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8746,
+    "imported_at": "2026-05-13"
+  }
+}

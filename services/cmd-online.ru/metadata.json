@@ -1,0 +1,19 @@
+{
+  "service_name": "CMD Центр Молекулярной Диагностики",
+  "vendor": "CMD Центр Молекулярной Диагностики",
+  "category": "other",
+  "domains": [
+    "cmd-online.ru"
+  ],
+  "homepage": "https://cmd-online.ru",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1726,
+    "imported_at": "2026-05-13"
+  }
+}

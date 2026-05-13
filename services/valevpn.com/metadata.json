@@ -1,0 +1,19 @@
+{
+  "service_name": "ValeVPN",
+  "vendor": "ValeVPN",
+  "category": "other",
+  "domains": [
+    "valevpn.com"
+  ],
+  "homepage": "https://valevpn.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9908,
+    "imported_at": "2026-05-13"
+  }
+}

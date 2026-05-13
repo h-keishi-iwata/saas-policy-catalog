@@ -1,0 +1,19 @@
+{
+  "service_name": "Best Minecraft Servers",
+  "vendor": "Best Minecraft Servers",
+  "category": "other",
+  "domains": [
+    "best-minecraft-servers.co"
+  ],
+  "homepage": "https://best-minecraft-servers.co",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9780,
+    "imported_at": "2026-05-13"
+  }
+}

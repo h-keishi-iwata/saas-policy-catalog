@@ -1,0 +1,19 @@
+{
+  "service_name": "interparcel",
+  "vendor": "interparcel",
+  "category": "other",
+  "domains": [
+    "interparcel.com"
+  ],
+  "homepage": "https://interparcel.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 256,
+    "imported_at": "2026-05-13"
+  }
+}

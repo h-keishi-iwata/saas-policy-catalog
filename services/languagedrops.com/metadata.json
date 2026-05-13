@@ -1,0 +1,19 @@
+{
+  "service_name": "Language Drops",
+  "vendor": "Language Drops",
+  "category": "other",
+  "domains": [
+    "languagedrops.com"
+  ],
+  "homepage": "https://languagedrops.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11068,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "webSaver",
+  "vendor": "webSaver",
+  "category": "other",
+  "domains": [
+    "websaver.ca"
+  ],
+  "homepage": "https://websaver.ca",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 268,
+    "imported_at": "2026-05-13"
+  }
+}

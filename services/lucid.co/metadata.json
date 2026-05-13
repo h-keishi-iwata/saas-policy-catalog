@@ -1,0 +1,19 @@
+{
+  "service_name": "Lucid Software",
+  "vendor": "Lucid Software",
+  "category": "other",
+  "domains": [
+    "lucid.co"
+  ],
+  "homepage": "https://lucid.co",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2405,
+    "imported_at": "2026-05-13"
+  }
+}

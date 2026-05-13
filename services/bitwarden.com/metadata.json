@@ -1,0 +1,19 @@
+{
+  "service_name": "Bitwarden",
+  "vendor": "Bitwarden",
+  "category": "other",
+  "domains": [
+    "bitwarden.com"
+  ],
+  "homepage": "https://bitwarden.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1348,
+    "imported_at": "2026-05-13"
+  }
+}

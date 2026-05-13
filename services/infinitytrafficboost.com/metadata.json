@@ -1,0 +1,19 @@
+{
+  "service_name": "InfinityTrafficBoost.com",
+  "vendor": "InfinityTrafficBoost.com",
+  "category": "other",
+  "domains": [
+    "infinitytrafficboost.com"
+  ],
+  "homepage": "https://infinitytrafficboost.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3662,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Martinez Tool Company",
+  "vendor": "Martinez Tool Company",
+  "category": "other",
+  "domains": [
+    "martineztools.com"
+  ],
+  "homepage": "https://martineztools.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8619,
+    "imported_at": "2026-05-13"
+  }
+}

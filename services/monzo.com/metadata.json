@@ -1,0 +1,19 @@
+{
+  "service_name": "Monzo",
+  "vendor": "Monzo",
+  "category": "other",
+  "domains": [
+    "monzo.com"
+  ],
+  "homepage": "https://monzo.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1737,
+    "imported_at": "2026-05-13"
+  }
+}

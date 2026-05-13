@@ -1,0 +1,19 @@
+{
+  "service_name": "Upload Zeal",
+  "vendor": "Upload Zeal",
+  "category": "other",
+  "domains": [
+    "uploadzeal.com"
+  ],
+  "homepage": "https://uploadzeal.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 964,
+    "imported_at": "2026-05-13"
+  }
+}

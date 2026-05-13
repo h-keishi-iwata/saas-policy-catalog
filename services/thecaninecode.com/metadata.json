@@ -1,0 +1,19 @@
+{
+  "service_name": "The Canine Code",
+  "vendor": "The Canine Code",
+  "category": "other",
+  "domains": [
+    "thecaninecode.com"
+  ],
+  "homepage": "https://thecaninecode.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9628,
+    "imported_at": "2026-05-13"
+  }
+}

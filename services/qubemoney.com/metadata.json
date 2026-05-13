@@ -1,0 +1,19 @@
+{
+  "service_name": "Qube Money",
+  "vendor": "Qube Money",
+  "category": "other",
+  "domains": [
+    "qubemoney.com"
+  ],
+  "homepage": "https://qubemoney.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8540,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "33mail",
+  "vendor": "33mail",
+  "category": "other",
+  "domains": [
+    "33mail.com"
+  ],
+  "homepage": "https://33mail.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8301,
+    "imported_at": "2026-05-13"
+  }
+}

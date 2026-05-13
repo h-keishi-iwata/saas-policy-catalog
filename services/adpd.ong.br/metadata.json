@@ -1,0 +1,19 @@
+{
+  "service_name": "Associação de Defesa da Privacidade Digital",
+  "vendor": "Associação de Defesa da Privacidade Digital",
+  "category": "other",
+  "domains": [
+    "adpd.ong.br"
+  ],
+  "homepage": "https://adpd.ong.br",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1424,
+    "imported_at": "2026-05-13"
+  }
+}

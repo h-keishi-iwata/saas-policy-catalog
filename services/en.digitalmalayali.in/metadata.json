@@ -1,0 +1,19 @@
+{
+  "service_name": "Digital Malayali",
+  "vendor": "Digital Malayali",
+  "category": "other",
+  "domains": [
+    "en.digitalmalayali.in"
+  ],
+  "homepage": "https://en.digitalmalayali.in",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6593,
+    "imported_at": "2026-05-13"
+  }
+}

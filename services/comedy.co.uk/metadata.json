@@ -1,0 +1,19 @@
+{
+  "service_name": "British Comedy Guide",
+  "vendor": "British Comedy Guide",
+  "category": "other",
+  "domains": [
+    "comedy.co.uk"
+  ],
+  "homepage": "https://comedy.co.uk",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9303,
+    "imported_at": "2026-05-13"
+  }
+}

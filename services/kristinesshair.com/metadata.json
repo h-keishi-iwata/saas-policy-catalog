@@ -1,0 +1,19 @@
+{
+  "service_name": "Kristin Ess Hair",
+  "vendor": "Kristin Ess Hair",
+  "category": "other",
+  "domains": [
+    "kristinesshair.com"
+  ],
+  "homepage": "https://kristinesshair.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3639,
+    "imported_at": "2026-05-13"
+  }
+}

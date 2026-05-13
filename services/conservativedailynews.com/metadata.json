@@ -1,0 +1,19 @@
+{
+  "service_name": "Conservative Daily News",
+  "vendor": "Conservative Daily News",
+  "category": "other",
+  "domains": [
+    "conservativedailynews.com"
+  ],
+  "homepage": "https://conservativedailynews.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5389,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Call BlackLine",
+  "vendor": "Call BlackLine",
+  "category": "other",
+  "domains": [
+    "callblackline.com"
+  ],
+  "homepage": "https://callblackline.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11038,
+    "imported_at": "2026-05-13"
+  }
+}

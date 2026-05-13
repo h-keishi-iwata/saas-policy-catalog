@@ -1,0 +1,19 @@
+{
+  "service_name": "Firefox Monitor",
+  "vendor": "Firefox Monitor",
+  "category": "other",
+  "domains": [
+    "monitor.firefox.com"
+  ],
+  "homepage": "https://monitor.firefox.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4157,
+    "imported_at": "2026-05-13"
+  }
+}

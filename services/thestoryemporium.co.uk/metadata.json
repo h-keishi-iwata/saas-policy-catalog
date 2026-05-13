@@ -1,0 +1,19 @@
+{
+  "service_name": "The Story Emporium",
+  "vendor": "The Story Emporium",
+  "category": "other",
+  "domains": [
+    "thestoryemporium.co.uk"
+  ],
+  "homepage": "https://thestoryemporium.co.uk",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10449,
+    "imported_at": "2026-05-13"
+  }
+}

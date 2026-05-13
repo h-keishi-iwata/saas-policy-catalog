@@ -1,0 +1,19 @@
+{
+  "service_name": "Cliphunter",
+  "vendor": "Cliphunter",
+  "category": "other",
+  "domains": [
+    "cliphunter.com"
+  ],
+  "homepage": "https://cliphunter.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4182,
+    "imported_at": "2026-05-13"
+  }
+}

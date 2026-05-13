@@ -1,0 +1,19 @@
+{
+  "service_name": "Leading The Way with Dr. Michael Youssef",
+  "vendor": "Leading The Way with Dr. Michael Youssef",
+  "category": "other",
+  "domains": [
+    "ltw.org"
+  ],
+  "homepage": "https://ltw.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9966,
+    "imported_at": "2026-05-13"
+  }
+}

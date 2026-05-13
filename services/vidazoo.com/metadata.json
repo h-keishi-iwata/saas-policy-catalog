@@ -1,0 +1,19 @@
+{
+  "service_name": "Vidazoo",
+  "vendor": "Vidazoo",
+  "category": "other",
+  "domains": [
+    "vidazoo.com"
+  ],
+  "homepage": "https://vidazoo.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4735,
+    "imported_at": "2026-05-13"
+  }
+}

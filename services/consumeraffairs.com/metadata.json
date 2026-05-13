@@ -1,0 +1,19 @@
+{
+  "service_name": "ConsumerAffairs",
+  "vendor": "ConsumerAffairs",
+  "category": "other",
+  "domains": [
+    "consumeraffairs.com"
+  ],
+  "homepage": "https://consumeraffairs.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9808,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Malte Linke",
+  "vendor": "Malte Linke",
+  "category": "other",
+  "domains": [
+    "malte-linke.com"
+  ],
+  "homepage": "https://malte-linke.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4750,
+    "imported_at": "2026-05-13"
+  }
+}

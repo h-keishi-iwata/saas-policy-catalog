@@ -1,0 +1,19 @@
+{
+  "service_name": "wetter.com",
+  "vendor": "wetter.com",
+  "category": "other",
+  "domains": [
+    "wetter.com"
+  ],
+  "homepage": "https://wetter.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1481,
+    "imported_at": "2026-05-13"
+  }
+}

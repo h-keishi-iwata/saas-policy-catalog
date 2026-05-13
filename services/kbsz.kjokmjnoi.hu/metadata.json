@@ -1,0 +1,19 @@
+{
+  "service_name": "Kjo Biztonsági Szerver",
+  "vendor": "Kjo Biztonsági Szerver",
+  "category": "other",
+  "domains": [
+    "kbsz.kjokmjnoi.hu"
+  ],
+  "homepage": "https://kbsz.kjokmjnoi.hu",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3993,
+    "imported_at": "2026-05-13"
+  }
+}

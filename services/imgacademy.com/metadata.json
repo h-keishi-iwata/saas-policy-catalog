@@ -1,0 +1,19 @@
+{
+  "service_name": "IMG Academy",
+  "vendor": "IMG Academy",
+  "category": "other",
+  "domains": [
+    "imgacademy.com"
+  ],
+  "homepage": "https://imgacademy.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10846,
+    "imported_at": "2026-05-13"
+  }
+}

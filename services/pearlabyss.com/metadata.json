@@ -1,0 +1,19 @@
+{
+  "service_name": "Pearl Abyss",
+  "vendor": "Pearl Abyss",
+  "category": "other",
+  "domains": [
+    "pearlabyss.com"
+  ],
+  "homepage": "https://pearlabyss.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10163,
+    "imported_at": "2026-05-13"
+  }
+}

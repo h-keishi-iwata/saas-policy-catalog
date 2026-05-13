@@ -1,0 +1,19 @@
+{
+  "service_name": "Nationwide Children’s Hospital",
+  "vendor": "Nationwide Children’s Hospital",
+  "category": "other",
+  "domains": [
+    "nationwidechildrens.org"
+  ],
+  "homepage": "https://nationwidechildrens.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9897,
+    "imported_at": "2026-05-13"
+  }
+}

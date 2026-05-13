@@ -1,0 +1,19 @@
+{
+  "service_name": "Netease Cloud Music",
+  "vendor": "Netease Cloud Music",
+  "category": "other",
+  "domains": [
+    "music.163.com"
+  ],
+  "homepage": "https://music.163.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2733,
+    "imported_at": "2026-05-13"
+  }
+}

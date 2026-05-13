@@ -1,0 +1,19 @@
+{
+  "service_name": "androidtop.net",
+  "vendor": "androidtop.net",
+  "category": "other",
+  "domains": [
+    "androidtop.net"
+  ],
+  "homepage": "https://androidtop.net",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11190,
+    "imported_at": "2026-05-13"
+  }
+}

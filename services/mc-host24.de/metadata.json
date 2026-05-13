@@ -1,0 +1,19 @@
+{
+  "service_name": "MC-Host24",
+  "vendor": "MC-Host24",
+  "category": "other",
+  "domains": [
+    "mc-host24.de"
+  ],
+  "homepage": "https://mc-host24.de",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9872,
+    "imported_at": "2026-05-13"
+  }
+}

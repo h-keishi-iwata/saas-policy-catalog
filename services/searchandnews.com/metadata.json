@@ -1,0 +1,19 @@
+{
+  "service_name": "searchandnews.com",
+  "vendor": "searchandnews.com",
+  "category": "other",
+  "domains": [
+    "searchandnews.com"
+  ],
+  "homepage": "https://searchandnews.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11004,
+    "imported_at": "2026-05-13"
+  }
+}

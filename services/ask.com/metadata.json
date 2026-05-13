@@ -1,0 +1,19 @@
+{
+  "service_name": "Ask.com",
+  "vendor": "Ask.com",
+  "category": "other",
+  "domains": [
+    "ask.com"
+  ],
+  "homepage": "https://ask.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8368,
+    "imported_at": "2026-05-13"
+  }
+}

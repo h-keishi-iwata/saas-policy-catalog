@@ -1,0 +1,19 @@
+{
+  "service_name": "Minneapolis Community and Technical College",
+  "vendor": "Minneapolis Community and Technical College",
+  "category": "other",
+  "domains": [
+    "minneapolis.edu"
+  ],
+  "homepage": "https://minneapolis.edu",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9432,
+    "imported_at": "2026-05-13"
+  }
+}

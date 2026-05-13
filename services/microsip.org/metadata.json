@@ -1,0 +1,19 @@
+{
+  "service_name": "MicroSIP",
+  "vendor": "MicroSIP",
+  "category": "other",
+  "domains": [
+    "microsip.org"
+  ],
+  "homepage": "https://microsip.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8185,
+    "imported_at": "2026-05-13"
+  }
+}

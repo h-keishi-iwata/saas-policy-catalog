@@ -1,0 +1,19 @@
+{
+  "service_name": "nordictrack",
+  "vendor": "nordictrack",
+  "category": "other",
+  "domains": [
+    "nordictrack.com"
+  ],
+  "homepage": "https://nordictrack.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4020,
+    "imported_at": "2026-05-13"
+  }
+}

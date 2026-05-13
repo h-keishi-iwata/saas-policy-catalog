@@ -1,0 +1,19 @@
+{
+  "service_name": "ElementVape",
+  "vendor": "ElementVape",
+  "category": "other",
+  "domains": [
+    "elementvape.com"
+  ],
+  "homepage": "https://elementvape.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8897,
+    "imported_at": "2026-05-13"
+  }
+}

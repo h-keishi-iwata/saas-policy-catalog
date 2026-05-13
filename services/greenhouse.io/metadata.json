@@ -1,0 +1,19 @@
+{
+  "service_name": "Greenhouse",
+  "vendor": "Greenhouse",
+  "category": "other",
+  "domains": [
+    "greenhouse.io"
+  ],
+  "homepage": "https://greenhouse.io",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 2,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3678,
+    "imported_at": "2026-05-13"
+  }
+}

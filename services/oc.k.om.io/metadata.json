@@ -1,0 +1,19 @@
+{
+  "service_name": "[DEPRECATED] Ockom",
+  "vendor": "[DEPRECATED] Ockom",
+  "category": "other",
+  "domains": [
+    "oc.k.om.io"
+  ],
+  "homepage": "https://oc.k.om.io",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 633,
+    "imported_at": "2026-05-13"
+  }
+}

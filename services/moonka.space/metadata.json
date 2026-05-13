@@ -1,0 +1,19 @@
+{
+  "service_name": "Moonka.space",
+  "vendor": "Moonka.space",
+  "category": "other",
+  "domains": [
+    "moonka.space"
+  ],
+  "homepage": "https://moonka.space",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9264,
+    "imported_at": "2026-05-13"
+  }
+}

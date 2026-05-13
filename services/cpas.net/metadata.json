@@ -1,0 +1,19 @@
+{
+  "service_name": "CPA or Accounting Firm",
+  "vendor": "CPA or Accounting Firm",
+  "category": "other",
+  "domains": [
+    "cpas.net"
+  ],
+  "homepage": "https://cpas.net",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3780,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Estes Express Lines",
+  "vendor": "Estes Express Lines",
+  "category": "other",
+  "domains": [
+    "estes-express.com"
+  ],
+  "homepage": "https://estes-express.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5162,
+    "imported_at": "2026-05-13"
+  }
+}

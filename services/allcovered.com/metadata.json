@@ -1,0 +1,19 @@
+{
+  "service_name": "All Covered",
+  "vendor": "All Covered",
+  "category": "other",
+  "domains": [
+    "allcovered.com"
+  ],
+  "homepage": "https://allcovered.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3409,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "SwedishStudios Games",
+  "vendor": "SwedishStudios Games",
+  "category": "other",
+  "domains": [
+    "swedishstudiosgames.com"
+  ],
+  "homepage": "https://swedishstudiosgames.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7739,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "US Solar Savings",
+  "vendor": "US Solar Savings",
+  "category": "other",
+  "domains": [
+    "ussolarsavings.com"
+  ],
+  "homepage": "https://ussolarsavings.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5777,
+    "imported_at": "2026-05-13"
+  }
+}

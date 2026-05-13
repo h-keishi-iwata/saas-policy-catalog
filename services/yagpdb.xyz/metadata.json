@@ -1,0 +1,19 @@
+{
+  "service_name": "BOTLABS.GG LLC",
+  "vendor": "BOTLABS.GG LLC",
+  "category": "other",
+  "domains": [
+    "yagpdb.xyz"
+  ],
+  "homepage": "https://yagpdb.xyz",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2508,
+    "imported_at": "2026-05-13"
+  }
+}

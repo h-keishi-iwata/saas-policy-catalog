@@ -1,0 +1,19 @@
+{
+  "service_name": "Firsthand",
+  "vendor": "Firsthand",
+  "category": "other",
+  "domains": [
+    "firsthand.co"
+  ],
+  "homepage": "https://firsthand.co",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8103,
+    "imported_at": "2026-05-13"
+  }
+}

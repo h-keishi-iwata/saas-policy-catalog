@@ -1,0 +1,19 @@
+{
+  "service_name": "Business in Los Angeles",
+  "vendor": "Business in Los Angeles",
+  "category": "other",
+  "domains": [
+    "businessinlosangeles.com"
+  ],
+  "homepage": "https://businessinlosangeles.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6402,
+    "imported_at": "2026-05-13"
+  }
+}

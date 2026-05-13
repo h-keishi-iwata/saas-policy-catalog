@@ -1,0 +1,19 @@
+{
+  "service_name": "Bulk Image Downloader",
+  "vendor": "Bulk Image Downloader",
+  "category": "other",
+  "domains": [
+    "bulkimagedownloader.com"
+  ],
+  "homepage": "https://bulkimagedownloader.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 4856,
+    "imported_at": "2026-05-13"
+  }
+}

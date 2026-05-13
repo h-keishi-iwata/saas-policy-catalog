@@ -1,0 +1,19 @@
+{
+  "service_name": "Juniper Networks",
+  "vendor": "Juniper Networks",
+  "category": "other",
+  "domains": [
+    "juniper.net"
+  ],
+  "homepage": "https://juniper.net",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8392,
+    "imported_at": "2026-05-13"
+  }
+}

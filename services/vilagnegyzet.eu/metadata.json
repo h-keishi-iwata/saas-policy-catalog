@@ -1,0 +1,19 @@
+{
+  "service_name": "Világnégyzet",
+  "vendor": "Világnégyzet",
+  "category": "other",
+  "domains": [
+    "vilagnegyzet.eu"
+  ],
+  "homepage": "https://vilagnegyzet.eu",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 807,
+    "imported_at": "2026-05-13"
+  }
+}

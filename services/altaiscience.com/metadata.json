@@ -1,0 +1,19 @@
+{
+  "service_name": "altaiscience.com",
+  "vendor": "altaiscience.com",
+  "category": "other",
+  "domains": [
+    "altaiscience.com"
+  ],
+  "homepage": "https://altaiscience.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5570,
+    "imported_at": "2026-05-13"
+  }
+}

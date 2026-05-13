@@ -1,0 +1,19 @@
+{
+  "service_name": "identi.ca",
+  "vendor": "identi.ca",
+  "category": "other",
+  "domains": [
+    "identi.ca"
+  ],
+  "homepage": "https://identi.ca",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 174,
+    "imported_at": "2026-05-13"
+  }
+}

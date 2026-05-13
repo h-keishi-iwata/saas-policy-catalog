@@ -1,0 +1,19 @@
+{
+  "service_name": "dream.shop",
+  "vendor": "dream.shop",
+  "category": "other",
+  "domains": [
+    "dream.shop"
+  ],
+  "homepage": "https://dream.shop",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5271,
+    "imported_at": "2026-05-13"
+  }
+}

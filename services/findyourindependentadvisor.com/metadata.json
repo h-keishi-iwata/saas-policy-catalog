@@ -1,0 +1,19 @@
+{
+  "service_name": "FindYourIndependentAdvisor.com",
+  "vendor": "FindYourIndependentAdvisor.com",
+  "category": "other",
+  "domains": [
+    "findyourindependentadvisor.com"
+  ],
+  "homepage": "https://findyourindependentadvisor.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9435,
+    "imported_at": "2026-05-13"
+  }
+}

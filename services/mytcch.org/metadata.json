@@ -1,0 +1,19 @@
+{
+  "service_name": "Tri-Cities Community Health",
+  "vendor": "Tri-Cities Community Health",
+  "category": "other",
+  "domains": [
+    "mytcch.org"
+  ],
+  "homepage": "https://mytcch.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11328,
+    "imported_at": "2026-05-13"
+  }
+}

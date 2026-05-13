@@ -1,0 +1,19 @@
+{
+  "service_name": "Barack Obama Foundation",
+  "vendor": "Barack Obama Foundation",
+  "category": "other",
+  "domains": [
+    "obama.org"
+  ],
+  "homepage": "https://obama.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8332,
+    "imported_at": "2026-05-13"
+  }
+}

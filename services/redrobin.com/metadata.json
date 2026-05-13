@@ -1,0 +1,19 @@
+{
+  "service_name": "Red Robin",
+  "vendor": "Red Robin",
+  "category": "other",
+  "domains": [
+    "redrobin.com"
+  ],
+  "homepage": "https://redrobin.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9082,
+    "imported_at": "2026-05-13"
+  }
+}

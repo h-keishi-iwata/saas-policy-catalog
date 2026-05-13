@@ -1,0 +1,19 @@
+{
+  "service_name": "Tax Defense Network",
+  "vendor": "Tax Defense Network",
+  "category": "other",
+  "domains": [
+    "taxdefensenetwork.com"
+  ],
+  "homepage": "https://taxdefensenetwork.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 5698,
+    "imported_at": "2026-05-13"
+  }
+}

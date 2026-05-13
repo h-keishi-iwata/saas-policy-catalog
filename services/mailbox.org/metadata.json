@@ -1,0 +1,19 @@
+{
+  "service_name": "Mailbox",
+  "vendor": "Mailbox",
+  "category": "other",
+  "domains": [
+    "mailbox.org"
+  ],
+  "homepage": "https://mailbox.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 2975,
+    "imported_at": "2026-05-13"
+  }
+}

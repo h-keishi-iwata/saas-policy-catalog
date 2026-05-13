@@ -1,0 +1,19 @@
+{
+  "service_name": "mysafe-search.net",
+  "vendor": "mysafe-search.net",
+  "category": "other",
+  "domains": [
+    "mysafe-search.net"
+  ],
+  "homepage": "https://mysafe-search.net",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 8091,
+    "imported_at": "2026-05-13"
+  }
+}

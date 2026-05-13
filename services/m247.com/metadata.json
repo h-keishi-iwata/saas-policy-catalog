@@ -1,0 +1,19 @@
+{
+  "service_name": "m247",
+  "vendor": "m247",
+  "category": "other",
+  "domains": [
+    "m247.com"
+  ],
+  "homepage": "https://m247.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9640,
+    "imported_at": "2026-05-13"
+  }
+}

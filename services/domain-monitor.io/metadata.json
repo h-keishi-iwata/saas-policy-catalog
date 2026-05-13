@@ -1,0 +1,19 @@
+{
+  "service_name": "Domain Monitor",
+  "vendor": "Domain Monitor",
+  "category": "other",
+  "domains": [
+    "domain-monitor.io"
+  ],
+  "homepage": "https://domain-monitor.io",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11193,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Discord Bot List",
+  "vendor": "Discord Bot List",
+  "category": "other",
+  "domains": [
+    "discordbotlist.com"
+  ],
+  "homepage": "https://discordbotlist.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10012,
+    "imported_at": "2026-05-13"
+  }
+}

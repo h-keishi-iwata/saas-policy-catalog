@@ -1,0 +1,19 @@
+{
+  "service_name": "University Of Virginia",
+  "vendor": "University Of Virginia",
+  "category": "other",
+  "domains": [
+    "virginia.edu"
+  ],
+  "homepage": "https://virginia.edu",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3750,
+    "imported_at": "2026-05-13"
+  }
+}

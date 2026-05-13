@@ -1,0 +1,19 @@
+{
+  "service_name": "DigMinecraft",
+  "vendor": "DigMinecraft",
+  "category": "other",
+  "domains": [
+    "digminecraft.com"
+  ],
+  "homepage": "https://digminecraft.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9795,
+    "imported_at": "2026-05-13"
+  }
+}

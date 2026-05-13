@@ -1,0 +1,19 @@
+{
+  "service_name": "Wawa, Inc",
+  "vendor": "Wawa, Inc",
+  "category": "other",
+  "domains": [
+    "wawa.com"
+  ],
+  "homepage": "https://wawa.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 11372,
+    "imported_at": "2026-05-13"
+  }
+}

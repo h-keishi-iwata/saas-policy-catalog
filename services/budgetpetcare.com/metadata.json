@@ -1,0 +1,19 @@
+{
+  "service_name": "BudgetPetCare",
+  "vendor": "BudgetPetCare",
+  "category": "other",
+  "domains": [
+    "budgetpetcare.com"
+  ],
+  "homepage": "https://budgetpetcare.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7570,
+    "imported_at": "2026-05-13"
+  }
+}

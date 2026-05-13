@@ -1,0 +1,19 @@
+{
+  "service_name": "Digital Advertising Platform | ReklamStore",
+  "vendor": "Digital Advertising Platform | ReklamStore",
+  "category": "other",
+  "domains": [
+    "reklamstore.com"
+  ],
+  "homepage": "https://www.reklamstore.com/",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1590,
+    "imported_at": "2026-05-13"
+  }
+}

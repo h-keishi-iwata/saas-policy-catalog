@@ -1,0 +1,19 @@
+{
+  "service_name": "TraceMyIP",
+  "vendor": "TraceMyIP",
+  "category": "other",
+  "domains": [
+    "tracemyip.org"
+  ],
+  "homepage": "https://tracemyip.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7338,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "FUTO",
+  "vendor": "FUTO",
+  "category": "other",
+  "domains": [
+    "futo.org"
+  ],
+  "homepage": "https://futo.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9810,
+    "imported_at": "2026-05-13"
+  }
+}

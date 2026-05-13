@@ -1,0 +1,19 @@
+{
+  "service_name": "eBook to PDF",
+  "vendor": "eBook to PDF",
+  "category": "other",
+  "domains": [
+    "ebook2pdf.com"
+  ],
+  "homepage": "https://ebook2pdf.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 9203,
+    "imported_at": "2026-05-13"
+  }
+}

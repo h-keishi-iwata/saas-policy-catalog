@@ -1,0 +1,19 @@
+{
+  "service_name": "Valvoline",
+  "vendor": "Valvoline",
+  "category": "other",
+  "domains": [
+    "vioc.com"
+  ],
+  "homepage": "https://vioc.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 6423,
+    "imported_at": "2026-05-13"
+  }
+}

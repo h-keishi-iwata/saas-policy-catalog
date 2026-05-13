@@ -1,0 +1,19 @@
+{
+  "service_name": "Blue Sky Apps",
+  "vendor": "Blue Sky Apps",
+  "category": "other",
+  "domains": [
+    "blueskyapps.org"
+  ],
+  "homepage": "https://blueskyapps.org",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 7763,
+    "imported_at": "2026-05-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service_name": "Foundation for Applied Privacy",
+  "vendor": "Foundation for Applied Privacy",
+  "category": "other",
+  "domains": [
+    "applied-privacy.net"
+  ],
+  "homepage": "https://applied-privacy.net",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 2,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 10079,
+    "imported_at": "2026-05-13"
+  }
+}

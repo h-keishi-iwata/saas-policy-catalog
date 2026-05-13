@@ -1,0 +1,19 @@
+{
+  "service_name": "Podnews",
+  "vendor": "Podnews",
+  "category": "other",
+  "domains": [
+    "podnews.net"
+  ],
+  "homepage": "https://podnews.net",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 1695,
+    "imported_at": "2026-05-13"
+  }
+}

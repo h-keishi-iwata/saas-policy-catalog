@@ -1,0 +1,19 @@
+{
+  "service_name": "bunq",
+  "vendor": "bunq",
+  "category": "other",
+  "domains": [
+    "bunq.com"
+  ],
+  "homepage": "https://bunq.com",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 1,
+  "tags": [],
+  "aliases": [],
+  "source": {
+    "provider": "tosdr",
+    "id": 3850,
+    "imported_at": "2026-05-13"
+  }
+}
