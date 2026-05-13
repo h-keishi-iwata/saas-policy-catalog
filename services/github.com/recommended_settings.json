@@ -39,14 +39,14 @@
       "title": "Block suggestions matching public code",
       "description": "Filters out Copilot suggestions that match publicly available code, reducing IP risk.",
       "category": "ai_training",
-      "default": "Allow",
-      "recommended": "Block",
+      "default": "Allowed",
+      "recommended": "Blocked",
       "applicable_plans": ["free", "pro", "pro_plus"],
       "settings_url": "https://github.com/settings/copilot",
       "settings_path": ["Profile icon (top right)", "Copilot settings", "Suggestions matching public code", "Select Blocked"],
       "verification_method": {
         "type": "text_match",
-        "expected_text": "Block"
+        "expected_text": "Blocked"
       },
       "severity": "recommended",
       "last_verified": "2026-05-13"
