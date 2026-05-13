@@ -1,0 +1,88 @@
+{
+  "settings": [
+    {
+      "key": "ai-data-contribution-in-app-data",
+      "title": "AI Data Contribution - In-App Data",
+      "description": "Controls whether Atlassian uses your organization's in-app data (titles, descriptions, comments from Jira, Confluence, JSM) to improve AI models. Effective August 17, 2026. Default ON for Free/Standard, OFF for Premium/Enterprise.",
+      "category": "ai_training",
+      "default": "ON for Free/Standard; OFF for Premium/Enterprise",
+      "recommended": "OFF",
+      "applicable_plans": ["free", "standard", "premium", "enterprise"],
+      "settings_url": "https://admin.atlassian.com",
+      "settings_path": ["Atlassian Administration", "Security", "Data contribution"],
+      "verification_method": { "type": "manual" },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "ai-data-contribution-metadata",
+      "title": "AI Data Contribution - Metadata",
+      "description": "Controls metadata contribution for AI. Always ON for Free/Standard/Premium — only Enterprise can disable. Metadata includes statistical patterns extracted from content.",
+      "category": "ai_training",
+      "default": "ON for all plans",
+      "recommended": "OFF (Enterprise only)",
+      "applicable_plans": ["enterprise"],
+      "settings_url": "https://admin.atlassian.com",
+      "settings_path": ["Atlassian Administration", "Security", "Data contribution"],
+      "verification_method": { "type": "manual" },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "enforce-two-step-verification",
+      "title": "Enforce Two-Step Verification (2FA)",
+      "description": "Requires managed users to use TOTP or SMS as second factor. Users prompted at next login when enforced.",
+      "category": "two_factor_auth",
+      "default": "Optional",
+      "recommended": "Mandatory",
+      "applicable_plans": ["free", "standard", "premium", "enterprise"],
+      "settings_url": "https://admin.atlassian.com",
+      "settings_path": ["Atlassian Administration", "Security", "Authentication policies", "Edit", "Two-step verification"],
+      "verification_method": { "type": "manual" },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "api-token-access",
+      "title": "Block User API Token Access",
+      "description": "Controls whether users can create/use API tokens. Default: allowed. Blocking prevents unauthorized programmatic access.",
+      "category": "session_management",
+      "default": "Allow",
+      "recommended": "Block (unless explicitly needed)",
+      "applicable_plans": ["free", "standard", "premium", "enterprise"],
+      "settings_url": "https://admin.atlassian.com",
+      "settings_path": ["Atlassian Administration", "Security", "Authentication policies", "Edit", "User API tokens"],
+      "verification_method": { "type": "manual" },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "block-user-installed-apps",
+      "title": "Block User-Installed Apps",
+      "description": "Prevents non-admin users from installing Marketplace apps independently. Default: allowed.",
+      "category": "oauth_apps",
+      "default": "Allow user apps",
+      "recommended": "Block user apps",
+      "applicable_plans": ["free", "standard", "premium", "enterprise"],
+      "settings_url": "https://admin.atlassian.com",
+      "settings_path": ["Atlassian Administration", "Apps", "Connected apps", "Settings", "Block user apps"],
+      "verification_method": { "type": "manual" },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "vendor-analytics-logs",
+      "title": "App Vendor Analytics/Log Access",
+      "description": "Controls whether installed apps share analytics and logs with vendors. Defaults to shared for 60 days on install.",
+      "category": "telemetry",
+      "default": "Enabled (shared for 60 days)",
+      "recommended": "Disabled",
+      "applicable_plans": ["free", "standard", "premium", "enterprise"],
+      "settings_url": "https://admin.atlassian.com",
+      "settings_path": ["Atlassian Administration", "Apps", "Connected apps", "Settings", "Analytics and logs"],
+      "verification_method": { "type": "manual" },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    }
+  ]
+}
