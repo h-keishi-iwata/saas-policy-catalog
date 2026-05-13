@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/h-keishi-iwata/saas-policy-catalog/schemas/recommended_settings.schema.json",
+  "title": "Recommended Settings",
+  "description": "List of in-product settings the catalog recommends users review or change. Designed to be consumable by the local-sspm Chrome extension to verify the user's actual configuration.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["settings"],
+  "properties": {
+    "settings": {
+      "type": "array",
+      "description": "All recommended settings for the service. Order is meaningful only for display.",
+      "items": { "$ref": "#/$defs/setting" }
+    }
+  },
+  "$defs": {
+    "setting": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["key", "title", "category", "severity", "applicable_plans"],
+      "properties": {
+        "key": {
+          "type": "string",
+          "description": "Stable slug identifying the setting within the service (e.g. 'ai-training-opt-out').",
+          "pattern": "^[a-z0-9][a-z0-9_-]*$"
+        },
+        "title": {
+          "type": "string",
+          "description": "Short human-readable title for the setting."
+        },
+        "description": {
+          "type": "string",
+          "description": "Longer explanation of what the setting controls and why it matters. Markdown allowed."
+        },
+        "category": {
+          "type": "string",
+          "description": "Functional category of the setting.",
+          "enum": [
+            "ai_training",
+            "third_party_sharing",
+            "telemetry",
+            "two_factor_auth",
+            "sharing_default",
+            "data_region",
+            "oauth_apps",
+            "deletion_terms",
+            "session_management",
+            "other"
+          ]
+        },
+        "default": {
+          "description": "Vendor's out-of-the-box value for the setting before any user action.",
+          "type": ["string", "boolean", "object", "null"]
+        },
+        "recommended": {
+          "description": "Value the catalog recommends a privacy-conscious user adopt.",
+          "type": ["string", "boolean", "object", "null"]
+        },
+        "applicable_plans": {
+          "type": "array",
+          "description": "Plan slugs this setting applies to. Use the same slugs as the plan files.",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9_-]*$"
+          }
+        },
+        "settings_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Deep-link URL to the in-product settings screen, if a stable one exists."
+        },
+        "settings_path": {
+          "type": "array",
+          "description": "Ordered breadcrumb of menu labels a user follows to reach the setting (e.g. ['Settings', 'Privacy']).",
+          "items": { "type": "string" }
+        },
+        "verification_method": {
+          "type": "object",
+          "description": "How the local-sspm extension can verify the current value of this setting.",
+          "additionalProperties": false,
+          "required": ["type"],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["dom_selector", "text_match", "manual", "api"]
+            },
+            "selector": {
+              "type": "string",
+              "description": "CSS or XPath selector when type=dom_selector."
+            },
+            "expected_text": {
+              "type": "string",
+              "description": "Substring expected on the page when the setting is in the recommended state."
+            }
+          }
+        },
+        "severity": {
+          "type": "string",
+          "description": "How strongly the catalog recommends this setting.",
+          "enum": ["required", "recommended", "optional"]
+        },
+        "last_verified": {
+          "type": "string",
+          "format": "date",
+          "description": "Date a human last confirmed this entry against the live product."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/h-keishi-iwata/saas-policy-catalog/schemas/metadata.schema.json",
+  "title": "Service Metadata",
+  "description": "Top-level descriptor for a SaaS service entry in the catalog. Identifies the service, its vendor, the domains it serves, and how deeply the entry has been researched (Level 1-3).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["service_name", "vendor", "category", "domains", "level"],
+  "properties": {
+    "service_name": {
+      "type": "string",
+      "description": "Human-readable service name (e.g. 'Figma')."
+    },
+    "vendor": {
+      "type": "string",
+      "description": "Legal or commonly used vendor / operator name (e.g. 'Figma, Inc.')."
+    },
+    "category": {
+      "type": "string",
+      "description": "Broad functional category. Used for grouping in UIs.",
+      "enum": [
+        "design",
+        "communication",
+        "productivity",
+        "ai-assistant",
+        "storage",
+        "code-hosting",
+        "observability",
+        "identity",
+        "payment",
+        "hr",
+        "crm",
+        "marketing",
+        "security",
+        "other"
+      ]
+    },
+    "domains": {
+      "type": "array",
+      "description": "All domains (including subdomains) that should map to this service entry when matched against browser history.",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "format": "hostname"
+      }
+    },
+    "homepage": {
+      "type": "string",
+      "format": "uri",
+      "description": "Primary marketing URL for the service."
+    },
+    "first_seen": {
+      "type": "string",
+      "format": "date",
+      "description": "Date this entry was first added to the catalog (ISO 8601)."
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date",
+      "description": "Date this metadata file was last meaningfully updated (ISO 8601)."
+    },
+    "level": {
+      "type": "integer",
+      "description": "Depth of research available for this service. 1 = domain + name + category only; 2 = + ToS/Privacy URLs; 3 = + per-plan policies and recommended settings.",
+      "enum": [1, 2, 3]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Free-form tags for cross-cutting concerns (e.g. 'collaborative', 'ai-generated-content').",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "aliases": {
+      "type": "array",
+      "description": "Alternative names or brand variants the service is also known by (e.g. 'FigJam' under Figma).",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "plan_name": "starter",
+  "display_name": "Starter",
+  "pricing_model": "free",
+  "target_user": "individual",
+  "conditions": {
+    "ai_training": "opt_in",
+    "data_residency_choice": false,
+    "dpa_available": false,
+    "sso_available": false,
+    "audit_log_retention_days": null,
+    "deletion_grace_period_days": 30
+  },
+  "notes": "Free tier intended for individual exploration. Historically, content from Starter files has been opt-in for AI training by default in some product surfaces; users wishing to keep content out of training must visit Settings > Privacy > Content sharing. Users downgrading from a paid plan to Starter inherit the Starter privacy posture, which has surprised customers in the past.",
+  "source_urls": [
+    "https://www.figma.com/pricing/",
+    "https://help.figma.com/hc/en-us/articles/360039827834-Figma-plans-and-features",
+    "https://www.figma.com/legal/privacy/"
+  ]
+}

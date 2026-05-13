@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/h-keishi-iwata/saas-policy-catalog/schemas/history_entry.schema.json",
+  "title": "History Entry",
+  "description": "Single change record placed in services/<service>/history/. The directory acts as an append-only log of meaningful policy or catalog changes that downstream tools can surface to users.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["date", "change_type", "summary"],
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the change took effect or was first observed (ISO 8601)."
+    },
+    "change_type": {
+      "type": "string",
+      "description": "Category of the change.",
+      "enum": [
+        "tos_changed",
+        "privacy_changed",
+        "plan_added",
+        "plan_removed",
+        "ai_training_policy_changed",
+        "vendor_acquired",
+        "recommended_setting_updated",
+        "other"
+      ]
+    },
+    "summary": {
+      "type": "string",
+      "description": "One or two sentence human-readable summary of what changed.",
+      "minLength": 1
+    },
+    "diff_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Link to a diff, blog post, or archive comparison that documents the change."
+    },
+    "severity": {
+      "type": "string",
+      "description": "How impactful the change is for end users.",
+      "enum": ["info", "warn", "critical"]
+    }
+  }
+}

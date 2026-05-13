@@ -1,0 +1,20 @@
+{
+  "plan_name": "professional",
+  "display_name": "Professional",
+  "pricing_model": "paid",
+  "target_user": "team",
+  "conditions": {
+    "ai_training": "opt_out",
+    "data_residency_choice": false,
+    "dpa_available": false,
+    "sso_available": false,
+    "audit_log_retention_days": null,
+    "deletion_grace_period_days": 30
+  },
+  "notes": "Paid team tier. AI training on customer content is opt-out: the default is to allow use of content for product improvement, but admins can disable this for the team. DPA is generally not offered at this tier; teams that require a DPA must move to Organization or above.",
+  "source_urls": [
+    "https://www.figma.com/pricing/",
+    "https://help.figma.com/hc/en-us/articles/22440763288983-Content-sharing-and-AI",
+    "https://www.figma.com/legal/privacy/"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/h-keishi-iwata/saas-policy-catalog/schemas/document.schema.json",
+  "title": "Policy Document Reference",
+  "description": "Pointer to a single policy or contract document the vendor publishes (Terms of Service, Privacy Policy, DPA, subprocessor list, security overview).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["kind", "url"],
+  "properties": {
+    "kind": {
+      "type": "string",
+      "description": "Type of document.",
+      "enum": ["tos", "privacy", "dpa", "subprocessor_list", "security_overview"]
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Canonical URL for the document on the vendor's site."
+    },
+    "last_checked": {
+      "type": "string",
+      "format": "date",
+      "description": "Date this entry was last checked against the live vendor URL (ISO 8601)."
+    },
+    "last_modified_observed": {
+      "type": "string",
+      "format": "date",
+      "description": "Last-modified or 'effective' date as published by the vendor on the page itself, if available."
+    },
+    "language": {
+      "type": "string",
+      "description": "ISO 639-1 two-letter language code of the linked document.",
+      "pattern": "^[a-z]{2}$"
+    },
+    "archive_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Snapshot URL (e.g. Wayback Machine) of the document at last_checked date."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Free-form notes (Markdown allowed) about the document."
+    }
+  }
+}

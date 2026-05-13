@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.vim/
+*.iml
+
+# Node / tooling caches sometimes generated when validating schemas locally
+node_modules/
+.npm/
+.cache/

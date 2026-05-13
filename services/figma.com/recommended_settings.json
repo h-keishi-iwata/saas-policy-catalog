@@ -1,0 +1,90 @@
+{
+  "settings": [
+    {
+      "key": "ai-training-opt-out",
+      "title": "Opt content out of AI training",
+      "description": "Disable use of your files for training Figma's or third-party AI models. On Starter this is opt-in by default; on Professional admins must explicitly turn it off. Organization and Enterprise are contractually excluded.",
+      "category": "ai_training",
+      "default": "shared",
+      "recommended": "not_shared",
+      "applicable_plans": ["starter", "professional"],
+      "settings_url": "https://www.figma.com/settings",
+      "settings_path": ["Settings", "Privacy", "Content sharing"],
+      "verification_method": {
+        "type": "dom_selector",
+        "selector": "[data-testid='content-sharing-ai-toggle']",
+        "expected_text": "Off"
+      },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "two-factor-auth",
+      "title": "Enable two-factor authentication",
+      "description": "Add a second factor (TOTP app or security key) to your Figma account login. Strongly recommended on every plan; required for any account that holds production design work.",
+      "category": "two_factor_auth",
+      "default": false,
+      "recommended": true,
+      "applicable_plans": ["starter", "professional", "organization", "enterprise"],
+      "settings_url": "https://www.figma.com/settings/account",
+      "settings_path": ["Settings", "Account", "Two-factor authentication"],
+      "verification_method": {
+        "type": "text_match",
+        "expected_text": "Two-factor authentication is on"
+      },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "oauth-apps-review",
+      "title": "Review connected OAuth apps",
+      "description": "Periodically review third-party applications that have access to your Figma account or team and revoke any that are no longer in use.",
+      "category": "oauth_apps",
+      "default": null,
+      "recommended": "reviewed_within_90_days",
+      "applicable_plans": ["starter", "professional", "organization", "enterprise"],
+      "settings_url": "https://www.figma.com/settings/connected-apps",
+      "settings_path": ["Settings", "Account", "Connected apps"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "default-sharing-visibility",
+      "title": "Restrict default file sharing visibility",
+      "description": "Ensure new files are not set to 'Anyone with the link can view' by default. Restrict to team members or specific collaborators.",
+      "category": "sharing_default",
+      "default": "anyone_with_link",
+      "recommended": "team_only",
+      "applicable_plans": ["starter", "professional", "organization", "enterprise"],
+      "settings_url": "https://www.figma.com/settings",
+      "settings_path": ["Settings", "Privacy", "Default file permissions"],
+      "verification_method": {
+        "type": "dom_selector",
+        "selector": "[data-testid='default-sharing-permission']",
+        "expected_text": "Only invited people"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "team-invite-domain-restriction",
+      "title": "Restrict team invites to approved domains",
+      "description": "Only allow users with email addresses in your approved corporate domains to join the workspace. Reduces the risk of accidental external collaborator invites.",
+      "category": "third_party_sharing",
+      "default": "any_domain",
+      "recommended": "approved_domains_only",
+      "applicable_plans": ["organization", "enterprise"],
+      "settings_url": "https://www.figma.com/settings/workspace",
+      "settings_path": ["Admin", "Workspace settings", "Member access"],
+      "verification_method": {
+        "type": "dom_selector",
+        "selector": "[data-testid='approved-domains-list']"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "plan_name": "enterprise",
+  "display_name": "Enterprise",
+  "pricing_model": "enterprise",
+  "target_user": "enterprise",
+  "conditions": {
+    "ai_training": "not_used",
+    "data_residency_choice": true,
+    "dpa_available": true,
+    "sso_available": true,
+    "audit_log_retention_days": 365,
+    "deletion_grace_period_days": 30
+  },
+  "notes": "Enterprise tier. Customer content is contractually excluded from AI training. Data residency options (e.g. EU storage) are available. DPA, SAML SSO, SCIM provisioning, and extended audit log retention are all included.",
+  "source_urls": [
+    "https://www.figma.com/pricing/",
+    "https://www.figma.com/legal/dpa/",
+    "https://www.figma.com/enterprise/",
+    "https://help.figma.com/hc/en-us/articles/22440763288983-Content-sharing-and-AI"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "plan_name": "organization",
+  "display_name": "Organization",
+  "pricing_model": "paid",
+  "target_user": "organization",
+  "conditions": {
+    "ai_training": "not_used",
+    "data_residency_choice": false,
+    "dpa_available": true,
+    "sso_available": true,
+    "audit_log_retention_days": 90,
+    "deletion_grace_period_days": 30
+  },
+  "notes": "Organization tier. Customer content is not used to train Figma's or third-party AI models. DPA is available, SAML SSO is included, and admin-level audit logging is provided.",
+  "source_urls": [
+    "https://www.figma.com/pricing/",
+    "https://www.figma.com/legal/dpa/",
+    "https://help.figma.com/hc/en-us/articles/22440763288983-Content-sharing-and-AI"
+  ]
+}

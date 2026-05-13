@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/h-keishi-iwata/saas-policy-catalog/schemas/plan.schema.json",
+  "title": "Service Plan",
+  "description": "Describes a single subscription tier of a service and the privacy / security commitments associated with it. Many services apply different terms to different plans, so each plan is captured separately.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["plan_name", "display_name", "pricing_model", "target_user", "conditions"],
+  "properties": {
+    "plan_name": {
+      "type": "string",
+      "description": "Slug identifying the plan within the service. Should match the filename (without .json).",
+      "pattern": "^[a-z0-9][a-z0-9_-]*$"
+    },
+    "display_name": {
+      "type": "string",
+      "description": "Human-readable plan name as marketed by the vendor (e.g. 'Professional')."
+    },
+    "pricing_model": {
+      "type": "string",
+      "description": "How the plan is sold.",
+      "enum": ["free", "freemium", "paid", "enterprise", "education", "deprecated"]
+    },
+    "target_user": {
+      "type": "string",
+      "description": "Primary intended audience for the plan.",
+      "enum": ["individual", "team", "organization", "enterprise", "education"]
+    },
+    "conditions": {
+      "type": "object",
+      "description": "Plan-specific privacy and security conditions. Use 'unspecified' or null when the vendor has not published a clear answer.",
+      "additionalProperties": false,
+      "properties": {
+        "ai_training": {
+          "type": "string",
+          "description": "Whether customer content may be used to train the vendor's (or third-party) AI models on this plan.",
+          "enum": ["opt_in", "opt_out", "not_used", "unspecified"]
+        },
+        "data_residency_choice": {
+          "type": "boolean",
+          "description": "Whether customers on this plan can choose where their data is stored."
+        },
+        "dpa_available": {
+          "type": "boolean",
+          "description": "Whether a Data Processing Addendum can be executed on this plan."
+        },
+        "sso_available": {
+          "type": "boolean",
+          "description": "Whether SAML / OIDC single sign-on is included or available."
+        },
+        "audit_log_retention_days": {
+          "type": ["integer", "null"],
+          "description": "How many days of audit logs are retained. null = not offered or unknown.",
+          "minimum": 0
+        },
+        "deletion_grace_period_days": {
+          "type": ["integer", "null"],
+          "description": "Days between account deletion request and irreversible erasure. null = unknown.",
+          "minimum": 0
+        }
+      }
+    },
+    "notes": {
+      "type": "string",
+      "description": "Free-form human notes about the plan, Markdown allowed."
+    },
+    "source_urls": {
+      "type": "array",
+      "description": "Primary sources (vendor pages, blog posts, ToS sections) that back the conditions above.",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      },
+      "uniqueItems": true
+    }
+  }
+}

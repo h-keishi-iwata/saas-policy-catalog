@@ -1,0 +1,23 @@
+{
+  "service_name": "Figma",
+  "vendor": "Figma, Inc.",
+  "category": "design",
+  "domains": [
+    "figma.com",
+    "www.figma.com"
+  ],
+  "homepage": "https://www.figma.com/",
+  "first_seen": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "level": 3,
+  "tags": [
+    "collaborative",
+    "ai-generated-content",
+    "design-tool"
+  ],
+  "aliases": [
+    "FigJam",
+    "Figma Design",
+    "Figma Slides"
+  ]
+}
