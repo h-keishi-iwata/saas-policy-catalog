@@ -77,7 +77,7 @@ The initial population of this catalog is bootstrapped from [Terms of Service; D
 
 Bootstrapped entries start at **Level 1** (domain, name, category) or **Level 2** (with ToS/Privacy URLs) and are promoted to Level 3 as contributors add per-plan and recommended-setting information.
 
-## Level 3 services (173 settings)
+## Level 3 services (178 settings)
 
 | Service | Domain | Settings | Key areas |
 |---|---|---|---|
@@ -108,6 +108,7 @@ Bootstrapped entries start at **Level 1** (domain, name, category) or **Level 2*
 | PayPal | paypal.com | 4 | 2SV, login activity, data sharing |
 | GitLab | gitlab.com | 4 | Duo AI, 2FA, PATs, OAuth apps |
 | LINE | line.me | 7 | AI学習, パスキー, E2E暗号化, 広告 |
+| Yahoo! JAPAN | yahoo.co.jp | 5 | AI学習, パスキー, 2段階認証, 広告 |
 | Meta (Facebook) | facebook.com | 5 | AI training, 2FA, off-FB activity, ads |
 | Canva | canva.com | 2 | AI training, third-party AI |
 | Stack Overflow | stackoverflow.com | 2 | 2FA, email privacy |
