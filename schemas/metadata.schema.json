@@ -80,6 +80,32 @@
         "type": "string"
       },
       "uniqueItems": true
+    },
+    "source": {
+      "type": "object",
+      "description": "Provenance for entries imported from an external dataset (e.g. ToSDR bootstrap). Omitted for entries authored directly in this repository.",
+      "additionalProperties": false,
+      "required": ["provider"],
+      "properties": {
+        "provider": {
+          "type": "string",
+          "description": "Identifier of the upstream data source.",
+          "enum": ["tosdr", "manual", "other"]
+        },
+        "id": {
+          "description": "Stable identifier within the upstream dataset (string or integer).",
+          "oneOf": [
+            { "type": "string" },
+            { "type": "integer" },
+            { "type": "null" }
+          ]
+        },
+        "imported_at": {
+          "type": "string",
+          "format": "date",
+          "description": "Date this entry was imported from the upstream dataset (ISO 8601)."
+        }
+      }
     }
   }
 }
