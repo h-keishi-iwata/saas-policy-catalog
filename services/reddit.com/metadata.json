@@ -1,14 +1,14 @@
 {
   "service_name": "Reddit",
   "vendor": "Reddit",
-  "category": "other",
+  "category": "communication",
   "domains": [
     "reddit.com"
   ],
   "homepage": "https://reddit.com",
   "first_seen": "2026-05-13",
   "last_updated": "2026-05-13",
-  "level": 1,
+  "level": 3,
   "tags": [],
   "aliases": [],
   "source": {

@@ -1,0 +1,88 @@
+{
+  "settings": [
+    {
+      "key": "ai-training-minimize",
+      "title": "Minimize public content used for AI training",
+      "description": "Reddit licenses public posts to AI companies. No opt-out toggle. Use private subs, delete old posts, or submit GDPR erasure request.",
+      "category": "ai_training",
+      "default": "public content shared",
+      "recommended": "minimize public content",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.reddit.com/settings/privacy",
+      "settings_path": ["Settings", "Safety & Privacy"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "two-factor-auth",
+      "title": "Enable two-factor authentication",
+      "description": "TOTP via authenticator app. Desktop only. Also supports WebAuthn/FIDO2 hardware keys.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.reddit.com/settings/account",
+      "settings_path": ["Settings", "Account", "Two-factor authentication"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "ad-personalization",
+      "title": "Disable ad personalization based on partner data",
+      "description": "Prevents Reddit from using third-party data for ad targeting. ON by default.",
+      "category": "third_party_sharing",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.reddit.com/settings/privacy",
+      "settings_path": ["Settings", "Safety & Privacy", "Ads personalization"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "search-engine-indexing",
+      "title": "Disable search engine indexing of profile",
+      "description": "Prevents Google from indexing your Reddit profile. ON by default.",
+      "category": "other",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.reddit.com/settings/privacy",
+      "settings_path": ["Settings", "Safety & Privacy", "Show up in search results"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "outbound-click-tracking",
+      "title": "Disable outbound click tracking",
+      "description": "Prevents Reddit from tracking external links you click.",
+      "category": "telemetry",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.reddit.com/settings/privacy",
+      "settings_path": ["Settings", "Safety & Privacy", "Outbound links"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "connected-apps-review",
+      "title": "Review third-party app authorizations",
+      "description": "Revoke unused apps. Changing password alone doesn't revoke tokens.",
+      "category": "oauth_apps",
+      "default": "varies",
+      "recommended": "reviewed within 90 days",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.reddit.com/prefs/apps",
+      "settings_path": ["Settings", "Safety & Privacy", "Apps"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    }
+  ]
+}
