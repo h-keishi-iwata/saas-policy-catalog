@@ -5,13 +5,14 @@
       "title": "Opt out of Copilot AI model training",
       "description": "Prevents GitHub from using your code, prompts, and Copilot interactions to train AI models. Enabled by default since April 24, 2026 for Free/Pro/Pro+ plans.",
       "category": "ai_training",
-      "default": "on",
-      "recommended": "off",
+      "default": "Enabled",
+      "recommended": "Disabled",
       "applicable_plans": ["free", "pro", "pro_plus"],
       "settings_url": "https://github.com/settings/copilot",
       "settings_path": ["Profile icon (top right)", "Copilot settings", "Allow GitHub to use my data for AI model training", "Select Disabled"],
       "verification_method": {
-        "type": "manual"
+        "type": "text_match",
+        "expected_text": "Disabled"
       },
       "severity": "required",
       "last_verified": "2026-05-13"
@@ -22,12 +23,13 @@
       "description": "Required by GitHub since 2024 for all contributors. Adds TOTP or security key as a second factor.",
       "category": "two_factor_auth",
       "default": "required",
-      "recommended": true,
+      "recommended": "enabled",
       "applicable_plans": ["all"],
       "settings_url": "https://github.com/settings/security",
       "settings_path": ["Settings", "Password and authentication", "Two-factor authentication"],
       "verification_method": {
-        "type": "manual"
+        "type": "text_match",
+        "expected_text": "Enabled"
       },
       "severity": "required",
       "last_verified": "2026-05-13"
@@ -37,13 +39,14 @@
       "title": "Block suggestions matching public code",
       "description": "Filters out Copilot suggestions that match publicly available code, reducing IP risk.",
       "category": "ai_training",
-      "default": "allowed",
-      "recommended": "blocked",
+      "default": "Allowed",
+      "recommended": "Blocked",
       "applicable_plans": ["free", "pro", "pro_plus"],
       "settings_url": "https://github.com/settings/copilot",
       "settings_path": ["Profile icon (top right)", "Copilot settings", "Suggestions matching public code", "Select Blocked"],
       "verification_method": {
-        "type": "manual"
+        "type": "text_match",
+        "expected_text": "Block"
       },
       "severity": "recommended",
       "last_verified": "2026-05-13"
