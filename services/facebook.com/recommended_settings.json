@@ -1,0 +1,74 @@
+{
+  "settings": [
+    {
+      "key": "generative-ai-training-objection",
+      "title": "Object to generative AI data training",
+      "description": "Meta uses public posts/photos to train AI. Submit 'Right to Object' form. No direct toggle in US — form-based only.",
+      "category": "ai_training",
+      "default": "on",
+      "recommended": "objection submitted",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.facebook.com/privacy/genai/",
+      "settings_path": ["Settings", "Privacy Center", "AI at Meta", "Right to Object"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "two-factor-authentication",
+      "title": "Enable two-factor authentication",
+      "description": "Supports authenticator apps (recommended), SMS, security keys. OFF by default.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://accountscenter.facebook.com/password_and_security/two_factor",
+      "settings_path": ["Settings", "Accounts Center", "Password and security", "Two-factor authentication"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "off-facebook-activity",
+      "title": "Disconnect off-Facebook activity",
+      "description": "Facebook tracks activity on third-party sites. Disconnect to disassociate data from your profile.",
+      "category": "third_party_sharing",
+      "default": "on",
+      "recommended": "disconnected",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.facebook.com/off_facebook_activity/",
+      "settings_path": ["Settings", "Your activity off Meta technologies"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "ad-partner-data",
+      "title": "Disable ads based on partner data",
+      "description": "Prevents using third-party data (purchases, app usage) for ad targeting. ON by default.",
+      "category": "third_party_sharing",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.facebook.com/ads/settings",
+      "settings_path": ["Settings", "Ad preferences", "Activity information from ad partners"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "profile-visibility",
+      "title": "Restrict profile visibility and limit past posts",
+      "description": "Use 'Limit Past Posts' to restrict older public posts. Review with 'View As' tool.",
+      "category": "sharing_default",
+      "default": "public",
+      "recommended": "friends only",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.facebook.com/settings?tab=privacy",
+      "settings_path": ["Settings", "Privacy", "Your activity", "Limit Past Posts"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    }
+  ]
+}

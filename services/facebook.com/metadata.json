@@ -1,14 +1,16 @@
 {
-  "service_name": "Facebook",
+  "service_name": "Meta (Facebook/Instagram)",
   "vendor": "Facebook",
-  "category": "other",
+  "category": "communication",
   "domains": [
-    "facebook.com"
+    "facebook.com",
+    "instagram.com",
+    "meta.com"
   ],
   "homepage": "https://facebook.com",
   "first_seen": "2026-05-13",
   "last_updated": "2026-05-13",
-  "level": 1,
+  "level": 3,
   "tags": [],
   "aliases": [],
   "source": {
