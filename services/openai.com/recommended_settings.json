@@ -1,0 +1,60 @@
+{
+  "settings": [
+    {
+      "key": "model-training-opt-out",
+      "title": "Disable 'Improve the model for everyone'",
+      "description": "Conversations used to train models by default on Free/Plus/Pro plans. Business/Enterprise/Edu are opted out by default.",
+      "category": "ai_training",
+      "default": "on (Free/Plus/Pro)",
+      "recommended": "off",
+      "applicable_plans": ["free", "plus", "pro"],
+      "settings_url": "https://chatgpt.com/#settings/DataControls",
+      "settings_path": ["Profile icon", "Settings", "Data controls", "Improve the model for everyone"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "memory-disable",
+      "title": "Disable ChatGPT Memory",
+      "description": "Stores personal context across conversations. Disabling stops new memories but doesn't delete existing ones.",
+      "category": "ai_training",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["plus", "pro", "team", "enterprise"],
+      "settings_url": "https://chatgpt.com/#settings/Personalization",
+      "settings_path": ["Profile icon", "Settings", "Personalization", "Memory"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "shared-links-review",
+      "title": "Review and manage shared links",
+      "description": "Shared links let anyone with the URL view a conversation. Now private by default (no longer search-indexable).",
+      "category": "sharing_default",
+      "default": "no links",
+      "recommended": "reviewed periodically",
+      "applicable_plans": ["all"],
+      "settings_url": "https://chatgpt.com/#settings/DataControls",
+      "settings_path": ["Profile icon", "Settings", "Data controls", "Shared links", "Manage"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "connected-apps-review",
+      "title": "Review connected third-party apps",
+      "description": "Data sent through integrations is shared with external services under their privacy policies.",
+      "category": "oauth_apps",
+      "default": "varies",
+      "recommended": "reviewed periodically",
+      "applicable_plans": ["all"],
+      "settings_url": "https://chatgpt.com/#settings/ConnectedApps",
+      "settings_path": ["Profile icon", "Settings", "Connected apps"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    }
+  ]
+}

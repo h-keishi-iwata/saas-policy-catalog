@@ -1,14 +1,15 @@
 {
-  "service_name": "OpenAI",
+  "service_name": "OpenAI / ChatGPT",
   "vendor": "OpenAI",
-  "category": "other",
+  "category": "ai-assistant",
   "domains": [
-    "openai.com"
+    "openai.com",
+    "chatgpt.com"
   ],
   "homepage": "https://openai.com",
   "first_seen": "2026-05-13",
   "last_updated": "2026-05-13",
-  "level": 1,
+  "level": 3,
   "tags": [],
   "aliases": [],
   "source": {
