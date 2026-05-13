@@ -1,0 +1,74 @@
+{
+  "settings": [
+    {
+      "key": "root-account-mfa",
+      "title": "Enable MFA on root account",
+      "description": "The AWS root account has unrestricted access. MFA is critical. Use hardware security key or virtual MFA.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://console.aws.amazon.com/iam/home#/security_credentials",
+      "settings_path": ["IAM", "Security credentials", "Multi-factor authentication (MFA)"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "iam-user-mfa",
+      "title": "Enforce MFA for IAM users",
+      "description": "Require MFA for all IAM users, especially those with console access.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://console.aws.amazon.com/iam/home",
+      "settings_path": ["IAM", "Users", "Security credentials", "Assign MFA device"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "s3-block-public-access",
+      "title": "Enable S3 Block Public Access (account level)",
+      "description": "Blocks all public access to S3 buckets by default. Prevents accidental data exposure.",
+      "category": "sharing_default",
+      "default": "on for new accounts",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://s3.console.aws.amazon.com/s3/settings",
+      "settings_path": ["S3", "Block Public Access settings for this account"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "cloudtrail-enabled",
+      "title": "Enable CloudTrail logging",
+      "description": "Records API calls for auditing. Essential for security monitoring and compliance.",
+      "category": "session_management",
+      "default": "management events only (90 days)",
+      "recommended": "full trail with S3 storage",
+      "applicable_plans": ["all"],
+      "settings_url": "https://console.aws.amazon.com/cloudtrail",
+      "settings_path": ["CloudTrail", "Trails", "Create trail"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "access-keys-rotation",
+      "title": "Rotate access keys regularly",
+      "description": "Long-lived access keys are a security risk. Rotate every 90 days or use temporary credentials (IAM roles).",
+      "category": "session_management",
+      "default": "no rotation",
+      "recommended": "rotate every 90 days",
+      "applicable_plans": ["all"],
+      "settings_url": "https://console.aws.amazon.com/iam/home#/security_credentials",
+      "settings_path": ["IAM", "Users", "Security credentials", "Access keys"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    }
+  ]
+}

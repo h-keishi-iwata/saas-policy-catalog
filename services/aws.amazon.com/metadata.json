@@ -1,14 +1,14 @@
 {
-  "service_name": "Amazon AWS",
+  "service_name": "AWS",
   "vendor": "Amazon AWS",
-  "category": "other",
+  "category": "security",
   "domains": [
     "aws.amazon.com"
   ],
   "homepage": "https://aws.amazon.com",
   "first_seen": "2026-05-13",
   "last_updated": "2026-05-13",
-  "level": 1,
+  "level": 3,
   "tags": [],
   "aliases": [],
   "source": {
