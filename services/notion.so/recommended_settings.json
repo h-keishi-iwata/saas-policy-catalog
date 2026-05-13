@@ -1,0 +1,36 @@
+{
+  "settings": [
+    {
+      "key": "two-factor-auth",
+      "title": "Enable two-step verification",
+      "description": "Adds a second factor when signing in to Notion.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.notion.so/my-account",
+      "settings_path": ["Settings & members", "My account", "Two-step verification"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "connected-apps-review",
+      "title": "Review connected apps",
+      "description": "Check which integrations and OAuth apps have access to your Notion workspace.",
+      "category": "oauth_apps",
+      "default": "varies",
+      "recommended": "reviewed",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.notion.so/my-connections",
+      "settings_path": ["Settings & members", "My connections"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    }
+  ]
+}

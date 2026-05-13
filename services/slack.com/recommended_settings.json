@@ -1,0 +1,139 @@
+{
+  "settings": [
+    {
+      "key": "global-model-ml-opt-out",
+      "title": "Opt out of Slack global ML model training",
+      "description": "Exclude your workspace's Customer Data from being used to train Slack's global machine learning models (used for emoji suggestions, autocomplete, search ranking). Requires emailing feedback@slack.com with subject 'Slack Global model opt-out request' and your Workspace/Org URL. Org or Workspace Owners/Primary Owner must submit. After opt-out, your data is only used to improve your own workspace experience. Note: Slack states it does NOT use Customer Data to train generative AI models regardless of this setting.",
+      "category": "ai_training",
+      "default": "opted_in",
+      "recommended": "opted_out",
+      "applicable_plans": ["free", "pro", "business_plus", "enterprise_grid"],
+      "settings_url": "https://slack.com/trust/data-management/privacy-principles",
+      "settings_path": ["Email feedback@slack.com", "Subject: Slack Global model opt-out request", "Include Workspace/Org URL"],
+      "verification_method": {
+        "type": "manual",
+        "note": "No in-app toggle; must email feedback@slack.com and receive confirmation"
+      },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "slack-ai-feature-access",
+      "title": "Manage access to AI features",
+      "description": "Control which AI features (Slack AI search, channel recaps, thread summaries) are available to workspace members. Admins can enable or disable each AI feature, or turn them all off. On Enterprise Grid, access can be scoped to specific users and groups.",
+      "category": "ai_training",
+      "default": "enabled",
+      "recommended": "reviewed_and_restricted",
+      "applicable_plans": ["pro", "business_plus", "enterprise_grid"],
+      "settings_url": "https://slack.com/help/articles/28244420881555-Manage-access-to-AI-features-in-Slack",
+      "settings_path": ["Admin", "Workspace settings", "Roles & permissions", "Feature access", "AI"],
+      "verification_method": {
+        "type": "text_match",
+        "expected_text": "No one"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "two-factor-auth-individual",
+      "title": "Enable two-factor authentication (individual)",
+      "description": "Add a second authentication factor (authenticator app or SMS) to your Slack account. Must be set up separately for each workspace. Authenticator app is preferred over SMS for security.",
+      "category": "two_factor_auth",
+      "default": false,
+      "recommended": true,
+      "applicable_plans": ["free", "pro", "business_plus", "enterprise_grid"],
+      "settings_url": "https://my.slack.com/account/settings",
+      "settings_path": ["Account settings", "Two-factor Authentication", "Expand", "Set Up Two-Factor Authentication"],
+      "verification_method": {
+        "type": "text_match",
+        "expected_text": "Two-factor authentication is enabled"
+      },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "two-factor-auth-workspace-mandatory",
+      "title": "Require two-factor authentication for all members (workspace)",
+      "description": "Workspace Owners can mandate 2FA for all members. Members who do not set up 2FA within 24 hours are signed out and must enable 2FA to sign back in. Optionally restrict to authenticator apps only (disabling SMS). Requires Workspace Owner role.",
+      "category": "two_factor_auth",
+      "default": false,
+      "recommended": true,
+      "applicable_plans": ["pro", "business_plus", "enterprise_grid"],
+      "settings_url": "https://my.slack.com/admin/settings",
+      "settings_path": ["Admin", "Workspace settings", "Security", "Two-factor authentication for email sign-in", "Edit", "Require members to have 2FA set up"],
+      "verification_method": {
+        "type": "text_match",
+        "expected_text": "Require members to have 2FA set up"
+      },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "data-retention-policy",
+      "title": "Configure workspace data retention policy",
+      "description": "Set how long Slack retains messages and files for the workspace. By default paid plans keep everything indefinitely. Workspace Owners can set custom retention periods and choose whether to track edits and deletions. Free plan defaults to 90 days. Configuring a retention limit reduces data exposure in the event of a breach.",
+      "category": "data_retention",
+      "default": "keep_all",
+      "recommended": "custom_retention_period",
+      "applicable_plans": ["pro", "business_plus", "enterprise_grid"],
+      "settings_url": "https://my.slack.com/admin/settings",
+      "settings_path": ["Admin", "Workspace settings", "Data retention", "Expand"],
+      "verification_method": {
+        "type": "manual",
+        "note": "Verify retention period is set per organizational policy"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "app-approval-required",
+      "title": "Require admin approval for app installations",
+      "description": "By default any workspace member can install third-party apps. Enabling app approval requires that apps be reviewed and approved by Workspace Owners or designated App Managers before members can install them. Restricts shadow IT risk.",
+      "category": "third_party_apps",
+      "default": "anyone_can_install",
+      "recommended": "approval_required",
+      "applicable_plans": ["pro", "business_plus", "enterprise_grid"],
+      "settings_url": "https://my.slack.com/apps/manage",
+      "settings_path": ["Admin", "Apps and workflows", "App Management Settings", "Require approved apps", "Edit"],
+      "verification_method": {
+        "type": "text_match",
+        "expected_text": "Workspace Owners and selected members or groups"
+      },
+      "severity": "required",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "connected-apps-review",
+      "title": "Review connected third-party apps",
+      "description": "Periodically review the list of third-party applications installed in your workspace. Revoke access for apps that are no longer in use or that have unnecessary permissions. Each app's scopes (permissions) should be audited.",
+      "category": "third_party_apps",
+      "default": null,
+      "recommended": "reviewed_within_90_days",
+      "applicable_plans": ["free", "pro", "business_plus", "enterprise_grid"],
+      "settings_url": "https://my.slack.com/apps/manage",
+      "settings_path": ["Admin", "Apps and workflows", "Installed apps"],
+      "verification_method": {
+        "type": "manual"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "key": "restrict-ai-channel-access",
+      "title": "Restrict AI access to sensitive channels",
+      "description": "On Enterprise Grid, Org Owners and Admins can exclude specific channels, canvases, and lists from AI feature access (Slack AI search, summaries, etc.). Ensures confidential channels are not surfaced through AI-generated summaries or search results.",
+      "category": "ai_training",
+      "default": "all_channels_accessible",
+      "recommended": "sensitive_channels_excluded",
+      "applicable_plans": ["enterprise_grid"],
+      "settings_url": "https://slack.com/help/articles/47421816860947-Restrict-AI-access-to-certain-channels-canvases-and-lists",
+      "settings_path": ["Organization settings", "Roles & permissions", "Account types", "Edit AI use for channels"],
+      "verification_method": {
+        "type": "manual",
+        "note": "Verify sensitive channels are excluded from AI access"
+      },
+      "severity": "recommended",
+      "last_verified": "2026-05-13"
+    }
+  ]
+}
