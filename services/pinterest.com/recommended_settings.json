@@ -1,0 +1,88 @@
+{
+  "settings": [
+    {
+      "key": "ai-training-opt-out",
+      "title": "Opt out of AI training for Pinterest Canvas",
+      "description": "Pinterest uses content to train Canvas image generation AI. ON by default. Users under 18 auto-opted-out.",
+      "category": "ai_training",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.pinterest.com/settings/privacy",
+      "settings_path": ["Settings", "Privacy and data", "Gen AI", "Use your data to train Pinterest Canvas"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "two-factor-authentication",
+      "title": "Enable two-factor authentication",
+      "description": "SMS-based 2FA via Twilio Authy. OFF by default.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.pinterest.com/settings/security",
+      "settings_path": ["Settings", "Security and logins", "Two-factor authentication"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "ad-personalization-sites",
+      "title": "Disable ad personalization from site visits",
+      "description": "Pinterest uses external browsing data for ad targeting. ON by default.",
+      "category": "third_party_sharing",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.pinterest.com/settings/privacy",
+      "settings_path": ["Settings", "Privacy and data", "Personalization", "Use info from sites you visit"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "ad-personalization-partner",
+      "title": "Disable ad personalization from partner data",
+      "description": "Pinterest uses third-party partner data for ad targeting. ON by default.",
+      "category": "third_party_sharing",
+      "default": "on",
+      "recommended": "off",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.pinterest.com/settings/privacy",
+      "settings_path": ["Settings", "Privacy and data", "Personalization", "Use of partner info"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "search-engine-privacy",
+      "title": "Hide profile from search engines",
+      "description": "Adds noindex to profile/boards. OFF by default (publicly indexable).",
+      "category": "other",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.pinterest.com/settings/privacy",
+      "settings_path": ["Settings", "Privacy and data", "Search privacy"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "connected-apps-review",
+      "title": "Review connected third-party apps",
+      "description": "Revoke unused app access periodically.",
+      "category": "oauth_apps",
+      "default": "varies",
+      "recommended": "reviewed within 90 days",
+      "applicable_plans": ["all"],
+      "settings_url": "https://www.pinterest.com/settings/security",
+      "settings_path": ["Settings", "Security and logins", "Connected apps"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    }
+  ]
+}
