@@ -1,0 +1,46 @@
+{
+  "settings": [
+    {
+      "key": "ai-data-usage",
+      "title": "Review AI/ML data usage settings",
+      "description": "HubSpot uses customer data for AI features (content assistant, predictive scoring). Review AI settings in account.",
+      "category": "ai_training",
+      "default": "enabled",
+      "recommended": "reviewed",
+      "applicable_plans": ["all"],
+      "settings_url": "https://app.hubspot.com/settings",
+      "settings_path": ["Settings", "Account Defaults", "AI"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "two-factor-auth",
+      "title": "Require two-factor authentication",
+      "description": "Supports authenticator apps. Super admins can enforce for all users.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on (enforced)",
+      "applicable_plans": ["all"],
+      "settings_url": "https://app.hubspot.com/settings",
+      "settings_path": ["Settings", "Account Defaults", "Security", "Two-factor authentication"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "connected-apps-review",
+      "title": "Review connected apps and integrations",
+      "description": "Third-party apps with HubSpot API access. Audit OAuth scopes and revoke unused.",
+      "category": "oauth_apps",
+      "default": "varies",
+      "recommended": "reviewed within 90 days",
+      "applicable_plans": ["all"],
+      "settings_url": "https://app.hubspot.com/settings",
+      "settings_path": ["Settings", "Integrations", "Connected Apps"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    }
+  ]
+}

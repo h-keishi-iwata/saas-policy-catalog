@@ -1,0 +1,60 @@
+{
+  "settings": [
+    {
+      "key": "ai-data-usage",
+      "title": "Review Zendesk AI data usage",
+      "description": "Zendesk AI uses ticket data for features like intelligent triage and suggested replies. Review AI settings.",
+      "category": "ai_training",
+      "default": "enabled",
+      "recommended": "reviewed",
+      "applicable_plans": ["all"],
+      "settings_url": "https://support.zendesk.com",
+      "settings_path": ["Admin Center", "Account", "AI"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "two-factor-auth",
+      "title": "Require two-factor authentication for agents",
+      "description": "Enforce 2FA for all support agents. Supports authenticator apps.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on (enforced)",
+      "applicable_plans": ["all"],
+      "settings_url": "https://support.zendesk.com",
+      "settings_path": ["Admin Center", "Account", "Security", "Team members", "Two-factor authentication"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "api-token-management",
+      "title": "Review and rotate API tokens",
+      "description": "API tokens grant full access to Zendesk APIs. Rotate regularly, revoke unused.",
+      "category": "session_management",
+      "default": "varies",
+      "recommended": "reviewed, rotated",
+      "applicable_plans": ["all"],
+      "settings_url": "https://support.zendesk.com",
+      "settings_path": ["Admin Center", "Apps and integrations", "APIs", "Zendesk API"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "oauth-clients-review",
+      "title": "Review OAuth clients",
+      "description": "Third-party apps with OAuth access to Zendesk data.",
+      "category": "oauth_apps",
+      "default": "varies",
+      "recommended": "reviewed within 90 days",
+      "applicable_plans": ["all"],
+      "settings_url": "https://support.zendesk.com",
+      "settings_path": ["Admin Center", "Apps and integrations", "APIs", "OAuth Clients"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    }
+  ]
+}

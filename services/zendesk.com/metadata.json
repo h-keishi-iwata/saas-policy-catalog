@@ -1,14 +1,14 @@
 {
   "service_name": "Zendesk",
   "vendor": "Zendesk",
-  "category": "other",
+  "category": "crm",
   "domains": [
     "zendesk.com"
   ],
   "homepage": "https://zendesk.com",
   "first_seen": "2026-05-13",
   "last_updated": "2026-05-13",
-  "level": 1,
+  "level": 3,
   "tags": [],
   "aliases": [],
   "source": {
