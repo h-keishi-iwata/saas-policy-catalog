@@ -77,7 +77,7 @@ The initial population of this catalog is bootstrapped from [Terms of Service; D
 
 Bootstrapped entries start at **Level 1** (domain, name, category) or **Level 2** (with ToS/Privacy URLs) and are promoted to Level 3 as contributors add per-plan and recommended-setting information.
 
-## Level 3 services (148 settings)
+## Level 3 services (154 settings)
 
 | Service | Domain | Settings | Key areas |
 |---|---|---|---|
@@ -103,6 +103,7 @@ Bootstrapped entries start at **Level 1** (domain, name, category) or **Level 2*
 | TikTok | tiktok.com | 5 | AI training, 2FA, ads, data sharing |
 | Twitch | twitch.tv | 7 | 2FA, ad opt-out, apps, whispers, activity |
 | Snapchat | snapchat.com | 8 | My AI, 2FA, ad targeting, Snap Map |
+| Pinterest | pinterest.com | 6 | AI Canvas, 2FA, ads, search privacy |
 | Meta (Facebook) | facebook.com | 5 | AI training, 2FA, off-FB activity, ads |
 | Canva | canva.com | 2 | AI training, third-party AI |
 | Stack Overflow | stackoverflow.com | 2 | 2FA, email privacy |
