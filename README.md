@@ -77,6 +77,29 @@ The initial population of this catalog is bootstrapped from [Terms of Service; D
 
 Bootstrapped entries start at **Level 1** (domain, name, category) or **Level 2** (with ToS/Privacy URLs) and are promoted to Level 3 as contributors add per-plan and recommended-setting information.
 
+## Level 3 services (93 settings)
+
+| Service | Domain | Settings | Key areas |
+|---|---|---|---|
+| Notion | notion.so | 21 | AI, 2SV, passkeys, sharing, SSO, audit |
+| Slack | slack.com | 8 | ML opt-out, AI features, 2FA, retention |
+| Microsoft 365 | microsoft.com | 7 | Copilot, MFA, OAuth, diagnostics |
+| Zoom | zoom.us | 7 | AI Companion, 2FA, recording, apps |
+| Atlassian | atlassian.com | 6 | AI data (Aug 2026!), 2FA, API tokens |
+| LinkedIn | linkedin.com | 6 | AI training, 2FA, ads, research |
+| Google | google.com | 5 | 2SV, ads, activity, apps, checkup |
+| Figma | figma.com | 5 | AI training, 2FA, OAuth, sharing |
+| Dropbox | dropbox.com | 5 | Third-party AI, 2FA, sharing |
+| Adobe | adobe.com | 5 | Content analysis, Firefly, 2SV |
+| AWS | aws.amazon.com | 5 | Root MFA, S3, CloudTrail, keys |
+| X (Twitter) | twitter.com | 5 | Grok AI, 2FA, ads, data sharing |
+| OpenAI/ChatGPT | openai.com | 4 | Model training, memory, links |
+| Apple | apple.com | 4 | 2FA, Advanced Data Protection |
+| GitHub | github.com | 3 | Copilot AI, 2FA, public code |
+| Stack Overflow | stackoverflow.com | 2 | 2FA, email privacy |
+
+Plus **10,489 Level 1 entries** from ToSDR bootstrap.
+
 ## Contributing
 
 See `docs/contributing.md`. In short: pick a service, follow the existing `services/figma.com/` example, run the schemas against your JSON, open a pull request.
