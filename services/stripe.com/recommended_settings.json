@@ -1,0 +1,60 @@
+{
+  "settings": [
+    {
+      "key": "two-step-auth",
+      "title": "Enable two-step authentication",
+      "description": "Critical for payment platform access. Supports authenticator apps and SMS.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://dashboard.stripe.com/settings/user",
+      "settings_path": ["Dashboard", "Settings", "Profile", "Two-step authentication"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "api-key-rotation",
+      "title": "Rotate API keys regularly",
+      "description": "Secret API keys grant full account access. Roll keys periodically, use restricted keys where possible.",
+      "category": "session_management",
+      "default": "no rotation",
+      "recommended": "rotated every 90 days",
+      "applicable_plans": ["all"],
+      "settings_url": "https://dashboard.stripe.com/apikeys",
+      "settings_path": ["Dashboard", "Developers", "API keys"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "restricted-keys",
+      "title": "Use restricted API keys for integrations",
+      "description": "Grant minimum necessary permissions per integration instead of using the secret key.",
+      "category": "session_management",
+      "default": "secret key used",
+      "recommended": "restricted keys",
+      "applicable_plans": ["all"],
+      "settings_url": "https://dashboard.stripe.com/apikeys",
+      "settings_path": ["Dashboard", "Developers", "API keys", "Restricted keys"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "team-member-roles",
+      "title": "Review team member access levels",
+      "description": "Assign minimum necessary roles. Audit inactive members.",
+      "category": "session_management",
+      "default": "varies",
+      "recommended": "least privilege, reviewed",
+      "applicable_plans": ["all"],
+      "settings_url": "https://dashboard.stripe.com/settings/team",
+      "settings_path": ["Dashboard", "Settings", "Team and security", "Team"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    }
+  ]
+}

@@ -1,14 +1,14 @@
 {
   "service_name": "Stripe",
   "vendor": "Stripe",
-  "category": "other",
+  "category": "payment",
   "domains": [
     "stripe.com"
   ],
   "homepage": "https://stripe.com",
   "first_seen": "2026-05-13",
   "last_updated": "2026-05-13",
-  "level": 1,
+  "level": 3,
   "tags": [],
   "aliases": [],
   "source": {
