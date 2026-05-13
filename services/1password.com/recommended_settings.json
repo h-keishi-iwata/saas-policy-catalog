@@ -1,0 +1,60 @@
+{
+  "settings": [
+    {
+      "key": "two-factor-auth",
+      "title": "Enable two-factor authentication",
+      "description": "Adds a second factor on top of Master Password + Secret Key. Supports authenticator apps and security keys.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://my.1password.com/settings",
+      "settings_path": ["Settings", "My Profile", "More Actions", "Manage Two-Factor Authentication"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "authorized-devices",
+      "title": "Review authorized devices",
+      "description": "Check devices with access to your vault. Deauthorize old/lost devices.",
+      "category": "session_management",
+      "default": "varies",
+      "recommended": "reviewed periodically",
+      "applicable_plans": ["all"],
+      "settings_url": "https://my.1password.com/settings",
+      "settings_path": ["Settings", "My Profile", "Authorized Devices"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "watchtower",
+      "title": "Enable Watchtower alerts",
+      "description": "Monitors for compromised passwords, weak passwords, reused passwords, and vulnerable sites.",
+      "category": "other",
+      "default": "on",
+      "recommended": "on",
+      "applicable_plans": ["all"],
+      "settings_url": "https://my.1password.com/watchtower",
+      "settings_path": ["Watchtower"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "service-accounts-review",
+      "title": "Review service accounts and integrations",
+      "description": "Service accounts provide automated vault access. Review and rotate tokens.",
+      "category": "oauth_apps",
+      "default": "varies",
+      "recommended": "reviewed within 90 days",
+      "applicable_plans": ["business", "enterprise"],
+      "settings_url": "https://my.1password.com/settings",
+      "settings_path": ["Settings", "Integrations", "Service Accounts"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    }
+  ]
+}

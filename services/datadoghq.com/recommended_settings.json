@@ -1,0 +1,46 @@
+{
+  "settings": [
+    {
+      "key": "mfa-enforcement",
+      "title": "Enforce MFA for all users",
+      "description": "Require multi-factor authentication for all Datadog users. Supports authenticator apps and security keys.",
+      "category": "two_factor_auth",
+      "default": "off",
+      "recommended": "enforced",
+      "applicable_plans": ["all"],
+      "settings_url": "https://app.datadoghq.com/organization-settings/login-methods",
+      "settings_path": ["Organization Settings", "Login Methods", "Multi-Factor Authentication"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "api-key-management",
+      "title": "Rotate and restrict API/App keys",
+      "description": "API keys authenticate data submission. Application keys grant read access. Rotate regularly, limit per-user.",
+      "category": "session_management",
+      "default": "varies",
+      "recommended": "rotated, restricted",
+      "applicable_plans": ["all"],
+      "settings_url": "https://app.datadoghq.com/organization-settings/api-keys",
+      "settings_path": ["Organization Settings", "API Keys / Application Keys"],
+      "verification_method": {"type": "manual"},
+      "severity": "required",
+      "last_verified": "2026-05-14"
+    },
+    {
+      "key": "audit-trail",
+      "title": "Enable and review audit trail",
+      "description": "Track configuration changes, logins, and API access across the organization.",
+      "category": "session_management",
+      "default": "enabled (Enterprise)",
+      "recommended": "reviewed regularly",
+      "applicable_plans": ["enterprise"],
+      "settings_url": "https://app.datadoghq.com/audit-trail",
+      "settings_path": ["Audit Trail"],
+      "verification_method": {"type": "manual"},
+      "severity": "recommended",
+      "last_verified": "2026-05-14"
+    }
+  ]
+}
