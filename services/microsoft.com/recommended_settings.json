@@ -92,7 +92,7 @@
       "default": "enabled",
       "recommended": "disabled",
       "applicable_plans": ["all"],
-      "settings_url": "https://account.microsoft.com/privacy/ad-settings",
+      "settings_url": "https://account.microsoft.com/privacy",
       "settings_path": ["Microsoft Account", "Privacy", "Ad settings", "See ads that interest you"],
       "verification_method": {"type": "manual"},
       "severity": "required",

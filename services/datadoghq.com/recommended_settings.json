@@ -36,7 +36,7 @@
       "default": "enabled (Enterprise)",
       "recommended": "reviewed regularly",
       "applicable_plans": ["enterprise"],
-      "settings_url": "https://app.datadoghq.com/audit-trail",
+      "settings_url": "https://docs.datadoghq.com/account_management/audit_trail/",
       "settings_path": ["Audit Trail"],
       "verification_method": {"type": "manual"},
       "severity": "recommended",
