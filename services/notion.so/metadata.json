@@ -3,7 +3,8 @@
   "vendor": "Notion",
   "category": "productivity",
   "domains": [
-    "notion.so"
+    "notion.so",
+    "notion.com"
   ],
   "homepage": "https://notion.so",
   "first_seen": "2026-05-13",
