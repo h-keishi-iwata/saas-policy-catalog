@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npx ajv-cli validate -s schemas/metadata.schema.json -d 'services/figma.com/metadata.json' --spec=draft2020
+      - run: npx --yes -p ajv-cli -p ajv-formats ajv validate -s schemas/metadata.schema.json -d 'services/figma.com/metadata.json' --spec=draft2020 -c ajv-formats
 
   # Dependabot の PR だけ。上のジョブがすべて成功し、major を含まないときに限って自動マージする。
   automerge:
