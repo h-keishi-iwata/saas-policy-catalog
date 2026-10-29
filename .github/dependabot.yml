@@ -1,0 +1,17 @@
+# 新しい版は公開から7日待ってから提案する（npmの min-release-age=7 と同じ方針）。
+# 脆弱性の修正PR（Security updates）は待たずに出る。
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: monday
+      timezone: Asia/Tokyo
+    open-pull-requests-limit: 5
+    cooldown:
+      default-days: 7
+    groups:
+      actions:
+        patterns:
+          - "*"
